@@ -1,100 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Digitale Edition der Res gestae divi Augusti</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forschungsblog | Digitale Edition Res Gestae</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Digitale Edition der <em>Res gestae divi Augusti</em></h1>
+  <header class="site-header">
+    <div class="brand">AGKI ∑ Res Gestae</div>
+    <nav>
+      <a class="active" href="index.html">Forschungsblog</a>
+      <a href="projektplan.html">Projektplan</a>
+      <a href="datenaufbereitung.html">Datenaufbereitung</a>
+    </nav>
   </header>
 
-  <main>
-    <article>
-      <p>
-        Im Zentrum des Projekts steht die Erstellung einer digitalen Edition der
-        <em>Res gestae divi Augusti</em>. Die zugrunde liegenden Daten liegen als Text
-        in einer .docx-Datei vor, die den Text in lateinischer Originalsprache,
-        griechischer √úbersetzung und deutscher √úbersetzung enth√§lt. Der Text wurde
-        aus einem separaten PDF entnommen und ist kapitelweise gegliedert; jedes
-        Kapitel umfasst die drei Sprachfassungen in derselben Reihenfolge.
-        Anmerkungen oder Kommentare sind in der .docx-Datei nicht enthalten.
-        Ausgehend von dieser Datenbasis soll eine TEI-konforme XML-Struktur
-        entwickelt werden, in der der Text so ausgezeichnet ist, dass die
-        Kapiteleinteilung und die dreisprachige Struktur maschinenlesbar und
-        semantisch klar definiert vorliegen und in einem weiteren Schritt
-        mithilfe von KI annotiert werden k√∂nnen.
-      </p>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Forschungsblog</p>
+        <h1>Digitale Edition der <em>Res Gestae Divi Augusti</em></h1>
+        <p class="lead">Vom dreisprachigen Quellenkorpus zur TEI-basierten, annotierten Online-Edition: wir dokumentieren die Transformation, die Rolle von LLMs und die methodische Verzahnung von Philologie und KI.</p>
+        <div class="actions">
+          <a class="button" href="projektplan.html">Zum Projektplan</a>
+          <a class="button ghost" href="datenaufbereitung.html">Datenaufbereitung</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="label">Datenbasis</p>
+        <ul>
+          <li>.docx mit lateinischem Original</li>
+          <li>Griechische und deutsche ‹bersetzung</li>
+          <li>Kapitelstruktur, keine Anmerkungen</li>
+        </ul>
+        <p class="label">Ziel</p>
+        <p>TEI-konformes XML als Fundament f¸r Annotation, Kommentierung und ˆffentliche Bereitstellung.</p>
+      </div>
+    </section>
 
-      <p>
-        Leitend ist dabei die Forschungsfrage, wie die Transformation der
-        <em>Res Gestae Divi Augusti</em> in ein XML-basiertes, annotiertes Format
-        mithilfe von Large Language Models (LLMs) neue Wege der Interpretation,
-        Kontextualisierung und Vermittlung antiker Texte er√∂ffnen kann. Das
-        Projekt ist im Bereich der Alten Geschichte und der Digital Humanities
-        angesiedelt und versteht sich als digitales Editionsvorhaben, das die
-        Taten des Augustus in einer wissenschaftlich fundierten, annotierten und
-        interaktiven Online-Edition zug√§nglich machen soll. Zentrales Ziel ist es,
-        anhand dieser Edition die Vereinbarkeit etablierter, vor allem in der
-        Alten Geschichte verankerter Arbeitsweisen mit dem Einsatz von KI zu
-        demonstrieren. Die digitale Aufbereitung der
-        <em>Res gestae divi Augusti</em> soll zeigen, wie klassische T√§tigkeiten wie
-        Strukturierung, Interpretation und Kommentierung mit algorithmischen
-        Verfahren der Datenverarbeitung, Annotation und Validierung kombiniert
-        werden k√∂nnen, ohne wissenschaftliche Standards zu unterlaufen.
-      </p>
+    <section class="grid two">
+      <article class="card">
+        <p class="label">Forschungsfrage</p>
+        <h3>Wie erweitern LLMs die Editionspraxis?</h3>
+        <p>Wir untersuchen, wie die Transformation in ein XML-basiertes, annotiertes Format neue Wege der Interpretation, Kontextualisierung und Vermittlung erˆffnet und zugleich klassische Methoden st‰rkt.</p>
+      </article>
+      <article class="card">
+        <p class="label">Disziplin‰rer Rahmen</p>
+        <h3>Alte Geschichte & Digital Humanities</h3>
+        <p>Das Vorhaben verbindet philologische Genauigkeit mit algorithmischer Datenverarbeitung, um die Taten des Augustus in einer interaktiven, wissenschaftlich fundierten Edition zug‰nglich zu machen.</p>
+      </article>
+    </section>
 
-      <p>
-        Eine zentrale Rolle kommt dabei LLMs zu, die mehrere Bereiche des
-        Workflows unterst√ºtzen. In der Phase der Datenaufbereitung werden sie
-        eingesetzt, um die in der .docx-Datei vorliegende Textstruktur automatisch
-        zu erfassen und Vorschl√§ge f√ºr eine TEI-konforme Auszeichnung zu
-        generieren. Darauf aufbauend unterst√ºtzen LLMs die Annotation, indem sie
-        historische Personen, Orte und Ereignisse erkennen und semantisch
-        verkn√ºpfen, sowie die Kommentierung, indem sie Vorschl√§ge f√ºr
-        erl√§uternde Passagen und Erkl√§rungen komplexer Stellen liefern.
-        Erg√§nzend werden LLMs zur Validierung eingesetzt, um die Konsistenz und
-        Vollst√§ndigkeit der Annotationen zu pr√ºfen. In allen diesen Schritten
-        verbleibt die finale Kontrolle bei den Fachwissenschaftlerinnen und
-        Fachwissenschaftlern, die die von LLMs erzeugten Vorschl√§ge kritisch
-        evaluieren und gegebenenfalls anpassen, um die wissenschaftliche
-        Genauigkeit sicherzustellen.
-      </p>
+    <section class="grid three">
+      <article class="card">
+        <p class="label">LLM in der Aufbereitung</p>
+        <h4>Struktur erkennen</h4>
+        <p>Automatisierte Erfassung der Kapitelstruktur und Vorschl‰ge f¸r TEI-Tagging bilden die Grundlage f¸r ein robustes XML.</p>
+      </article>
+      <article class="card">
+        <p class="label">LLM in der Annotation</p>
+        <h4>Entit‰ten vernetzen</h4>
+        <p>Personen, Orte und Ereignisse werden erkannt, semantisch verkn¸pft und f¸r sp‰tere Visualisierungen vorbereitet.</p>
+      </article>
+      <article class="card">
+        <p class="label">LLM in der Kommentierung</p>
+        <h4>Kontext erkl‰ren</h4>
+        <p>Vorschl‰ge f¸r Erl‰uterungen und Vereinfachungen komplexer Passagen, immer begleitet von fachlicher Endkontrolle.</p>
+      </article>
+    </section>
 
-      <p>
-        Der geplante Output des Projekts ist eine √∂ffentliche, webbasierte
-        digitale Edition der <em>Res gestae divi Augusti</em>. Diese Edition soll eine
-        parallele Betrachtung des Originaltextes und der √úbersetzungen
-        erm√∂glichen und zugleich Annotationen einblenden, die den Text
-        kontextualisieren und erschlie√üen. Nutzerinnen und Nutzer sollen die
-        aufbereiteten und annotierten Daten in strukturierten Formaten wie XML
-        und JSON herunterladen k√∂nnen, um sie f√ºr eigene Forschungszwecke
-        weiterzuverwenden. Optional ist vorgesehen, zus√§tzlich
-        Visualisierungsm√∂glichkeiten von Personen, Orten und Netzwerken
-        anzubieten sowie interaktive Such- und Filterfunktionen zu integrieren,
-        die den Zugriff auf bestimmte Textstellen, Entit√§ten oder semantische
-        Relationen erleichtern.
-      </p>
+    <section class="panel">
+      <div>
+        <p class="label">Geplanter Output</p>
+        <h2>÷ffentliche, interaktive Edition</h2>
+        <p>Parallele Darstellung von Original und ‹bersetzungen, einblendbare Annotationen, Downloads der strukturierten Daten (XML, JSON) und optionale Visualisierungen zu Personen, Orten und Netzwerken.</p>
+      </div>
+      <div class="list">
+        <div>
+          <span class="dot"></span>
+          <p>Downloadbare Forschungsdaten f¸r Weiterverwendung.</p>
+        </div>
+        <div>
+          <span class="dot"></span>
+          <p>Interaktive Suche und Filter nach Textstellen, Entit‰ten oder Relationen (optional).</p>
+        </div>
+        <div>
+          <span class="dot"></span>
+          <p>Beispiel, wie KI-gest¸tzte Verfahren in etablierten Editionspraktiken verankert werden.</p>
+        </div>
+      </div>
+    </section>
 
-      <p>
-        Insgesamt zielt das Projekt darauf, die
-        <em>Res gestae divi Augusti</em> als digitale Edition so aufzubereiten, dass
-        sie einerseits den Anforderungen der Alten Geschichte und anderer
-        geisteswissenschaftlicher Disziplinen gerecht wird und andererseits
-        exemplarisch zeigt, wie KI-gest√ºtzte Verfahren in etablierten
-        Forschungspraktiken verankert werden k√∂nnen. Die Kombination aus
-        TEI-konformer XML-Struktur, LLM-gest√ºtzter Annotation und √∂ffentlicher,
-        webbasierter Bereitstellung verbindet traditionelle Editionsarbeit mit
-        den im Projektvorschlag skizzierten M√∂glichkeiten der digitalen
-        Aufbereitung und Vermittlung antiker Quellen.
-      </p>
-    </article>
+    <section class="footnote">
+      <p>Die finale Verantwortung liegt bei den Fachwissenschaftlerinnen und Fachwissenschaftlern: LLM-Ergebnisse werden gepr¸ft, angepasst und erst danach verˆffentlicht.</p>
+    </section>
   </main>
-
-  <footer>
-    <p>Projekt: Digitale Edition der <em>Res gestae divi Augusti</em></p>
-  </footer>
 </body>
 </html>

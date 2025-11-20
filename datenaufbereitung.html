@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenaufbereitung | Digitale Edition Res Gestae</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">AGKI · Res Gestae</div>
+    <nav>
+      <a href="index.html">Forschungsblog</a>
+      <a href="projektplan.html">Projektplan</a>
+      <a class="active" href="datenaufbereitung.html">Datenaufbereitung</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-title">
+      <p class="eyebrow">Datenaufbereitung</p>
+      <h1>TEI-Basis für die digitale Edition</h1>
+      <p class="lead">Vom dreisprachigen .docx aus dem PDF zur strukturierten XML-Datei mit klarer Kapiteleinteilung.</p>
+    </section>
+
+    <section class="prose">
+      <h3>Ausgangslage</h3>
+      <p>Die Daten liegen als .docx-Datei vor und enthalten den Text der <em>Res Gestae Divi Augusti</em> in lateinischer Originalsprache, griechischer Übersetzung und deutscher Übersetzung. Der Text wurde aus einem separaten PDF entnommen und ist kapitelweise gegliedert. Jedes Kapitel umfasst die drei Sprachfassungen in derselben Reihenfolge. Anmerkungen oder Kommentare fehlen in der .docx-Datei und liegen nur im ursprünglichen PDF.</p>
+      <p>Ziel ist die Umwandlung der .docx-Daten in ein TEI-konformes XML, in dem Kapiteleinteilung und Sprachversionen strukturell ausgezeichnet werden. So entsteht eine maschinenlesbare, semantisch klar definierte Basis für die digitale Edition.</p>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <p class="label">Herausforderungen</p>
+        <ul>
+          <li>Kapitelstruktur zuverlässig erkennen und in TEI/XML abbilden.</li>
+          <li>Dreisprachige Reihenfolge je Kapitel eindeutig modellieren.</li>
+          <li>Anmerkungen fehlen im .docx und müssen später ergänzt werden.</li>
+          <li>Struktur schaffen, die Annotation, Visualisierung und Suche stützt.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <p class="label">Rolle der TEI-Auszeichnung</p>
+        <ul>
+          <li>Kapitelgrenzen formalisieren.</li>
+          <li>Sprachversionen klar trennen und verknüpfen.</li>
+          <li>Maschinenlesbare, semantisch definierte Datenbasis bereitstellen.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div>
+        <p class="label">Unterstützung durch LLMs</p>
+        <h2>Assistenz mit manueller Kontrolle</h2>
+        <p>LLMs helfen bei der automatischen Extraktion der Textstruktur und schlagen TEI-Tags für Kapitel, Sprachversionen und andere Einheiten vor. Alle Vorschläge werden anschließend fachlich geprüft, um wissenschaftliche Genauigkeit zu sichern.</p>
+      </div>
+    </section>
+
+    <section class="prose">
+      <h3>Ergebnis der Datenaufbereitung</h3>
+      <p>Die resultierende TEI-konforme XML-Datei markiert Kapiteleinteilung, dreisprachige Struktur und weitere Einheiten klar aus. Sie bildet die Grundlage für:</p>
+      <ul>
+        <li>Weitere Annotationen von Personen, Orten und Ereignissen,</li>
+        <li>Kommentierung durch LLMs mit anschließender manueller Kontrolle,</li>
+        <li>Validierung der Annotationen,</li>
+        <li>die webbasierte Edition mit paralleler Darstellung und Downloads.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
