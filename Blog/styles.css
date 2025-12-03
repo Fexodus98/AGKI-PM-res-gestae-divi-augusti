@@ -37,7 +37,7 @@ body::before {
   inset: 0 auto 0 0;
   width: var(--side-band);
   min-width: 220px;
-  background: url('img/Res_Gestae.jpg') center/cover no-repeat;
+  background: url('../img/Res_Gestae.jpg') center/cover no-repeat;
   opacity: 1;
   filter: none;
   pointer-events: none;
