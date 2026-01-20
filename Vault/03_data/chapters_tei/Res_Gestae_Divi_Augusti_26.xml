@@ -1,0 +1,151 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 26</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI-Export</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriftliche Überlieferung (Monumentum Ancyranum)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser (reg. 27 v. Chr. – 14 n. Chr.).</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="gallia">
+        <placeName>Gallien</placeName>
+        <note type="desc">Römische Provinzen im heutigen Frankreich, Belgien und Teilen Westdeutschlands.</note>
+      </place>
+      <place xml:id="hispania">
+        <placeName>Spanien</placeName>
+        <note type="desc">Die Iberische Halbinsel, unterteilt in mehrere römische Provinzen.</note>
+      </place>
+      <place xml:id="germania">
+        <placeName>Germanien</placeName>
+        <note type="desc">Gebiete östlich des Rheins und nördlich der Donau.</note>
+      </place>
+      <place xml:id="oceanus">
+        <placeName>Ozean</placeName>
+        <note type="desc">Der den Erdkreis umschließende Weltstrom (hier Nordsee/Atlantik).</note>
+      </place>
+      <place xml:id="gades">
+        <placeName>Gades</placeName>
+        <note type="desc">Modernes Cádiz in Spanien.</note>
+      </place>
+      <place xml:id="albis">
+        <placeName>Elbe</placeName>
+        <note type="desc">Fluss in Germanien, die äußerste Grenze der römischen Vorstöße.</note>
+      </place>
+      <place xml:id="alpes">
+        <placeName>Alpen</placeName>
+        <note type="desc">Das Hochgebirge in Europa.</note>
+      </place>
+      <place xml:id="adria">
+        <placeName>Adria</placeName>
+        <note type="desc">Das Adriatische Meer (Hadrianum mare).</note>
+      </place>
+      <place xml:id="tyrrhenian-sea">
+        <placeName>Tyrrhenisches Meer</placeName>
+        <note type="desc">Das Meer westlich von Italien (Tuscum mare).</note>
+      </place>
+      <place xml:id="rhenus">
+        <placeName>Rhein</placeName>
+        <note type="desc">Grenzfluss zwischen Gallien und Germanien.</note>
+      </place>
+      <place xml:id="cimbri">
+        <placeName>Kimbern</placeName>
+        <note type="desc">Germanischer Volksstamm auf der jütischen Halbinsel.</note>
+      </place>
+      <place xml:id="charydes">
+        <placeName>Charyden</placeName>
+        <note type="desc">Germanischer Volksstamm (in Jütland).</note>
+      </place>
+      <place xml:id="semnones">
+        <placeName>Semnonen</placeName>
+        <note type="desc">Germanischer Volksstamm an der Elbe.</note>
+      </place>
+      <place xml:id="aethiopia">
+        <placeName>Äthiopien</placeName>
+        <note type="desc">Region südlich von Ägypten (Kusch).</note>
+      </place>
+      <place xml:id="arabia-eudaemon">
+        <placeName>Arabia Felix</placeName>
+        <note type="desc">Das "glückliche Arabien" (heutiger Jemen).</note>
+      </place>
+      <place xml:id="nabata">
+        <placeName>Nabata</placeName>
+        <note type="desc">Stadt in Äthiopien/Nubien.</note>
+      </place>
+      <place xml:id="meroe">
+        <placeName>Meroe</placeName>
+        <note type="desc">Hauptstadt des Reiches von Kusch.</note>
+      </place>
+      <place xml:id="sabaei">
+        <placeName>Sabäer</placeName>
+        <note type="desc">Volksstamm im südlichen Arabien.</note>
+      </place>
+      <place xml:id="mariba">
+        <placeName>Mariba</placeName>
+        <note type="desc">Hauptstadt der Sabäer (Ma'rib).</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Populus Romanus; die Gesamtheit der römischen Bürger.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#populus #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#gallia #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#hispania #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#germania #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#oceanus #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#albis #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#alpes #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#aethiopia #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+      <link target="#arabia-eudaemon #la-s26-p1 #grc-s26-p1 #de-s26-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="26">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s26-p1">
+            Omnium provinciarum <orgName ref="#populus">populi Romam</orgName> quibus finitimae fuerunt gentes quae non parerent imperio <persName ref="#augustus">nostro</persName> fines <persName ref="#augustus">auxi</persName>. <placeName ref="#gallia">Gallias</placeName> et <placeName ref="#hispania">Hispanias</placeName> provincias, item <placeName ref="#germania">Germaniam</placeName>, qua includit <placeName ref="#oceanus">Oceanus</placeName> a <placeName ref="#gades">Gadibus</placeName> ad ostium <placeName ref="#albis">Albis</placeName> fluminis <persName ref="#augustus">pacavi</persName>. <placeName ref="#alpes">Alpes</placeName> a regione ea quae proxima est <placeName ref="#adria">Hadriano mari</placeName> ad <placeName ref="#tyrrhenian-sea">Tuscum</placeName> <persName ref="#augustus">pacificavi</persName> nulli genti bello per iniuriam inlato. Classis <persName ref="#augustus">mea</persName> per <placeName ref="#oceanus">Oceanum</placeName> ab ostio <placeName ref="#rhenus">Rheni</placeName> ad solis orientis regionem usque ad fines <placeName ref="#cimbri">Cimbrorum</placeName> navigavit, quo neque terra neque mari quisquam Romanus ante id tempus adit. <placeName ref="#cimbri">Cimbrique</placeName> et <placeName ref="#charydes">Charydes</placeName> et <placeName ref="#semnones">Semnones</placeName> et eiusdem tractus alii <placeName ref="#germania">Germanorum</placeName> populi per legatos amicitiam <persName ref="#augustus">meam</persName> et <orgName ref="#populus">populi Romam</orgName> petierunt. <persName ref="#augustus">Meo</persName> iussu et auspicio ducti sunt duo exercitus eodem fere tempore in <placeName ref="#aethiopia">Aethiopiam</placeName> et in <placeName ref="#arabia-eudaemon">Arabiam</placeName> quae appellatur Eudaemon, magnaeque hostium gentis utriusque copiae caesae sunt in acie et complura oppida capta. In <placeName ref="#aethiopia">Aethiopiam</placeName> usque ad oppidum <placeName ref="#nabata">Nabata</placeName> perventum est, cui proxima est <placeName ref="#meroe">Meroe</placeName>; in <placeName ref="#arabia-eudaemon">Arabiam</placeName> usque in fines <placeName ref="#sabaei">Sabaeorum</placeName> processit exercitus ad oppidum <placeName ref="#mariba">Mariba</placeName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s26-p1">
+            Πασῶν ἐπαρχειῶν <orgName ref="#populus">δήμου Ῥωμαίων</orgName>, αἴς ὅμορα ἦν ἔθνη τὰ μὴ ὑποτασσόμενα τῆι <persName ref="#augustus">ἡμετέραι</persName> ἡγεμονίᾳ, τοὺς ὅρους <persName ref="#augustus">ἐπεύξσησα</persName>. <placeName ref="#gallia">Γαλατίαν</placeName> καὶ <placeName ref="#hispania">Ἱσπανίας</placeName>, ὁμοίως δὲ καὶ <placeName ref="#germania">Γερμανίαν</placeName> καθὼς <placeName ref="#oceanus">Ὠκεανὸς</placeName> περικλείει ἀπὸ <placeName ref="#gades">Γαδείρων</placeName> μέχρι στόματος <placeName ref="#albis">Ἄλβιος</placeName> ποταμοῦ ἐν εἰρήνῃ <persName ref="#augustus">κατέστησα</persName>. <placeName ref="#alpes">Ἄλπης</placeName> ἀπὸ κλίματος τοῦ πλησίον <placeName ref="#adria">Εἰονίου κόλπου</placeName> μέχρι <placeName ref="#tyrrhenian-sea">Τυρρηνικῆς θαλάσσης</placeName> εἰρηνεύεσθαι <persName ref="#augustus">πεπόηκα</persName>, οὐδενὶ ἔθνει ἀδίκως ἐπενεχθέντος πολέμου. Στόλος <persName ref="#augustus">ἐμὸς</persName> διὰ <placeName ref="#oceanus">Ὠκεανοῦ</placeName> ἀπὸ στόματος <placeName ref="#rhenus">Ῥήνου</placeName> ὡς πρὸς ἀνατολὰς μέχρι ἔθνους <placeName ref="#cimbri">Κίμβρων</placeName> διέπλευσεν, οὗ οὔτε κατὰ γῆν οὔτε κατὰ θάλασσαν Ῥωμαίων τις πρὸ τούτου τοῦ χρόνου προσῆλθεν· καὶ <placeName ref="#cimbri">Κίμβροι</placeName> καὶ <placeName ref="#charydes">Χάλυβες</placeName> καὶ <placeName ref="#semnones">Σέμνονες</placeName> ἄλλα τε πολλὰ ἔθνη <placeName ref="#germania">Γερμανῶν</placeName> διὰ πρεσβειῶν τὴν <persName ref="#augustus">ἐμὴν</persName> φιλίαν καὶ τὴν <orgName ref="#populus">δήμου Ῥωμαίων</orgName> ᾐτήσαντο. <persName ref="#augustus">Ἐμῆι</persName> ἐπιταγῆι καὶ οἰωνοῖς αἰσίοις δύο στρατεύματα ἐπέβη <placeName ref="#aethiopia">Αἰθιοπίαι</placeName> καὶ <placeName ref="#arabia-eudaemon">Ἀραβίαι</placeName> τῆι εὐδαίμονι καλουμένηι, μεγάλας τε τῶν πολεμίων δυνάμεις κατέκοψεν ἐν παρατάξει καὶ πλείστας πόλεις δοριαλώτους ἔλαβεν καὶ προέβη ἐν <placeName ref="#aethiopia">Αἰθιοπίαι</placeName> μέχρι πόλεως <placeName ref="#nabata">Ναβάτης</placeName>, ἥτις ἐστὶν ἔνγιστα <placeName ref="#meroe">Μερόῃ</placeName>, ἐν <placeName ref="#arabia-eudaemon">Ἀραβίαι</placeName> δὲ μέχρι πόλεως <placeName ref="#mariba">Μαρίβας</placeName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s26-p1">
+            Das Gebiet aller Provinzen des <orgName ref="#populus">römischen Volkes</orgName>, die Volksstämme zu Nachbarn hatten, die nicht <persName ref="#augustus">unserem</persName> Befehl gehorchten, <persName ref="#augustus">habe ich</persName> vergrößert. Die Provinzen <placeName ref="#gallia">Galliens</placeName> und <placeName ref="#hispania">Spaniens</placeName>, ebenso <placeName ref="#germania">Germanien</placeName> <persName ref="#augustus">habe ich</persName> befriedet, ein Gebiet, das der <placeName ref="#oceanus">Ozean</placeName> von <placeName ref="#gades">Gades</placeName> bis zur Mündung der <placeName ref="#albis">Eibe</placeName> umschließt. Die <placeName ref="#alpes">Alpen</placeName> <persName ref="#augustus">ließ ich</persName> von der Gegend, die der <placeName ref="#adria">Adria</placeName> zunächst liegt, bis zum <placeName ref="#tyrrhenian-sea">Tyrrhenischen Meer</placeName> befrieden, wobei mit keinem Volk widerrechtlich Krieg geführt wurde. <persName ref="#augustus">Meine</persName> Flotte fuhr von der Mündung des <placeName ref="#rhenus">Rheins</placeName> über den <placeName ref="#oceanus">Ozean</placeName> in östliche Richtung bis zum Land der <placeName ref="#cimbri">Kimbern</placeName>. Dorthin war zu Wasser und zu Lande bis zu <date>diesem Zeitpunkt</date> noch kein Römer gekommen. Die <placeName ref="#cimbri">Kimbern</placeName> und die <placeName ref="#charydes">Charyden</placeName> und <placeName ref="#semnones">Semnonen</placeName> und andere <placeName ref="#germania">germanische</placeName> Volksstämme aus diesem Landstrich erbaten durch Gesandte <persName ref="#augustus">meine</persName> und des <orgName ref="#populus">römischen Volkes</orgName> Freundschaft. Auf <persName ref="#augustus">meinen</persName> Befehl und unter <persName ref="#augustus">meinem</persName> Oberkommando wurden etwa zur <date>seihen Zeit</date> zwei Heere gegen <placeName ref="#aethiopia">Äthiopien</placeName> und dasjenige <placeName ref="#arabia-eudaemon">Arabien</placeName> geführt, das das glückliche genannt wird. Große Truppenkontingente beider Völker wurden in offener Feldschlacht niedergehauen und mehrere Städte eingenommen. In <placeName ref="#aethiopia">Äthiopien</placeName> gelangte man bis zur Stadt <placeName ref="#nabata">Nabata</placeName>, die in nächster Nähe von <placeName ref="#meroe">Meroe</placeName> liegt. In <placeName ref="#arabia-eudaemon">Arabien</placeName> drang das Heer in das Gebiet der <placeName ref="#sabaei">Sabäer</placeName> vor bis zur Stadt <placeName ref="#mariba">Mariba</placeName>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

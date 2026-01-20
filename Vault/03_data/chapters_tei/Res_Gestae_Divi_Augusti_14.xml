@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 14</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital Edition of Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inscriptional evidence from the Monumentum Ancyranum</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="gaius">
+        <persName>Gaius Caesar</persName>
+        <note type="desc">Sohn des Agrippa und der Iulia, Adoptivsohn des Augustus.</note>
+      </person>
+      <person xml:id="lucius">
+        <persName>Lucius Caesar</persName>
+        <note type="desc">Sohn des Agrippa und der Iulia, Adoptivsohn des Augustus.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="forum-romanum">
+        <placeName>Forum Romanum</placeName>
+        <note type="desc">Zentraler Marktplatz und Versammlungsort in Rom.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Familien Roms.</note>
+      </org>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Volk</orgName>
+        <note type="desc">Das römische Volk.</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die beiden höchsten jährlichen Beamten der römischen Republik.</note>
+      </org>
+      <org xml:id="magistratus">
+        <orgName>Beamte</orgName>
+        <note type="desc">Inhaber öffentlicher Ämter in Rom.</note>
+      </org>
+      <org xml:id="equites">
+        <orgName>Ritter</orgName>
+        <note type="desc">Der römische Ritterstand (Equites).</note>
+      </org>
+      <org xml:id="res-publica">
+        <orgName>Staat</orgName>
+        <note type="desc">Die römische Republik bzw. das Gemeinwesen.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#gaius #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#lucius #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#senatus #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#populus-romanus #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#consules #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#rome #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+      <link target="#equites #la-s14-p1 #grc-s14-p1 #de-s14-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="14">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s14-p1">
+            Filios <persName ref="#augustus">meos</persName>, quos iuvenes <persName ref="#augustus">mihi</persName> eripuit fortuna, <persName ref="#gaius">Gaium</persName> et <persName ref="#lucius">Lucium</persName> <persName ref="#gaius #lucius">Caesares</persName> honoris <persName ref="#augustus">mei</persName> caussa <orgName ref="#senatus">senatus</orgName> <orgName ref="#populus-romanus">populusque Romanus</orgName> <date>annum quintum et decimum</date> agentis <orgName ref="#consules">consules</orgName> designavit, ut eum <orgName ref="#magistratus">magistratum</orgName> inirent post quinquennium, et ex eo die quo deducti sunt in <placeName ref="#forum-romanum">forum</placeName> ut interessent consiliis publicis decrevit <orgName ref="#senatus">senatus</orgName>. <orgName ref="#equites">Equites</orgName> autem <placeName ref="#rome">Romam</placeName> universi principem iuventutis utrumque eorum parmis et hastis argenteis donatum appellaverunt.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s14-p1">
+            Υἱους <persName ref="#augustus">μου</persName> <persName ref="#gaius">Γάιον</persName> καὶ <persName ref="#lucius">Λεύκιον</persName> <persName ref="#gaius #lucius">Καίσὰρας</persName>, οὓς νεανίας ἀνήρπασεν ἡ τύχη, εἰς τὴν <persName ref="#augustus">ἐμὴν</persName> τειμὴν ἥ τε <orgName ref="#senatus">σύνκλητος</orgName> καὶ ὁ <orgName ref="#populus-romanus">δῆμος τῶν Ῥωμαίων</orgName> <date>πεντεκαιδεκαέτεις</date> ὄντας <orgName ref="#consules">ὑπάτους</orgName> ἀπέδειξεν, ἵνα μετὰ πέντε ἔτη εἰς τὴν <orgName ref="#consules">ὑπάτων</orgName> ἀρχὴν εἰσέλθωσιν· καὶ ἀφ’ ἧς ἂν ἡμέρας εἰς τὴν <placeName ref="#forum-romanum">ἀγορὰν</placeName> καταχθῶσιν, ἵνα μετέχωσιν τῆς <orgName ref="#senatus">συνκλήτου</orgName> ἐψηφίσατο. <orgName ref="#equites">Ἱππεῖς δὲ Ῥωμαίων</orgName> σύνπαντες ἡγεμόνα νεότητος ἑκάτερον αὐτῶν προσηγόρευσαν, ἀσπίσιν ἀργυρέαις καὶ δόρασιν ἐτείμησαν.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s14-p1">
+            <persName ref="#augustus">Meine</persName> Söhne, die <persName ref="#augustus">mir</persName> das Schicksal in jugendlichem Alter entrissen hat, <persName ref="#gaius">Gaius</persName> und <persName ref="#lucius">Lucius Caesar</persName>, wurden <persName ref="#augustus">mir</persName> zu Ehren auf Veranlassung des <orgName ref="#senatus">Senats</orgName> und des <orgName ref="#populus">Volkes</orgName> in ihrem <date>15. Lebensjahr</date> zu <orgName ref="#consules">Konsuln</orgName> designiert mit der Maßgabe, dass sie dieses <orgName ref="#magistratus">Amt</orgName> nach fünf Jahren antreten sollten. Und von dem Tage an, an dem sie auf das <placeName ref="#forum-romanum">Forum</placeName> geleitet worden waren sollten sie, so beschloss der <orgName ref="#senatus">Senat</orgName>, an den <orgName ref="#res-publica">Staatsversammlungen</orgName> teilnehmen dürfen. Die <orgName ref="#equites">römischen Ritter</orgName> aber wählten sie einstimmig zu den Ersten der Jungmannschaft und überreichten beiden silberne Rundschilde und Lanzen als Geschenk.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

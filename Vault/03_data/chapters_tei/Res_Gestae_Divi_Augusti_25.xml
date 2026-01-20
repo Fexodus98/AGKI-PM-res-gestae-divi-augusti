@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 25</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Projektausgabe</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriftliche Überlieferung der Res Gestae Divi Augusti.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Princeps und Autor der Res Gestae.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="italy">
+        <placeName>Italien</placeName>
+        <note type="desc">Das Kernland des Römischen Reiches.</note>
+      </place>
+      <place xml:id="actium">
+        <placeName>Actium</placeName>
+        <note type="desc">Vorgebirge in Akarnanien, Ort der entscheidenden Seeschlacht gegen Marcus Antonius und Kleopatra im Jahr 31 v. Chr.</note>
+      </place>
+      <place xml:id="gallia">
+        <placeName>Gallien</placeName>
+        <note type="desc">Die gallischen Provinzen.</note>
+      </place>
+      <place xml:id="hispania">
+        <placeName>Spanien</placeName>
+        <note type="desc">Die iberischen Provinzen.</note>
+      </place>
+      <place xml:id="africa">
+        <placeName>Afrika</placeName>
+        <note type="desc">Die römische Provinz Africa Proconsularis.</note>
+      </place>
+      <place xml:id="sicilia">
+        <placeName>Sizilien</placeName>
+        <note type="desc">Die Inselprovinz Sizilien.</note>
+      </place>
+      <place xml:id="sardinia">
+        <placeName>Sardinien</placeName>
+        <note type="desc">Die Inselprovinz Sardinien.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="res-publica">
+        <orgName>Staat</orgName>
+        <note type="desc">Die römische Republik bzw. das Gemeinwesen.</note>
+      </org>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Männer Roms.</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die höchsten jährlichen Beamten des römischen Staates.</note>
+      </org>
+      <org xml:id="sacerdotes">
+        <orgName>Priesterkollegien</orgName>
+        <note type="desc">Die verschiedenen religiösen Gremien Roms.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#res-publica #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#italy #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#actium #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#gallia #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#hispania #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#africa #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#sicilia #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#sardinia #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#senatus #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#consules #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+      <link target="#sacerdotes #la-s25-p1 #grc-s25-p1 #de-s25-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="25">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s25-p1">
+            Mare pacavi a praedonibus. Eo bello servorum qui fugerant a dominis suis et arma contra <orgName ref="#res-publica">rem publicam</orgName> ceperant triginta fere millia capta dominis ad supplicium sumendum tradidi. Iuravit in <persName ref="#augustus">mea</persName> verba tota <placeName ref="#italy">Italia</placeName> sponte sua, et <persName ref="#augustus">me</persName> belli quo vici ad <placeName ref="#actium">Actium</placeName> ducem depoposcit; iuraverunt in eadem verba provinciae <placeName ref="#gallia">Galliae</placeName>, <placeName ref="#hispania">Hispaniae</placeName>, <placeName ref="#africa">Africa</placeName>, <placeName ref="#sicilia">Sicilia</placeName>, <placeName ref="#sardinia">Sardinia</placeName>. Qui sub signis <persName ref="#augustus">meis</persName> tum militaverint fuerunt <orgName ref="#senatus">senatores</orgName> plures quam DCC, in iis qui vel antea vel postea <orgName ref="#consules">consules</orgName> facti sunt ad eum diem quo scripta sunt haec LXXXIII, <orgName ref="#sacerdotes">sacerdotes</orgName> circiter CLXX.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s25-p1">
+            Θάλασσαν πειρατευομένην ὑπὸ ἀποστατῶν δούλων εἰρήνευσα· ἐξ ὧν τρεῖς που μυριάδας τοῖς δεσπόταις εἰς κόλασιν παρέδωκα. Ὤμοσεν εἰς τοὺς <persName ref="#augustus">ἐμοὺς</persName> λόγους ἅπασα ἡ <placeName ref="#italy">Ἰταλία</placeName> ἑκοῦσα <persName ref="#augustus">κἀ μὲ</persName> πολέμου, ὧι ἐπ’ <placeName ref="#actium">Ἀκτίωι</placeName> ἐνείκησα, ἡγεμόνα ἐξῃ τήσατο. Ὤμοσαν εἰς τοὺς αὐτοὺς λόγους ἐπαρχεῖαι <placeName ref="#gallia">Γαλατία</placeName> <placeName ref="#hispania">Ἱσπανία</placeName> <placeName ref="#africa">Λιβύη</placeName> <placeName ref="#sicilia">Σικελία</placeName> <placeName ref="#sardinia">Σαρδῶ</placeName>. Οἱ ὑπ’ <persName ref="#augustus">ἐμαῖς</persName> σημέαις τότε στρατευσάμενοι ἦσαν <orgName ref="#senatus">συνκλητικοὶ</orgName> πλείους ἑπτακοσίων· ἐν αὐτοῖς οἳ ἢ πρότερον ἢ μετέπειτα ἐγένοντο <orgName ref="#consules">ὕπατοι</orgName> εἰς ἐκείνην τὴν ἡμέραν, ἐν ἧι ταῦτα γέγραπται, ὀγδοήκοντα τρεἲς, <orgName ref="#sacerdotes">ἱερεἲς</orgName> πρόσπου ἑκατὸν ἑβδομήκοντα.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s25-p1">
+            Dem Meer habe <persName ref="#augustus">ich</persName> Ruhe vor den Seeräubern verschafft. In diesem Krieg habe <persName ref="#augustus">ich</persName> von den Sklaven, die ihren Herren entlaufen waren und Waffen gegen den <orgName ref="#res-publica">Staat</orgName> ergriffen hatten, fast 30 000 gefangen genommen und ihren Herren zur Bestrafung übergeben. Den Gefolgschaftseid hat <persName ref="#augustus">mir</persName> ganz <placeName ref="#italy">Italien</placeName> aus freien Stücken geleistet und <persName ref="#augustus">mich</persName> in dem Krieg, in dem <persName ref="#augustus">ich</persName> Sieger bei <placeName ref="#actium">Acrium</placeName> war, nachdrücklich als Führer gefordert. Den gleichen Eid geleistet haben die Provinzen <placeName ref="#gallia">Galliens</placeName> und <placeName ref="#hispania">Spaniens</placeName>, <placeName ref="#africa">Afrika</placeName>, <placeName ref="#sicilia">Sizilien</placeName> und <placeName ref="#sardinia">Sardinien</placeName>. Von denen, die damals unter <persName ref="#augustus">meinen</persName> Feldzeichen kämpften, waren mehr als 700 <orgName ref="#senatus">Senatoren</orgName>, und darunter waren 83, die entweder vorher oder nachher bis zu dem Tag, an dem <persName ref="#augustus">ich</persName> dies schreibe, <orgName ref="#consules">Konsuln</orgName> geworden sind, und etwa 170 Angehörige von <orgName ref="#sacerdotes">Priesterkollegien</orgName>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

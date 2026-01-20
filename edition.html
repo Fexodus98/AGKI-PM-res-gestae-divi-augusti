@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edition | Digitale Edition Res Gestae</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">AGKI - RES GESTAE</div>
+    <nav>
+      <a href="index.html">Übersicht</a>
+      <a href="projektplan.html">Projektplan</a>
+      <a href="datenaufbereitung.html">Datenaufbereitung</a>
+      <a class="active" href="edition.html">Edition</a>
+      <a href="register.html">Register</a>
+      <a href="textanalyse.html">Textanalyse</a>
+      <a href="gesamter-forschungsblog.html">Forschungsblog</a>
+    </nav>
+  </header>
+
+  <main class="edition-layout">
+    <!-- Controls Sidebar -->
+    <aside class="controls-sidebar">
+      <h3>Suche</h3>
+      <div class="list" style="margin-bottom: 2rem;">
+        <input type="text" id="edition-search" placeholder="Text durchsuchen..." class="search-input" style="width: 100%; padding: 0.5rem; border-radius: 6px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: var(--text);">
+        <div id="search-results" class="small text-muted" style="margin-top: 0.5rem;"></div>
+        <button id="search-modal-open" class="button ghost small" style="display:none; width:100%;">Treffer anzeigen</button>
+      </div>
+
+      <h3>Register</h3>
+      <div class="register-controls" style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+        <button class="button ghost small" onclick="renderRegister('person')" style="flex:1; padding:0.4rem; font-size:0.8rem;">Pers</button>
+        <button class="button ghost small" onclick="renderRegister('place')" style="flex:1; padding:0.4rem; font-size:0.8rem;">Ort</button>
+        <button class="button ghost small" onclick="renderRegister('org')" style="flex:1; padding:0.4rem; font-size:0.8rem;">Org</button>
+      </div>
+      <div id="register-list" class="list" style="max-height: 300px; overflow-y: auto; font-size: 0.9rem;">
+        <p class="small text-muted">Wähle eine Kategorie.</p>
+      </div>
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 2rem 0;">
+
+      <h3>Ansicht</h3>
+      <div class="list">
+        <label><input type="checkbox" id="toggle-person" checked> Personen</label>
+        <label><input type="checkbox" id="toggle-place" checked> Orte</label>
+        <label><input type="checkbox" id="toggle-org" checked> Organisationen</label>
+      </div>
+      
+      <h3 style="margin-top: 2rem;">Download</h3>
+      <div class="list">
+        <a href="Vault/03_data/Res_Gestae_Divi_Augusti.xml" download class="button ghost" style="font-size: 0.8rem; width: 100%;">TEI XML</a>
+      </div>
+
+      <h3 style="margin-top: 1.5rem;">Kapitel-Downloads</h3>
+      <div class="list">
+        <select id="chapter-download-select" class="select-control">
+          <option value="proomium">Proömium</option>
+          <option value="01">Kapitel 1</option>
+          <option value="02">Kapitel 2</option>
+          <option value="03">Kapitel 3</option>
+          <option value="04">Kapitel 4</option>
+          <option value="05">Kapitel 5</option>
+          <option value="06">Kapitel 6</option>
+          <option value="07">Kapitel 7</option>
+          <option value="08">Kapitel 8</option>
+          <option value="09">Kapitel 9</option>
+          <option value="10">Kapitel 10</option>
+          <option value="11">Kapitel 11</option>
+          <option value="12">Kapitel 12</option>
+          <option value="13">Kapitel 13</option>
+          <option value="14">Kapitel 14</option>
+          <option value="15">Kapitel 15</option>
+          <option value="16">Kapitel 16</option>
+          <option value="17">Kapitel 17</option>
+          <option value="18">Kapitel 18</option>
+          <option value="19">Kapitel 19</option>
+          <option value="20">Kapitel 20</option>
+          <option value="21">Kapitel 21</option>
+          <option value="22">Kapitel 22</option>
+          <option value="23">Kapitel 23</option>
+          <option value="24">Kapitel 24</option>
+          <option value="25">Kapitel 25</option>
+          <option value="26">Kapitel 26</option>
+          <option value="27">Kapitel 27</option>
+          <option value="28">Kapitel 28</option>
+          <option value="29">Kapitel 29</option>
+          <option value="30">Kapitel 30</option>
+          <option value="31">Kapitel 31</option>
+          <option value="32">Kapitel 32</option>
+          <option value="33">Kapitel 33</option>
+          <option value="34">Kapitel 34</option>
+          <option value="35">Kapitel 35</option>
+        </select>
+        <div class="list">
+          <a id="chapter-xml-link" class="button ghost" style="font-size:0.8rem; width:100%;" download>Kapitel XML</a>
+          <a id="chapter-txt-link" class="button ghost" style="font-size:0.8rem; width:100%;" download>Kapitel TXT</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Text Area -->
+    <section class="text-area" id="edition-container">
+      <p style="text-align: center; margin-top: 2rem;">Lade Edition...</p>
+      <!-- Content will be injected here by JS -->
+    </section>
+
+    <!-- Commentary Sidebar -->
+    <aside class="commentary-sidebar" id="commentary-panel">
+      <h3>Kommentar</h3>
+      <p class="small text-muted">Klicke auf eine Anmerkung im Text, um sie hier anzuzeigen.</p>
+    </aside>
+  </main>
+
+  <!-- Search Modal -->
+  <div id="search-modal" class="modal-backdrop" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h4>Suchergebnisse</h4>
+        <button id="search-modal-close" class="button ghost small" style="border:none;">✕</button>
+      </div>
+      <div id="search-modal-body" class="modal-body">
+        <!-- Results injected here -->
+      </div>
+    </div>
+  </div>
+  <button id="search-modal-fab" class="fab" style="display:none;">Treffer</button>
+
+  <script src="scripts/viewer.js"></script>
+  <script>
+    (function() {
+      const selectEl = document.getElementById('chapter-download-select');
+      const xmlLink = document.getElementById('chapter-xml-link');
+      const txtLink = document.getElementById('chapter-txt-link');
+
+      function updateChapterLinks() {
+        const id = selectEl.value;
+        const base = `Res_Gestae_Divi_Augusti_${id}`;
+        xmlLink.href = `Vault/03_data/chapters_tei/${base}.xml`;
+        txtLink.href = `Vault/03_data/chapters_txt/${base}.txt`;
+      }
+
+      selectEl.addEventListener('change', updateChapterLinks);
+      updateChapterLinks();
+    })();
+  </script>
+</body>
+</html>

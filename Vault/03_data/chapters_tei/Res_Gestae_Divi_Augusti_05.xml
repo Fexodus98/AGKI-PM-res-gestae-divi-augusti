@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 5</title>
+        <author>Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>TEI-Ausgabe generiert durch KI.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf bereitgestelltem Markdown-Text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser.</note>
+      </person>
+      <person xml:id="marcellus">
+        <persName>Marcus Claudius Marcellus</persName>
+        <note type="desc">Neffe und Schwiegersohn des Augustus, Konsul 22 v. Chr.</note>
+      </person>
+      <person xml:id="arruntius">
+        <persName>Lucius Arruntius</persName>
+        <note type="desc">Römischer Politiker, Konsul 22 v. Chr.</note>
+      </person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Der römische Senat.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Volk</orgName>
+        <note type="desc">Das römische Volk (Populus Romanus).</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s05-p01 #grc-s05-p01 #de-s05-p01"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s05-p01 #grc-s05-p01 #de-s05-p01"/>
+      <link target="#populus #la-s05-p01 #grc-s05-p01 #de-s05-p01"/>
+      <link target="#senatus #la-s05-p01 #grc-s05-p01 #de-s05-p01"/>
+      <link target="#marcellus #la-s05-p01 #grc-s05-p01 #de-s05-p01"/>
+      <link target="#arruntius #la-s05-p01 #grc-s05-p01 #de-s05-p01"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="05">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s05-p01">
+            Dictaturam et apsenti et praesenti <persName ref="#augustus">mihi</persName> delatam et a <orgName ref="#populus">populo</orgName> et a <orgName ref="#senatus">senatu</orgName>, <persName ref="#marcellus">M. Marcello</persName> et <persName ref="#arruntius">L. Arruntio</persName> <date when="-0022">consulibus</date> non recepi. Non recusavi in summa frumenti penuria curationem annonae, quam ita administravi, ut intra paucos dies metu et periclo praesenti <orgName ref="#populus">populum</orgName> universam liberarem impensa et cura <persName ref="#augustus">mea</persName>. Consulatum quoque tum annuum et perpetuum <persName ref="#augustus">mihi</persName> delatum non recepi.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s05-p01">
+            Αὐτεξούσιόν <persName ref="#augustus">μοι</persName> ἀρχὴν καὶ ἀπόντι καὶ παρόντι διδομένην ὑπό τε τοῦ <orgName ref="#populus">δήμου</orgName> καὶ τῆς <orgName ref="#senatus">συνκλήτου</orgName> <persName ref="#marcellus">Mάρκωι Μαρκέλλωι</persName> καὶ <persName ref="#arruntius">Λευκίωι Ἀρρουντίωι</persName> <date when="-0022">ὑπάτοις</date> οὐκ ἐδεξάμην. Οὐ παρῃτησάμην ἐν τῆι μεγίστηι τοῦ σείτου σπάνει τὴν ἐπιμέλειαν τῆς ἀγορᾶς, ἣν οὑ τως ἐπετήδευσα, ὥστ’ ἐν ὀλίγαις ἡμέραις τοῦ παρόντος φόβου καὶ κινδύνου ταῖς <persName ref="#augustus">ἐμαῖς</persName> δαπάναις τὸν <orgName ref="#populus">δῆμον</orgName> ἐλευθερῶσαι. Ὑπατείαν τέ <persName ref="#augustus">μοι</persName> τότε διδομένην κὶ ἐ νιαύσιον καὶ διὰ βίου οὐκ ἐδεξάμην.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s05-p01">
+            Die Diktatur, die <persName ref="#augustus">mir</persName> in <persName ref="#augustus">meiner</persName> Abwesenheit und in <persName ref="#augustus">meinem</persName> Beisein sowohl vom <orgName ref="#populus">Volk</orgName> wie auch vom <orgName ref="#senatus">Senat</orgName> unter den Konsuln <persName ref="#marcellus">Marcus Marcellus</persName> und <persName ref="#arruntius">Lucius Arruntius</persName> [<date when="-0022">22 v. Chr.</date>] angetragen wurde, habe <persName ref="#augustus">ich</persName> zurückgewiesen. Nicht abgelehnt habe <persName ref="#augustus">ich</persName> aber, als größter Mangel an Getreide herrschte, die Aufsicht über die Getreidebeschaffung, die <persName ref="#augustus">ich</persName> so betrieb, dass <persName ref="#augustus">ich</persName> innerhalb von wenigen Tagen die gesamte <orgName ref="#populus">Bürgerschaft</orgName> von Furcht und lastender Gefahr dank <persName ref="#augustus">meiner</persName> Aufwendungen und <persName ref="#augustus">meiner</persName> Fürsorge befreien konnte. Das <persName ref="#augustus">mir</persName> damals angetragene jährliche Konsulat auf Lebenszeit habe <persName ref="#augustus">ich</persName> ebenfalls nicht angenommen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

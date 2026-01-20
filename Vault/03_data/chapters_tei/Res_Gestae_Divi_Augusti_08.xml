@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Caput 08</title>
+        <author>Imperator Caesar Divi Filius Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>TEI encoded for digital analysis.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Based on provided Markdown text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser.</note>
+      </person>
+      <person xml:id="agrippa">
+        <persName>Marcus Agrippa</persName>
+        <note type="desc">Römischer Feldherr und Politiker, Freund und Schwiegersohn des Augustus.</note>
+      </person>
+      <person xml:id="tiberius">
+        <persName>Tiberius</persName>
+        <note type="desc">Römischer Kaiser, Stiefsohn des Augustus.</note>
+      </person>
+      <person xml:id="c-censorinus">
+        <persName>Gaius Marcius Censorinus</persName>
+        <note type="desc">Römischer Konsul 8 v. Chr.</note>
+      </person>
+      <person xml:id="c-asinius">
+        <persName>Gaius Asinius Gallus</persName>
+        <note type="desc">Römischer Konsul 8 v. Chr.</note>
+      </person>
+      <person xml:id="sex-pompeius">
+        <persName>Sextus Pompeius</persName>
+        <note type="desc">Römischer Konsul 14 n. Chr.</note>
+      </person>
+      <person xml:id="sex-appuleius">
+        <persName>Sextus Appuleius</persName>
+        <note type="desc">Römischer Konsul 14 n. Chr.</note>
+      </person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Der römische Senat.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Volk</orgName>
+        <note type="desc">Das römische Volk (Populus).</note>
+      </org>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="census-28bc">
+        <label>Lustrum 28 v. Chr.</label>
+        <note type="desc">Volkszählung im Jahr 28 v. Chr.</note>
+      </event>
+      <event xml:id="census-8bc">
+        <label>Lustrum 8 v. Chr.</label>
+        <note type="desc">Volkszählung im Jahr 8 v. Chr.</note>
+      </event>
+      <event xml:id="census-14ad">
+        <label>Lustrum 14 n. Chr.</label>
+        <note type="desc">Volkszählung im Jahr 14 n. Chr.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#agrippa #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#tiberius #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#senatus #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#populus #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#populus-romanus #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#c-censorinus #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#c-asinius #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#sex-pompeius #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+      <link target="#sex-appuleius #la-s08-p01 #grc-s08-p01 #de-s08-p01"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="08">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s08-p01">
+            Patriciorum numerum <persName ref="#augustus">auxi</persName> <date>consul quintum</date> <orgName ref="#populus">iussu populi</orgName> et <orgName ref="#senatus">senatus</orgName>. <orgName ref="#senatus">Senatum</orgName> ter <persName ref="#augustus">legi</persName>, et in <date>consulatu sexto</date> censum <orgName ref="#populus">populi</orgName> conlega <persName ref="#agrippa">M. Agrippa</persName> <persName ref="#augustus">egi</persName>. <event ref="#census-28bc">Lustrum</event> post annum alterum et quadragensimum <persName ref="#augustus">feci</persName>, quo <event ref="#census-28bc">lustro</event> <orgName ref="#populus-romanus">civium Romanorum</orgName> censa sunt capita quadragiens centum millia et sexaginta tria millia. Tum iterum consulari cum imperio <event ref="#census-8bc">lustrum</event> solus <persName ref="#augustus">feci</persName> <date><persName ref="#c-censorinus">C. Censonno</persName> et <persName ref="#c-asinius">C. Asinio</persName> cos.</date>, quo <event ref="#census-8bc">lustro</event> censa sunt <orgName ref="#populus-romanus">civium Romanorum</orgName> capita quadragiens centum millia et ducenta triginta tria millia. Et tertium consulari cum imperio <event ref="#census-14ad">lustrum</event> conlega <persName ref="#tiberius">Tib. Caesare</persName> filio <persName ref="#augustus">meo</persName> <persName ref="#augustus">feci</persName> <date><persName ref="#sex-pompeius">Sex. Pompeio</persName> et <persName ref="#sex-appuleius">Sex. Appuleio</persName> cos.</date>, quo <event ref="#census-14ad">lustro</event> censa sunt <orgName ref="#populus-romanus">civium Romanorum</orgName> capitum quadragiens centum millia et nongenta triginta et septem millia. Legibus novis <persName ref="#augustus">me</persName> auctore latis multa exempla maiorum exolescentia iam ex <persName ref="#augustus">nostro</persName> saeculo reduxi et <persName ref="#augustus">ipse</persName> multarum rerum exempla imitanda posteris tradidi.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s08-p01">
+            Τῶν πατρικίων τὸν ἀριθμὸν <persName ref="#augustus">εὔξησα</persName> <date>πέμπτον ὑπατος</date> ἐπιταγῆι τοῦ τε <orgName ref="#populus">δήμου</orgName> καὶ τῆς <orgName ref="#senatus">συνκλήτου</orgName>. Τὴν <orgName ref="#senatus">σύνκλητον</orgName> τρὶς <persName ref="#augustus">ἐπέλεξα</persName>. <date>Ἕκτον ὑπατος</date> τὴν ἀποτείμησιν τοῦ <orgName ref="#populus">δήμου</orgName> συνάρχον τα ἔχων <persName ref="#agrippa">Μᾶρκον Ἀγρίππαν</persName> <persName ref="#augustus">ἔλαβον</persName>, ἥτις <event ref="#census-28bc">ἀπο τείμησις</event> μετὰ δύο καὶ τεσσαρακοστὸν ἐνιαυτὸν συνεκλείσθη. Ἐν ἧι <event ref="#census-28bc">ἀποτειμήσει</event> <orgName ref="#populus-romanus">Ῥωμαίων</orgName> ἐτειμήσαντο κεφαλαὶ τετρακόσιαι ἑξήκοντα μυριάδες καὶ τρισχίλιαι. Δεύτερον ὑπατικῆι ἐξουσίαι μόνος <date><persName ref="#c-censorinus">Γαϊωι Κηνσωρίνωι</persName> καὶ <persName ref="#c-asinius">Γαϊωι Ἀσινίωι</persName> ὑπάτοις</date> τὴν <event ref="#census-8bc">ἀποτείμησιν</event> <persName ref="#augustus">ἔλαβον</persName> ἐν ἧι <event ref="#census-8bc">ἀποτειμήσει</event> ἐτειμήσαντο <orgName ref="#populus-romanus">Ῥωμαί ων</orgName> τετρακόσιαι εἴκοσι τρεῖς μυριάδες καὶ τρισ χίλιοι. Καὶ τρίτον ὑπατικῆι ἐξουσίαι τὰς <event ref="#census-14ad">ἀποτειμή σεις</event> <persName ref="#augustus">ἔλαβον</persName>, ἔχων συνάρχοντα <persName ref="#tiberius">Τιβέριον Καίσαρα</persName> τὸν υἱόν <persName ref="#augustus">μου</persName> <date><persName ref="#sex-pompeius">Σέξτωι Πομπηίωι</persName> καὶ <persName ref="#sex-appuleius">Σέξτωι Ἀππουληίωι</persName> ὑπατοις</date>· ἐν ἧι <event ref="#census-14ad">ἀποτειμήσει</event> ἐτειμήσαντο <orgName ref="#populus-romanus">Ῥωμαίων</orgName> τετρακόσιαι ἐνενήκοντα τρεῖς μυριάδες καὶ ἑπτακισχείλιοι. Εἰσαγαγὼν καινοὺς νόμους πολλὰ ἤδη τῶν ἀρχαίων ἐθῶν καταλυόμενα <persName ref="#augustus">διωρθωσάμην</persName> καὶ <persName ref="#augustus">αὺτὸς</persName> πολλῶν πραγμάτων μείμημα <persName ref="#augustus">ἐμαυτὸν</persName> τοῖς μετέρειτα <persName ref="#augustus">παρέδωκα</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s08-p01">
+            Die Zahl der Patrizier vermehrte <persName ref="#augustus">ich</persName> in <persName ref="#augustus">meinem</persName> <date>fünften Konsulat [29 v. Chr.]</date> auf Geheiß von <orgName ref="#populus">Volk</orgName> und <orgName ref="#senatus">Senat</orgName>. Eine Neuordnung des <orgName ref="#senatus">Senats</orgName> <persName ref="#augustus">habe ich</persName> dreimal vorgenommen. In <persName ref="#augustus">meinem</persName> <date>sechsten Konsulat [28 v. Chr.]</date> <persName ref="#augustus">habe ich</persName> mit <persName ref="#augustus">meinem</persName> Amtskollegen <persName ref="#agrippa">Marcus Agrippa</persName> eine <event ref="#census-28bc">Vermögensschätzung</event> des <orgName ref="#populus">Volkes</orgName> durchgeführt. Eine solche <event ref="#census-28bc">Schätzung</event> <persName ref="#augustus">habe ich</persName> nach 42 Jahren erstmals wieder veranstaltet; dabei wurden 4 063 000 <orgName ref="#populus-romanus">römische Bürger</orgName> gezählt. Dann <persName ref="#augustus">habe ich</persName> kraft <persName ref="#augustus">meiner</persName> konsularischen Amtsgewalt wiederum eine <event ref="#census-8bc">Schätzung</event> veranstaltet, und zwar ohne Kollegen im <date>Amtsjahr der Konsuln <persName ref="#c-censorinus">Gaius Censorinus</persName> und <persName ref="#c-asinius">Gaius Asinius</persName> [8 v. Chr.]</date>. Dabei wurden 4 233 000 <orgName ref="#populus-romanus">römische Bürger</orgName> gezählt. Eine dritte <event ref="#census-14ad">Zählung</event> <persName ref="#augustus">habe ich</persName> kraft <persName ref="#augustus">meiner</persName> konsularischen Amtsgewalt mit <persName ref="#augustus">meinem</persName> Sohn <persName ref="#tiberius">Tiberius Caesar</persName> als Kollegen durchgeführt unter den <date>Konsuln <persName ref="#sex-pompeius">Sextus Pompeius</persName> und <persName ref="#sex-appuleius">Sextus Appuleius</persName> [14 n. Chr.]</date>. Dabei zählte man 4 937 000 <orgName ref="#populus-romanus">römische Bürger</orgName>. Durch neue, auf <persName ref="#augustus">meinen</persName> Antrag hin erlassene Gesetze <persName ref="#augustus">habe ich</persName> viele vorbildliche Einrichtungen der Vorfahren, die schon aus dem Gedächtnis <persName ref="#augustus">unseres</persName> Zeitalters schwanden, wieder erneuert und <persName ref="#augustus">selbst</persName> für viele Dinge nachahmenswerte Vorbilder der Nachwelt überliefert.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

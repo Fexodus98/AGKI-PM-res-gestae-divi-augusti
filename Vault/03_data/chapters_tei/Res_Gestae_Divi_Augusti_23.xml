@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti, Kapitel 23</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Bereitgestellt für Forschungszwecke.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem bereitgestellten Markdown-Text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Imperator Caesar Divi filius Augustus, der erste römische Kaiser.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="tiberis">
+        <placeName>Tiber</placeName>
+        <note type="desc">Der Fluss Tiber in Rom, an dessen Ufer die Naumachie stattfand.</note>
+      </place>
+      <place xml:id="nemus-caesarum">
+        <placeName>Hain der Caesaren</placeName>
+        <note type="desc">Das Nemus Caesarum, eine von Augustus zu Ehren seiner Enkel Gaius und Lucius angelegte Parkanlage am rechten Tiberufer.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus">
+        <orgName>Volk</orgName>
+        <note type="desc">Das römische Volk (Populus Romanus).</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s23-p1 #grc-s23-p1 #de-s23-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s23-p1 #grc-s23-p1 #de-s23-p1"/>
+      <link target="#populus #la-s23-p1 #grc-s23-p1 #de-s23-p1"/>
+      <link target="#tiberis #la-s23-p1 #grc-s23-p1 #de-s23-p1"/>
+      <link target="#nemus-caesarum #la-s23-p1 #grc-s23-p1 #de-s23-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="23">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s23-p1">
+            <event>Navalis proeli</event> spectaclum <orgName ref="#populus">populo</orgName> <persName ref="#augustus">dedi</persName> trans <placeName ref="#tiberis">Tiberim</placeName> in quo loco nunc <placeName ref="#nemus-caesarum">nemus est Caesarum</placeName>, cavato solo in longitudinem mille et octingentos pedes, in latitudinem mille et ducenti, in quo triginta rostratae naves triremes aut biremes, plures autem minores inter se conflixerunt; quibus in classibus pugnaverunt praeter remiges millia hominum tria circiter.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s23-p1">
+            <event>Ναυμαχίας</event> θέαν τῶι <orgName ref="#populus">δήμωι</orgName> <persName ref="#augustus">ἔδωκα</persName> πέραν τοῦ <placeName ref="#tiberis">Τιβέριδος</placeName>, ἐν ὧι τόπωι ἐστὶ νῦν <placeName ref="#nemus-caesarum">ἄλσος Καισάρων</placeName>, ἐκκεχωκὼς τὸ ἔδαφος εἰς μῆκος χειλίων ὀκτακοσίων ποδῶν, εἰς πλάτος χιλίων διακοσίων. Ἐν ἧι τριάκοντα ναῦς ἔμβολα ἔχουσαι τριήρεις ἣ δίκροτοι, αἱ δὲ ἥσσονες πλείους ἐναυμάχησαν. Ἐν τούτωι στόλωι ἠγωνίσαντο ἔξω τῶν ἐρετῶν πρόσπου ἄνδρες τρισχείλιοι.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s23-p1">
+            Das Schauspiel einer <event>Seeschlacht</event> gab <persName ref="#augustus">ich</persName> dem <orgName ref="#populus">Volk</orgName> jenseits des <placeName ref="#tiberis">Tiber</placeName>, dort, wo sich nun der <placeName ref="#nemus-caesarum">Hain der Caesaren</placeName> befindet. Dazu wurde das Erdreich 1 800 Fuß in der Länge und 1 200 Fuß in der Breite ausgehoben. Dabei trafen 30 rammspornbewehrte Drei- und Zweiruderer und eine noch größere Zahl kleinerer Schiffe im Kampf aufeinander. Auf diesen Schiffen befanden sich als Kämpfer außer den Ruderknechten etwa 3000 Mann.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

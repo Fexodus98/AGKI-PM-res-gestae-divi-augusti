@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 16</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Projektausgabe</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Epigraphische Zeugnisse (Monumentum Ancyranum)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser (Imperator Caesar Divi Filius Augustus).</note>
+      </person>
+      <person xml:id="tiberius">
+        <persName>Tiberius</persName>
+        <note type="desc">Tiberius Caesar, Nachfolger des Augustus.</note>
+      </person>
+      <person xml:id="cn-lentulus">
+        <persName>Gnaeus Lentulus Augur</persName>
+        <note type="desc">Konsul im Jahr 14 v. Chr.</note>
+      </person>
+      <person xml:id="m-crassus">
+        <persName>Marcus Crassus</persName>
+        <note type="desc">Marcus Licinius Crassus, Konsul im Jahr 14 v. Chr.</note>
+      </person>
+      <person xml:id="cn-piso">
+        <persName>Gnaeus Piso</persName>
+        <note type="desc">Gnaeus Calpurnius Piso, Konsul im Jahr 7 v. Chr.</note>
+      </person>
+      <person xml:id="c-antistius">
+        <persName>Gaius Antistius</persName>
+        <note type="desc">Gaius Antistius Vetus, Konsul im Jahr 6 v. Chr.</note>
+      </person>
+      <person xml:id="d-laelius">
+        <persName>Decimus Laelius</persName>
+        <note type="desc">Decimus Laelius Balbus, Konsul im Jahr 6 v. Chr.</note>
+      </person>
+      <person xml:id="c-calvisius">
+        <persName>Gaius Calvisius</persName>
+        <note type="desc">Gaius Calvisius Sabinus, Konsul im Jahr 4 v. Chr.</note>
+      </person>
+      <person xml:id="l-pasienus">
+        <persName>Lucius Pasienus</persName>
+        <note type="desc">Lucius Pasienus Rufus, Konsul im Jahr 4 v. Chr.</note>
+      </person>
+      <person xml:id="l-lentulus">
+        <persName>Lucius Lentulus</persName>
+        <note type="desc">Lucius Cornelius Lentulus, Konsul im Jahr 3 v. Chr.</note>
+      </person>
+      <person xml:id="m-messalla">
+        <persName>Marcus Messalla</persName>
+        <note type="desc">Marcus Valerius Messalla Messallinus, Konsul im Jahr 3 v. Chr.</note>
+      </person>
+      <person xml:id="l-caninius">
+        <persName>Lucius Caninius</persName>
+        <note type="desc">Lucius Caninius Gallus, Konsul im Jahr 2 v. Chr.</note>
+      </person>
+      <person xml:id="q-fabricius">
+        <persName>Quintus Fabricius</persName>
+        <note type="desc">Konsul im Jahr 2 v. Chr.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="italy">
+        <placeName>Italien</placeName>
+        <note type="desc">Das italische Kernland des Römischen Reiches.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="municipia">
+        <orgName>Gemeinden</orgName>
+        <note type="desc">Italische und provinziale Stadtgemeinden (Municipia).</note>
+      </org>
+      <org xml:id="milites">
+        <orgName>Soldaten</orgName>
+        <note type="desc">Veteranen der römischen Legionen.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+      <link target="#italy #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+      <link target="#tiberius #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+      <link target="#m-crassus #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+      <link target="#cn-lentulus #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+      <link target="#municipia #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+      <link target="#milites #la-s16-p1 #grc-s16-p1 #de-s16-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="16">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s16-p1">
+            Pecuniam pro agris quos in consulatu <persName ref="#augustus">meo</persName> quarto et postea consulibus <persName ref="#m-crassus">M. Crasso</persName> et <persName ref="#cn-lentulus">Cn. Lentulo Augure</persName> adsignavi <orgName ref="#milites">militibus</orgName> solvi <orgName ref="#municipia">municipis</orgName>; ea summa sestertium circiter sexsiens milliens fuit quam pro <placeName ref="#italy">Italicis</placeName> praedis numeravi, et circiter bis milliens et sescentiens quod pro agris provincialibus solvi. Id primus et solus omnium qui deduxerunt colonias <orgName ref="#milites">militum</orgName> in <placeName ref="#italy">Italia</placeName> aut in provincis ad memoriam aetatis <persName ref="#augustus">meae</persName> feci. Et postea, <persName ref="#tiberius">Ti. Nerone</persName> et <persName ref="#cn-piso">Cn. Pisone</persName> consulibus itemque <persName ref="#c-antistius">C. Antistio</persName> et <persName ref="#d-laelius">D. Laelio</persName> cos. et <persName ref="#c-calvisius">C. Calvisio</persName> et <persName ref="#l-pasienus">L. Pasieno</persName> consulibus et <persName ref="#l-lentulus">L. Lentulo</persName> et <persName ref="#m-messalla">M. Messalla</persName> consulibus et <persName ref="#l-caninius">L. Caninio</persName> et <persName ref="#q-fabricio">Q. Fabricio</persName> cos., <orgName ref="#milites">militibus</orgName> quos emeriteis stipendis in sua <orgName ref="#municipia">municipia</orgName> deduxi praemia numerato persolvi, quam in rem sestertium quater milliens circiter impendi.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s16-p1">
+            Χρῆματα ἐν ὑπατείαι τετάρτηι <persName ref="#augustus">ἐμῆι</persName> καὶ μετὰ ταῦτα ὑπάτοις <persName ref="#m-crassus">Μάρκωι Κράσσωι</persName> καὶ <persName ref="#cn-lentulus">Ναίωι Λέντλωι</persName> αὔγουρι ταῖς <orgName ref="#municipia">πόλεσιν</orgName> ἠριθμησα ὑπὲρ ἀγρῶν, οὓς ἐμέρισα τοῖς <orgName ref="#milites">στρατιώταις</orgName>. Κεφαλαίου ἐγένοντο ἐν <placeName ref="#italy">Ἰταλίαι</placeName> μὲν μύριαι πεντακισχείλιαι μυριάδες, τῶν δὲ ἐπαρχειτικῶν ἀγρῶν μυριάδες ἑξακισχίλιαι πεντηκόσιαι. Τοῦτο πρῶτος καὶ μόνος ἁπάντων ἐπόησα τῶν καταγαγόντων ἀποικίας <orgName ref="#milites">στρατιωτῶν</orgName> ἐν <placeName ref="#italy">Ἰταλίαι</placeName> ἢ ἐν ἐπαρχείαις μέχρι τῆς <persName ref="#augustus">ἐμῆς</persName> ἡλικίας. Καὶ μετέπειτα <persName ref="#tiberius">Τιβερίωι Νέρωνι</persName> καὶ <persName ref="#cn-piso">Ναίωι Πείσωνι</persName> ὑπάτοις καὶ πάλιν <persName ref="#c-antistius">Γαϊωι Ἀνθεστίωι</persName> καὶ <persName ref="#d-laelius">Δέκμωι Λαιλίωι</persName> ὑπάτοις καὶ <persName ref="#c-calvisius">Γαϊωι Καλουισίωι</persName> καὶ <persName ref="#l-pasienus">Λευκίωι Πασσιήνωι</persName> ὑπάτοις καὶ <persName ref="#l-lentulus">Λευκίωι Λέντλωι</persName> καὶ <persName ref="#m-messalla">Μάρκωι Μεσσάλαι</persName> ὑπάτοις κὰὶ <persName ref="#l-caninius">Λευκίωι Κανινίωι</persName> καὶ <persName ref="#q-fabricius">Κοίντωι Φαβρικίωι</persName> ὑπάτοις, <orgName ref="#milites">στρατιώταις</orgName> ἀπολυομένοις, οὓς κατήγαγον εἰς τὰς ἰδίας <orgName ref="#municipia">πόλεις</orgName>, φιλανθρώπου ὀνόματι ἔδωκα μυριάδας ἐγγὺς μυρίας.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s16-p1">
+            Für das Ackerland, das <persName ref="#augustus">ich</persName> in <persName ref="#augustus">meinem</persName> vierten Konsulat [<date when="-0030">30 v. Chr.</date>] und später im Amtsjahr der Konsuln <persName ref="#m-crassus">Marcus Crassus</persName> und <persName ref="#cn-lentulus">Gnaeus Lentulus Augur</persName> [<date when="-0014">14 v. Chr.</date>] den <orgName ref="#milites">Veteranen</orgName> habe zuweisen lassen, habe <persName ref="#augustus">ich</persName> den <orgName ref="#municipia">Gemeinden</orgName> Geld bezahlt. Dies ergab eine Summe von ungefähr 600 Millionen Sesterzen, die <persName ref="#augustus">ich</persName> für Grund und Boden in <placeName ref="#italy">Italien</placeName> gezahlt habe, und eine solche von ungefähr 260 Millionen, die <persName ref="#augustus">ich</persName> für Ackerland in den Provinzen ausgegeben habe. Das habe <persName ref="#augustus">ich</persName> als Erster und Einziger von all denen getan, die <orgName ref="#milites">Veteranen</orgName> in <placeName ref="#italy">Italien</placeName> oder den Provinzen angesiedelt haben, soweit die Erinnerung <persName ref="#augustus">unseres</persName> Zeitalters zurückreicht. Und später, unter dem Konsulat des <persName ref="#tiberius">Tiberius Nero</persName> und des <persName ref="#cn-piso">Gnaeus Piso</persName> [<date when="-0007">7 v. Chr.</date>], ebenso unter den Konsuln <persName ref="#c-antistius">Gaius Antistius</persName> und <persName ref="#d-laelius">Decimus Laelius</persName> [<date when="-0006">6 v. Chr.</date>], <persName ref="#c-calvisius">Gaius Calvisius</persName> und <persName ref="#l-pasienus">Lucius Pasienus</persName> [<date when="-0004">4 v. Chr.</date>], <persName ref="#l-lentulus">Lucius Lentulus</persName> und <persName ref="#m-messalla">Marcus Messala</persName> [<date when="-0003">3 v. Chr.</date>], <persName ref="#l-caninius">Lucius Caninius</persName> und <persName ref="#q-fabricius">Quintus Fabricius</persName> [<date when="-0002">2 v. Chr.</date>], habe <persName ref="#augustus">ich</persName> die <orgName ref="#milites">Soldaten</orgName>, die <persName ref="#augustus">ich</persName> nach Ableistung ihrer Militärzeit wieder in ihre <orgName ref="#municipia">Heimatstädte</orgName> habe zurückführen lassen, mit Geldsummen belohnt, wofür <persName ref="#augustus">ich</persName> etwa 400 Millionen Sesterzen aufgewandt habe.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

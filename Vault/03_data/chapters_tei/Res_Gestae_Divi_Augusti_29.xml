@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 29</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Digital Edition Project</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriftliche Überlieferung der Res Gestae Divi Augusti.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="hispania">
+        <placeName>Spanien</placeName>
+        <note type="desc">Die iberische Halbinsel, eine römische Provinz.</note>
+      </place>
+      <place xml:id="gallia">
+        <placeName>Gallien</placeName>
+        <note type="desc">Das Gebiet des heutigen Frankreichs, Belgiens und Teile Westdeutschlands.</note>
+      </place>
+      <place xml:id="dalmatia">
+        <placeName>Dalmatien</placeName>
+        <note type="desc">Römische Provinz an der Ostküste der Adria.</note>
+      </place>
+      <place xml:id="temple-mars-ultor">
+        <placeName>Tempel des Mars Ultor</placeName>
+        <note type="desc">Tempel auf dem Augustusforum in Rom, geweiht dem rächenden Mars.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="parthi">
+        <orgName>Parther</orgName>
+        <note type="desc">Das Partherreich im Osten, ein bedeutender Rivale Roms.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+      <link target="#hispania #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+      <link target="#gallia #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+      <link target="#dalmatia #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+      <link target="#parthi #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+      <link target="#populus-romanus #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+      <link target="#temple-mars-ultor #la-s29-p1 #grc-s29-p1 #de-s29-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="29">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s29-p1">
+            Signa militaria complura per alios duces amissa devictis hostibus <persName ref="#augustus">recepi</persName> ex <placeName ref="#hispania">Hispania</placeName> et <placeName ref="#gallia">Gallia</placeName> et a <placeName ref="#dalmatia">Dalmateis</placeName>. <orgName ref="#parthi">Parthos</orgName> trium exercitum <orgName ref="#populus-romanus">Romanorum</orgName> spolia et signa reddere <persName ref="#augustus">mihi</persName> supplicesque amicitiam <orgName ref="#populus-romanus">populi Romani</orgName> petere coegi. Ea autem signa in penetrali quod est in <placeName ref="#temple-mars-ultor">templo Martis Ultoris</placeName> <persName ref="#augustus">reposui</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s29-p1">
+            Σημέας στρατιωτικὰς πλείστας ὑπὸ ἄλλων ἡγεμόνων ἀποβεβλημένας νικῶν τοὺς πολεμίους <persName ref="#augustus">ἀπέλαβον</persName> ἐξ <placeName ref="#hispania">Ἱσπανίας</placeName> καὶ <placeName ref="#gallia">Γαλατίας</placeName> καὶ παρὰ <placeName ref="#dalmatia">Δαλματῶν</placeName>. <orgName ref="#parthi">Πάρθους</orgName> τριῶν στρατευμάτῶν <orgName ref="#populus-romanus">Ῥωμαίων</orgName> σκῦλα καὶ σημέας ἀποδοῦναι <persName ref="#augustus">ἐμοὶ</persName> ἱκέτας τε φιλίαν <orgName ref="#populus-romanus">δήμου Ῥωμαίων</orgName> ἀξιῶσαι <persName ref="#augustus">ἡνάγκασα</persName>. Ταύτας δὲ τὰς σημείας ἐν τῶι <placeName ref="#temple-mars-ultor">Ἄρεως τοῦ Ἀμύντορος ναοῦ</placeName> ἀδύτωι <persName ref="#augustus">ἀπεθέμην</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s29-p1">
+            Zahlreiche Feldzeichen, die durch andere Feldherren verloren gegangen waren, habe <persName ref="#augustus">ich</persName> nach dem Sieg über die Feinde zurückerhalten, und zwar in <placeName ref="#hispania">Spanien</placeName> und <placeName ref="#gallia">Gallien</placeName> und von den <placeName ref="#dalmatia">Dalmatiern</placeName>. Die <orgName ref="#parthi">Parther</orgName> habe <persName ref="#augustus">ich</persName> dazu gezwungen, <persName ref="#augustus">mir</persName> die Beutestücke und die Feldzeichen dreier <orgName ref="#populus-romanus">römischer</orgName> Heere zurückzugeben und bittflehend um die Freundschaft des <orgName ref="#populus-romanus">römischen Volkes</orgName> nachzusuchen. Diese Feldzeichen ließ <persName ref="#augustus">ich</persName> im innersten Raum des <placeName ref="#temple-mars-ultor">Mars-Ultor-Tempels</placeName> aufstellen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

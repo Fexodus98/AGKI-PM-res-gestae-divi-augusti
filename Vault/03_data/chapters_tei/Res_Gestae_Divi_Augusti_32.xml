@@ -1,0 +1,144 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 32</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition der Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem bereitgestellten Markdown-Text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="tiridates">
+        <persName>Tiridates II.</persName>
+        <note type="desc">Gegenkönig im Partherreich gegen Phraates IV.</note>
+      </person>
+      <person xml:id="phraates">
+        <persName>Phraates IV.</persName>
+        <note type="desc">König des Partherreiches (reg. ca. 38–2 v. Chr.).</note>
+      </person>
+      <person xml:id="phraates-senior">
+        <persName>Phraates IV. (Vater)</persName>
+        <note type="desc">Hier als Vater des bittflehenden Phraates erwähnt.</note>
+      </person>
+      <person xml:id="artavasdes">
+        <persName>Artavasdes I.</persName>
+        <note type="desc">König von Media Atropatene.</note>
+      </person>
+      <person xml:id="artaxares">
+        <persName>Artaxares</persName>
+        <note type="desc">König von Adiabene.</note>
+      </person>
+      <person xml:id="dumnobellaunus">
+        <persName>Dumnobellaunus</persName>
+        <note type="desc">Ein britannischer Kleinkönig.</note>
+      </person>
+      <person xml:id="tincommius">
+        <persName>Tincommius</persName>
+        <note type="desc">Ein britannischer Kleinkönig der Atrebaten.</note>
+      </person>
+      <person xml:id="maelo">
+        <persName>Maelo</persName>
+        <note type="desc">Anführer des germanischen Stammes der Sugambrer.</note>
+      </person>
+      <person xml:id="orodes">
+        <persName>Orodes II.</persName>
+        <note type="desc">König der Parther, Vater von Phraates IV.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="italy">
+        <placeName>Italien</placeName>
+        <note type="desc">Das Kernland des Römischen Reiches.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="parthi">
+        <orgName>Parther</orgName>
+        <note type="desc">Das Partherreich im Osten, ein bedeutender Rivale Roms.</note>
+      </org>
+      <org xml:id="medi">
+        <orgName>Meder</orgName>
+        <note type="desc">Ein Volk im Nordwesten des heutigen Iran.</note>
+      </org>
+      <org xml:id="adiabeni">
+        <orgName>Adiabener</orgName>
+        <note type="desc">Bewohner von Adiabene, einer Region in Mesopotamien.</note>
+      </org>
+      <org xml:id="britanni">
+        <orgName>Britannier</orgName>
+        <note type="desc">Die keltischen Bewohner der Insel Britannien.</note>
+      </org>
+      <org xml:id="sugambri">
+        <orgName>Sugambrer</orgName>
+        <note type="desc">Ein germanischer Stamm am rechten Rheinufer.</note>
+      </org>
+      <org xml:id="marcomanni">
+        <orgName>Markomannen</orgName>
+        <note type="desc">Ein germanischer Stamm, der später nach Böhmen zog.</note>
+      </org>
+      <org xml:id="suebi">
+        <orgName>Sueben</orgName>
+        <note type="desc">Eine große Gruppe germanischer Stämme.</note>
+      </org>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#tiridates #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#phraates #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#phraates-senior #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#artavasdes #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#artaxares #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#dumnobellaunus #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#tincommius #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#maelo #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#orodes #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#italy #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#parthi #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#medi #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#adiabeni #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#britanni #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#sugambri #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#marcomanni #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#suebi #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+      <link target="#populus-romanus #la-s32-p1 #grc-s32-p1 #de-s32-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="32">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s32-p1">
+            Ad <persName ref="#augustus">me</persName> supplices confugerunt reges <orgName ref="#parthi">Parthorum</orgName> <persName ref="#tiridates">Tiridates</persName> et postea <persName ref="#phraates">Phrates</persName> regis <persName ref="#phraates-senior">Phratis</persName> filius, <orgName ref="#medi">Medorum</orgName> <persName ref="#artavasdes">Artavasdes</persName>, <orgName ref="#adiabeni">Adiabenorum</orgName> <persName ref="#artaxares">Artaxares</persName>, <orgName ref="#britanni">Britannorum</orgName> <persName ref="#dumnobellaunus">Dumnobellaunus</persName> et <persName ref="#tincommius">Tincommius</persName>, <orgName ref="#sugambri">Sugambrorum</orgName> <persName ref="#maelo">Maelo</persName>, <orgName ref="#marcomanni">Marcomanorum</orgName> <orgName ref="#suebi">Sueborum</orgName> . . . rus. Ad <persName ref="#augustus">me</persName> rex <orgName ref="#parthi">Parthorum</orgName> <persName ref="#phraates">Phrates</persName> <persName ref="#orodes">Orodis</persName> filius filios suos nepotesque omnes misit in <placeName ref="#italy">Italiam</placeName> non bello superatus, sed amicitiam nostram per liberorum suorum pignora petens. Plurimaeque aliae gentes expertae sunt <orgName ref="#populus-romanus">p. R.</orgName> fidem <persName ref="#augustus">me</persName> principe quibus antea cum <orgName ref="#populus-romanus">populo Romano</orgName> nullum extiterat legationum et amicitiae commercium.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s32-p1">
+            Πρὸς <persName ref="#augustus">ἐμὲ</persName> ἱκέται κατέφυγον βασιλεῖς <orgName ref="#parthi">Πάρθων</orgName> μὲν <persName ref="#tiridates">Τειριδάτης</persName> καὶ μετέπειτα <persName ref="#phraates">Φραάτης</persName>, βασιλέως <persName ref="#phraates-senior">Φράτου</persName> υἱός, <orgName ref="#medi">Μήδων</orgName> δὲ <persName ref="#artavasdes">Ἀρταουάσδης</persName>, <orgName ref="#adiabeni">Ἀδιαβηνῶν</orgName> <persName ref="#artaxares">Ἀρταξάρης</persName>, <orgName ref="#britanni">Βριταννῶν</orgName> <persName ref="#dumnobellaunus">Δομνοελλαῦνος</persName> καὶ <persName ref="#tincommius">Τιμ . . .</persName> , <orgName ref="#sugambri">Σουγάμβρων</orgName> <persName ref="#maelo">Μαίλων</persName>, <orgName ref="#marcomanni">Μαρκομάνων</orgName> <orgName ref="#suebi">Σουήβων</orgName> . . . ρος. Πρὸς <persName ref="#augustus">ἐμὲ</persName> βασιλεὺς <orgName ref="#parthi">Πάρυων</orgName> <persName ref="#phraates">Φραάτης</persName> <persName ref="#orodes">Ὠρώδου</persName> υἱὸς υἱοὺς αὑτοῦ υἱωνούς τε πάντας ἔπεμψεν εἰς <placeName ref="#italy">Ἰταλίαν</placeName>, οὐ πολέμωι λειφθείς, ἀλλὰ τὴν ἡμετέραν φιλίαν ἀξιῶν ἐπὶ τέκνων ἐνεχύροις, πλεῖστά τε ἄλλα ἔθνη πεῖραν ἔλὰβεν <orgName ref="#populus-romanus">δήμου Ῥωμαίων</orgName> πίστεως ἐπ’ <persName ref="#augustus">ἐμοῦ</persName> ἡγεμόνος, οἴς τὸ πρὶν οὐδεμία ἦν πρὸς <orgName ref="#populus-romanus">δῆμον Ῥωμαίων</orgName> πρεσβειῶν καὶ φιλίας κοινωνία.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s32-p1">
+            Zu <persName ref="#augustus">mir</persName> nahmen bittflehend ihre Zuflucht die <orgName ref="#parthi">Partherkönige</orgName> <persName ref="#tiridates">Tiridates</persName> und später <persName ref="#phraates">Phraates</persName>, der Sohn des Königs <persName ref="#phraates-senior">Phraates</persName>, die Fürsten der <orgName ref="#medi">Meder</orgName> <persName ref="#artavasdes">Artavasdes</persName> und <persName ref="#artaxares">Artaxares</persName> von <orgName ref="#adiabeni">Adiabene</orgName>, die der <orgName ref="#britanni">Britannier</orgName> <persName ref="#dumnobellaunus">Dumnobellaunus</persName> und <persName ref="#tincommius">Tincommius</persName>, von den <orgName ref="#sugambri">Sugambrern</orgName> <persName ref="#maelo">Maelo</persName>, und ...rus von den <orgName ref="#suebi">suebischen</orgName> <orgName ref="#marcomanni">Markomannen</orgName>. Zu <persName ref="#augustus">mir</persName> nach <placeName ref="#italy">Italien</placeName> sandte der <orgName ref="#parthi">Partherkönig</orgName> <persName ref="#phraates">Phraates</persName>, der Sohn des <persName ref="#orodes">Orodes</persName>, alle seine Söhne und Enkel, nicht weil er im Krieg bezwungen war, sondern weil er mit seinen Kindern als Unterpfand unsere Freundschaft zu erlangen suchte. Auch sehr viele andere Völker haben, während <persName ref="#augustus">ich</persName> der erste Mann des Staates war, die Bündnistreue des <orgName ref="#populus-romanus">römischen Volkes</orgName> erproben können, während sie vorher mit dem <orgName ref="#populus-romanus">römischen Volk</orgName> keinerlei Verbindung durch Gesandtschaften oder Freundschaftsverhältnisse gehabt hatten.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

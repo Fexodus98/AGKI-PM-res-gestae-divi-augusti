@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 24</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Digital Edition Project</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften: Monumentum Ancyranum, Monumentum Apolloniense, Monumentum Antiochenum</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser (Regierungszeit 27 v. Chr. – 14 n. Chr.).</note>
+      </person>
+      <person xml:id="antonius">
+        <persName>Marcus Antonius</persName>
+        <note type="desc">Römischer Politiker und Feldherr, Gegner des Augustus im Bürgerkrieg.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="asia">
+        <placeName>Asia</placeName>
+        <note type="desc">Römische Provinz im Westen Kleinasiens.</note>
+      </place>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="temple-apollo">
+        <placeName>Apollotempel auf dem Palatin</placeName>
+        <note type="desc">Von Augustus geweihter Tempel für Apollo in Rom.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="municipia">
+        <orgName>Gemeinden</orgName>
+        <note type="desc">Städte und Gemeinden in den Provinzen und Italien.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+      <link target="#antonius #la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+      <link target="#asia #la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+      <link target="#rome #la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+      <link target="#temple-apollo #la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+      <link target="#municipia #la-s24-p1 #grc-s24-p1 #de-s24-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="24">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s24-p1">
+            In templis omnium <orgName ref="#municipia">civitatium</orgName> provinciae <placeName ref="#asia">Asiae</placeName> victor ornamenta reposui quae spoliatis templis <persName ref="#antonius">is cum quo bellum gesseram</persName> privatim possederat. Statuae <persName ref="#augustus">meae</persName> pedestres et equestres et in quadrigeis argenteae steterunt in <placeName ref="#rome">urbe</placeName> XXC circiter, quas <persName ref="#augustus">ipse</persName> sustuli, exque ea pecunia dona aurea in <placeName ref="#temple-apollo">aede Apollinis</placeName> <persName ref="#augustus">meo</persName> nomine et illorum qui <persName ref="#augustus">mihi</persName> statuarum honorem habuerunt posui.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s24-p1">
+            Ἐν ναοῖς πασῶν <orgName ref="#municipia">πόλεων</orgName> τῆς <placeName ref="#asia">Ἀσίὰς</placeName> νεικήσας τὰ ἀναθέ ματα ἀποκατέστησα, ἃ εἶχεν ἰδίαι ἱεροσυλήσας <persName ref="#antonius">ὁ ὑπ’ <persName ref="#augustus">ἐμοῦ</persName> διαγωνισθεὶς πολέμιος</persName>. Ἀνδριάντες πεζοὶ καὶ ἔφιπποί <persName ref="#augustus">μου</persName> καὶ ἐφ’ ἅρμασιν ἀργυροῖ εἱστήκεισαν ἐν τῆι <placeName ref="#rome">πόλει</placeName> ἐνγὺς ὀγδοήκοντα, οὓς <persName ref="#augustus">αὺτὸς</persName> ἣρα, ἐκ τούτου τε τοῦ χρῆματος ἀναθέματα χρυσᾶ ἐν τῶι <placeName ref="#temple-apollo">ναῶι τοῦ Ἀπόλλωνος</placeName> τῶι τε <persName ref="#augustus">ἐμῶι</persName> ὀνόματι καὶ ἐκείνων, οἵτινές <persName ref="#augustus">με</persName> τούτοις τοῖς ἀνδριᾶσιν ἐτείμησαν, ἀνέθηκα.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s24-p1">
+            In den Tempeln aller <orgName ref="#municipia">Städte</orgName> der Provinz <placeName ref="#asia">Asia</placeName> habe <persName ref="#augustus">ich</persName> als Sieger die wertvollen Gegenstände wieder aufstellen lassen, die <persName ref="#antonius">der, mit dem <persName ref="#augustus">ich</persName> Krieg führte</persName>, durch Tempelraub in seinen persönlichen Besitz gebracht hatte. Standbilder von <persName ref="#augustus">mir</persName> (zu Fuß, zu Pferde und auf Viergespannen) gab es aus Silber etwa 80 in der <placeName ref="#rome">Stadt</placeName>. Diese ließ <persName ref="#augustus">ich</persName> entfernen und aus der daraus erlösten Summe goldene Weihgeschenke im <placeName ref="#temple-apollo">Tempel des Apollo</placeName> aufstellen, und zwar in <persName ref="#augustus">meinem</persName> Namen und im Namen derer, die <persName ref="#augustus">mir</persName> mit diesen Statuen Ehre erwiesen hatten.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,13 @@
+# Res Gestae Divi Augusti ? 16
+
+### Latein
+
+Pecuniam pro agris quos in consulatu meo quarto et postea consulibus M. Crasso et Cn. Lentulo Augure adsignavi militibus solvi municipis; ea summa sestertium circiter sexsiens milliens fuit quam pro Italicis praedis numeravi, et circiter bis milliens et sescentiens quod pro agris provincialibus solvi. Id primus et solus omnium qui deduxerunt colonias militum in Italia aut in provincis ad memoriam aetatis meae feci. Et postea, Ti. Nerone et Cn. Pisone consulibus itemque C. Antistio et D. Laelio cos. et C. Calvisio et L. Pasieno consulibus et L. Lentulo et M. Messalla consulibus et L. Caninio et Q. Fabricio cos., militibus quos emeriteis stipendis in sua municipia deduxi praemia numerato persolvi, quam in rem sestertium quater milliens circiter impendi.
+
+### Griechisch
+
+Χρῆματα ἐν ὑπατείαι τετάρτηι ἐμῆι καὶ μετὰ ταῦτα ὑπάτοις Μάρκωι Κράσσωι καὶ Ναίωι Λέντλωι αὔγουρι ταῖς πόλεσιν ἠριθμησα ὑπὲρ ἀγρῶν, οὓς ἐμέρισα τοῖς στρατιώταις. Κεφαλαίου ἐγένοντο ἐν Ἰταλίαι μὲν μύριαι πεντακισχείλιαι μυριάδες, τῶν δὲ ἐπαρχειτικῶν ἀγρῶν μυριάδες ἑξακισχίλιαι πεντηκόσιαι. Τοῦτο πρῶτος καὶ μόνος ἁπάντων ἐπόησα τῶν καταγαγόντων ἀποικίας στρατιωτῶν ἐν Ἰτα λίαι ἢ ἐν ἐπαρχείαις μέχρι τῆς ἐμῆς ἡλικίας. Καὶ μετέπειτα Τιβερίωι Νέρωνι καὶ Ναίωι Πείσωνι ὑπάτοις καὶ πάλιν Γαϊωι Ἀνθεστίωι καὶ Δέκμωι Λαιλίωι ὑπάτοις καὶ Γαϊωι Καλουισίωι καὶ Λευκίωι Πασσιήνωι ὑπάτοις καὶ Λευκίωι Λέντλωι καὶ Μάρκωι Μεσσάλαι ὑπάτοις κὰὶ Λευκίωι Κανινίωι καὶ Κοίντωι Φαβρικίωι ὑπάτοις, στρατιώταις ἀπολυομένοις, οὓς κατήγαγον εἰς τὰς ἰδίας πόλεις, φιλανθρώπου ὀνόματι ἔδωκα μυριάδας ἐγγὺς μυρίας.
+
+### Deutsch
+
+Für das Ackerland, das ich in meinem vierten Konsulat [30 v. Chr.] und später im Amtsjahr der Konsuln Marcus Crassus und Gnaeus Lentulus Augur [14 v. Chr.] den Veteranen habe zuweisen lassen, habe ich den Gemeinden Geld bezahlt. Dies ergab eine Summe von ungefähr 600 Millionen Sesterzen, die ich für Grund und Boden in Italien gezahlt habe, und eine solche von ungefähr 260 Millionen, die ich für Ackerland in den Provinzen ausgegeben habe. Das habe ich als Erster und Einziger von all denen getan, die Veteranen in Italien oder den Provinzen angesiedelt haben, soweit die Erinnerung unseres Zeitalters zurückreicht. Und später, unter dem Konsulat des Tiberius Nero und des Gnaeus Piso [7 v. Chr.], ebenso unter den Konsuln Gaius Antistius und Decimus Laelius [6 v. Chr.], Gaius Calvisius und Lucius Pasienus [4 v. Chr.], Lucius Lentulus und Marcus Messala [3 v. Chr.], Lucius Caninius und Quintus Fabricius [2 v. Chr.], habe ich die Soldaten, die ich nach Ableistung ihrer Militärzeit wieder in ihre Heimatstädte habe zurückführen lassen, mit Geldsummen belohnt, wofür ich etwa 400 Millionen Sesterzen aufgewandt habe.

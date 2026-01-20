@@ -1,0 +1,75 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Proömium</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Ausgabe des Proömiums der Res Gestae Divi Augusti.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften von Ankara, Antiochia und Apollonia.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Geburtsname Gaius Octavius, nach der Adoption durch Caesar Gaius Iulius Caesar Octavianus.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="orbis-terrarum">
+        <placeName>Orbis Terrarum</placeName>
+        <note type="desc">Der Erdkreis; die gesamte bewohnte Welt aus römischer Sicht.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger (Populus Romanus).</note>
+      </org>
+      <org xml:id="res-publica">
+        <orgName>Res Publica</orgName>
+        <note type="desc">Der römische Staat bzw. das Gemeinwesen.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-sproomium-p01 #grc-sproomium-p01 #de-sproomium-p01"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-sproomium-p01 #grc-sproomium-p01 #de-sproomium-p01"/>
+      <link target="#rome #la-sproomium-p01 #grc-sproomium-p01 #de-sproomium-p01"/>
+      <link target="#orbis-terrarum #la-sproomium-p01 #de-sproomium-p01"/>
+      <link target="#populus-romanus #la-sproomium-p01 #de-sproomium-p01"/>
+      <link target="#res-publica #la-sproomium-p01 #de-sproomium-p01"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="proomium">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-sproomium-p01">
+            Rerum gestarum <persName ref="#augustus">divi Augusti</persName>, quibus <placeName ref="#orbis-terrarum">orbem terrarum</placeName> imperio <orgName ref="#populus-romanus">populi Romani</orgName> subiecit, et impensarum quas in <orgName ref="#res-publica">rem publicam</orgName> <orgName ref="#populus-romanus">populumque Romanum</orgName> fecit, incisarum in duabus aheneis pilis, quae sunt <placeName ref="#rome">Romae</placeName> positae, exemplar subiectum.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-sproomium-p01">
+            Μεθηρμηνευμέναι ὑπεγράφησαν πράξεις τε καὶ δωρεαὶ <persName ref="#augustus">Σεβαστοῦ</persName> θεοῦ, ἃς ἀπέλιπεν ἐπὶ <placeName ref="#rome">Ῥώμης</placeName> ἐνκεχαραγμένας χαλκαῖς στήλαις δυσί.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-sproomium-p01">
+            Die Taten des <persName ref="#augustus">vergöttlichten Augustus</persName>, mit denen <persName ref="#augustus">er</persName> den <placeName ref="#orbis-terrarum">Erdkreis</placeName> der Herrschaft des <orgName ref="#populus-romanus">römischen Volkes</orgName> unterwarf, sowie die Aufwendungen, die <persName ref="#augustus">er</persName> für das <orgName ref="#res-publica">römische Staatswesen</orgName> und <orgName ref="#populus-romanus">Volk</orgName> machte, eingegraben auf zwei ehernen Pfeilern, die in <placeName ref="#rome">Rom</placeName> aufgestellt sind, wiedergegeben in folgender Abschrift.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

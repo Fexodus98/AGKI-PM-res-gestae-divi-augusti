@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 33</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Automatisch erzeugte TEI-Version von Kapitel 33 der Res Gestae.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Verschiedene Quellen der Res Gestae Divi Augusti.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser (Imperator Caesar Divi Filius Augustus).</note>
+      </person>
+      <person xml:id="vonones">
+        <persName>Vonones I.</persName>
+        <note type="desc">König der Parther, Sohn des Phraates IV.</note>
+      </person>
+      <person xml:id="phraates">
+        <persName>Phraates IV.</persName>
+        <note type="desc">König der Parther aus der Dynastie der Arsakiden.</note>
+      </person>
+      <person xml:id="orodes">
+        <persName>Orodes II.</persName>
+        <note type="desc">König der Parther, Vater des Phraates IV.</note>
+      </person>
+      <person xml:id="ariobarzanes">
+        <persName>Ariobarzanes II.</persName>
+        <note type="desc">König von Atropatene und später Armenien.</note>
+      </person>
+      <person xml:id="artavasdes">
+        <persName>Artavasdes I.</persName>
+        <note type="desc">König von Atropatene, Vater des Ariobarzanes II.</note>
+      </person>
+      <person xml:id="ariobarzanes-elder">
+        <persName>Ariobarzanes I.</persName>
+        <note type="desc">König von Atropatene, Großvater des Ariobarzanes II.</note>
+      </person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="parthi">
+        <orgName>Parther</orgName>
+        <note type="desc">Das Volk des Partherreiches.</note>
+      </org>
+      <org xml:id="medi">
+        <orgName>Meder</orgName>
+        <note type="desc">Das Volk der Meder (Atropatene).</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#parthi #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#medi #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#vonones #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#phraates #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#orodes #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#ariobarzanes #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#artavasdes #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+      <link target="#ariobarzanes-elder #la-s33-p1 #grc-s33-p1 #de-s33-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="33">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s33-p1">
+            A <persName ref="#augustus">me</persName> gentes <orgName ref="#parthi">Parthorum</orgName> et <orgName ref="#medi">Medorum</orgName> per legatos principes earum gentium reges petitos acceperunt: <orgName ref="#parthi">Parthi</orgName> <persName ref="#vonones">Vononem</persName>, regis <persName ref="#phraates">Phratis</persName> filium, regis <persName ref="#orodes">Orodis</persName> nepotem, <orgName ref="#medi">Medi</orgName> <persName ref="#ariobarzanes">Ariobarzanem</persName>, regis <persName ref="#artavasdes">Artavazdis</persName> filium, regis <persName ref="#ariobarzanes-elder">Ariobarzanis</persName> nepotem.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s33-p1">
+            Παρ’ <persName ref="#augustus">ἐμοῦ</persName> ἔθνη <orgName ref="#parthi">Πάρθων</orgName> καὶ <orgName ref="#medi">Μήδων</orgName> διὰ πρέσβεων τῶν παρ’ αὐτοῖς πρώτων βασιλεῖς αἰτησάμενοι ἔλαβον <orgName ref="#parthi">Πάρθοι</orgName> <persName ref="#vonones">Οὐονώνην</persName>, βασιλέως <persName ref="#phraates">Φράτου</persName> υἱόν, βασιλέως <persName ref="#orodes">Ὠρώδου</persName> υἱωνόν, <orgName ref="#medi">Μῆδοι</orgName> <persName ref="#ariobarzanes">Ἀριοβαρζάνην</persName>, βασιλέως <persName ref="#artavasdes">Ἀρταβάζου</persName> υἱόν, βασιλέως <persName ref="#ariobarzanes-elder">Ἀριοβαρζάνου</persName> υἱωνόν.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s33-p1">
+            Von <persName ref="#augustus">mir</persName> nahmen die Völker der <orgName ref="#parthi">Parther</orgName> und <orgName ref="#medi">Meder</orgName> die Fürsten als Könige an, die sie durch Gesandtschaften erbeten hatten: die <orgName ref="#parthi">Parther</orgName> den <persName ref="#vonones">Vonones</persName>, den Sohn des Königs <persName ref="#phraates">Phraates</persName> und Enkel des Königs <persName ref="#orodes">Orodes</persName>, die <orgName ref="#medi">Meder</orgName> den <persName ref="#ariobarzanes">Ariobarzanes</persName>, den Sohn des Königs <persName ref="#artavasdes">Artavasdes</persName> und Enkel des Königs <persName ref="#ariobarzanes-elder">Ariobarzanes</persName>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

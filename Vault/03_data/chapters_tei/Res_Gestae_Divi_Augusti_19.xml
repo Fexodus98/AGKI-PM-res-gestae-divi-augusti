@@ -1,0 +1,177 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 19</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Veröffentlicht als TEI-P5</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften und literarische Überlieferung</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="julius-caesar">
+        <persName>Gaius Iulius Caesar</persName>
+        <note type="desc">Römischer Staatsmann und Feldherr, Adoptivvater des Augustus.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="curia-julia">
+        <placeName>Curia Julia</placeName>
+        <note type="desc">Das Versammlungshaus des römischen Senats auf dem Forum Romanum.</note>
+      </place>
+      <place xml:id="chalcidicum">
+        <placeName>Chalcidicum</placeName>
+        <note type="desc">Ein Vorbau oder eine Säulenhalle, die an die Curia Julia angrenzte.</note>
+      </place>
+      <place xml:id="temple-apollo">
+        <placeName>Apollotempel auf dem Palatin</placeName>
+        <note type="desc">Ein prächtiger Tempel zu Ehren Apollos, direkt neben dem Haus des Augustus.</note>
+      </place>
+      <place xml:id="palatium">
+        <placeName>Palatin</placeName>
+        <note type="desc">Einer der sieben Hügel Roms, Wohnort der Kaiser.</note>
+      </place>
+      <place xml:id="temple-caesar">
+        <placeName>Tempel des Divus Iulius</placeName>
+        <note type="desc">Tempel für den vergöttlichten Gaius Iulius Caesar auf dem Forum Romanum.</note>
+      </place>
+      <place xml:id="lupercal">
+        <placeName>Lupercal</placeName>
+        <note type="desc">Die heilige Höhle am Fuße des Palatins, in der die Wölfin Romulus und Remus gesäugt haben soll.</note>
+      </place>
+      <place xml:id="porticus-octavia">
+        <placeName>Porticus Octavia</placeName>
+        <note type="desc">Eine Säulenhalle in der Nähe des Circus Flaminius, benannt nach Octavia, der Schwester des Augustus.</note>
+      </place>
+      <place xml:id="circus-flaminius">
+        <placeName>Circus Flaminius</placeName>
+        <note type="desc">Ein Platz für Spiele und Versammlungen auf dem Marsfeld.</note>
+      </place>
+      <place xml:id="pulvinaria">
+        <placeName>Pulvinar</placeName>
+        <note type="desc">Eine Ehrenloge oder Weihestätte für die Götterbilder bei den Spielen.</note>
+      </place>
+      <place xml:id="circus-maximus">
+        <placeName>Circus Maximus</placeName>
+        <note type="desc">Die größte Wagenrennbahn im antiken Rom.</note>
+      </place>
+      <place xml:id="capitolium">
+        <placeName>Kapitol</placeName>
+        <note type="desc">Der wichtigste Hügel Roms mit dem Tempel des Jupiter Optimus Maximus.</note>
+      </place>
+      <place xml:id="temple-jupiter-feretrius">
+        <placeName>Tempel des Juppiter Feretrius</placeName>
+        <note type="desc">Einer der ältesten Tempel Roms auf dem Kapitol.</note>
+      </place>
+      <place xml:id="temple-jupiter-tonans">
+        <placeName>Tempel des Juppiter Tonans</placeName>
+        <note type="desc">Tempel für den "donnernden Juppiter" auf dem Kapitol.</note>
+      </place>
+      <place xml:id="temple-quirinus">
+        <placeName>Tempel des Quirinus</placeName>
+        <note type="desc">Tempel für die altitalische Gottheit Quirinus auf dem Quirinal.</note>
+      </place>
+      <place xml:id="temple-minerva">
+        <placeName>Tempel der Minerva</placeName>
+        <note type="desc">Heiligtum der Göttin Minerva auf dem Aventin.</note>
+      </place>
+      <place xml:id="temple-juno-regina">
+        <placeName>Tempel der Juno Regina</placeName>
+        <note type="desc">Heiligtum der "Königin Juno" auf dem Aventin.</note>
+      </place>
+      <place xml:id="temple-jupiter-libertas">
+        <placeName>Tempel des Juppiter Libertas</placeName>
+        <note type="desc">Heiligtum des Juppiter in seiner Eigenschaft als Gott der Freiheit.</note>
+      </place>
+      <place xml:id="aventinus">
+        <placeName>Aventin</placeName>
+        <note type="desc">Einer der sieben Hügel Roms.</note>
+      </place>
+      <place xml:id="temple-lares">
+        <placeName>Heiligtum der Laren</placeName>
+        <note type="desc">Tempel für die Schutzgottheiten (Laren) am höchsten Punkt der Via Sacra.</note>
+      </place>
+      <place xml:id="via-sacra">
+        <placeName>Via Sacra</placeName>
+        <note type="desc">Die Hauptstraße des antiken Rom, die zum Forum führt.</note>
+      </place>
+      <place xml:id="temple-penates">
+        <placeName>Heiligtum der Penaten</placeName>
+        <note type="desc">Tempel für die Penaten (Hausgötter des Staates) auf der Velia.</note>
+      </place>
+      <place xml:id="velia">
+        <placeName>Velia</placeName>
+        <note type="desc">Ein kleiner Hügelrücken zwischen Palatin und Oppius.</note>
+      </place>
+      <place xml:id="temple-juventas">
+        <placeName>Tempel der Juventas</placeName>
+        <note type="desc">Tempel der Göttin der Jugend.</note>
+      </place>
+      <place xml:id="temple-magna-mater">
+        <placeName>Tempel der Magna Mater</placeName>
+        <note type="desc">Tempel der Kybele auf dem Palatin.</note>
+      </place>
+    </listPlace>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#julius-caesar #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#curia-julia #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#chalcidicum #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-apollo #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#palatium #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-caesar #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#lupercal #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#porticus-octavia #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#circus-flaminius #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#pulvinaria #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#circus-maximus #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#capitolium #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-jupiter-feretrius #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-jupiter-tonans #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-quirinus #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-minerva #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-juno-regina #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-jupiter-libertas #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#aventinus #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-lares #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#via-sacra #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-penates #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#velia #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-juventas #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+      <link target="#temple-magna-mater #la-s19-p1 #grc-s19-p1 #de-s19-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="19">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s19-p1">
+            <placeName ref="#curia-julia">Curiam</placeName> et continens ei <placeName ref="#chalcidicum">Chalcidicum</placeName> <placeName ref="#temple-apollo">templumque Apollinis</placeName> in <placeName ref="#palatium">Palatio</placeName> cum porticibus, <placeName ref="#temple-caesar">aedem divi Iuli</placeName>, <placeName ref="#lupercal">Lupercal</placeName>, <placeName ref="#porticus-octavia">porticum</placeName> ad <placeName ref="#circus-flaminius">circum Flaminium</placeName>, quam <persName ref="#augustus">sum</persName> appellari passus ex nomine eius qui priorem eodem in solo fecerat, <placeName ref="#porticus-octavia">Octaviam</placeName>, <placeName ref="#pulvinaria">pulvinar</placeName> ad <placeName ref="#circus-maximus">circum maximum</placeName>, aedes in <placeName ref="#capitolium">Capitolio</placeName> <placeName ref="#temple-jupiter-feretrius">Iovis Feretri</placeName> <placeName ref="#temple-jupiter-tonans">Iovis Tonantis</placeName>, <placeName ref="#temple-quirinus">aedem Quirini</placeName>, aedes <placeName ref="#temple-minerva">Minervae</placeName> et <placeName ref="#temple-juno-regina">Iunonis Reginae</placeName> et <placeName ref="#temple-jupiter-libertas">Iovis Libertatis</placeName> in <placeName ref="#aventinus">Aventino</placeName>, <placeName ref="#temple-lares">aedem Larum</placeName> in summa <placeName ref="#via-sacra">sacra via</placeName>, <placeName ref="#temple-penates">aedem deum Penatium</placeName> in <placeName ref="#velia">Velia</placeName>, <placeName ref="#temple-juventas">aedem Iuventatis</placeName>, <placeName ref="#temple-magna-mater">aedem Matris Magnae</placeName> in <placeName ref="#palatium">Palatio</placeName> <persName ref="#augustus">feci</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s19-p1">
+            <placeName ref="#curia-julia">Βουλευτήριον</placeName> καὶ το πλησίον αὐτῶι <placeName ref="#chalcidicum">χαλκιδικόν</placeName>, <placeName ref="#temple-apollo">ναόν τε Ἀπόλλωνος</placeName> ἐν <placeName ref="#palatium">Παλατίωι</placeName> σὺν στοαῖς, <placeName ref="#temple-caesar">ναὸν θεοῦ Ἰουλίου</placeName>, <placeName ref="#lupercal">Πανὸς ἱερόν</placeName>, <placeName ref="#porticus-octavia">στοὰν</placeName> πρὸς <placeName ref="#circus-flaminius">ἱπποδρόμωι τῶι προσαγορευομένωι Φλαμινίωι</placeName>, ἣν <persName ref="#augustus">εἴασα</persName> προσαγορεύεσθαι ἐξ ὀνόματος ἐκείνου <placeName ref="#porticus-octavia">Ὀκταουϊα</placeName>, ὃς πρῶτος αὐτὴν ἀνέστησεν, <placeName ref="#pulvinaria">ναὸν</placeName> πρὸς τῶι <placeName ref="#circus-maximus">μεγάλωι ἱπποδρόμωι</placeName>, ναοὺς ἐν <placeName ref="#capitolium">Καπιτωλίωι</placeName> <placeName ref="#temple-jupiter-feretrius">Διὸς Τροπαιοφόρου</placeName> καὶ <placeName ref="#temple-jupiter-tonans">Διὸς Βροντησίου</placeName>, <placeName ref="#temple-quirinus">ναὸν Κυρείνου</placeName>, ναοὺς <placeName ref="#temple-minerva">Ἀθηνᾶς</placeName> καὶ <placeName ref="#temple-juno-regina">Ἥρας Βασιλίδος</placeName> καὶ <placeName ref="#temple-jupiter-libertas">Διὸς Ἐλευθερίου</placeName> ἐν <placeName ref="#aventinus">Ἀουεντίνωι</placeName>, <placeName ref="#temple-lares">ἡρώων</placeName> πρὸς τῆι <placeName ref="#via-sacra">ἱερᾶι ὁδῶι</placeName>, <placeName ref="#temple-penates">θεῶν κατοικιδίων</placeName> ἐν <placeName ref="#velia">Οὐελίαι</placeName>, <placeName ref="#temple-juventas">ναὸν Νεότητος</placeName>, <placeName ref="#temple-magna-mater">ναὸν Μητρὸς θεῶν</placeName> ἐν <placeName ref="#palatium">Παλατίωι</placeName> <persName ref="#augustus">ἐπόησα</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s19-p1">
+            Die <placeName ref="#curia-julia">Kurie</placeName> und das daran angrenzende <placeName ref="#chalcidicum">Chalcidicum</placeName>, den <placeName ref="#temple-apollo">Apollotempel</placeName> auf dem <placeName ref="#palatium">Palatin</placeName> mit seinen Säulenhallen, den <placeName ref="#temple-caesar">Tempel für den vergöttlichten Julius</placeName>, das <placeName ref="#lupercal">Lupercal</placeName>, die <placeName ref="#porticus-octavia">Säulenhalle</placeName> am <placeName ref="#circus-flaminius">Circus Flaminius</placeName>, die mit <persName ref="#augustus">meiner</persName> Erlaubnis die <placeName ref="#porticus-octavia">Octavische</placeName> hieß nach demjenigen, der schon früher an der gleichen Stelle eine solche erbaut hatte, die <placeName ref="#pulvinaria">Weihestätte</placeName> am <placeName ref="#circus-maximus">Circus Maximus</placeName>, Tempel auf dem <placeName ref="#capitolium">Kapitol</placeName> für <placeName ref="#temple-jupiter-feretrius">Juppiter Feretrius</placeName> und <placeName ref="#temple-jupiter-tonans">Juppiter Tonans</placeName>, den <placeName ref="#temple-quirinus">Tempel des Quirinus</placeName>, Tempel der <placeName ref="#temple-minerva">Minerva</placeName>, der <placeName ref="#temple-juno-regina">Juno Regina</placeName>, des <placeName ref="#temple-jupiter-libertas">Juppiter Libertas</placeName> auf dem <placeName ref="#aventinus">Aventin</placeName>, ein <placeName ref="#temple-lares">Heiligtum der Laren</placeName> am höchsten Punkt der <placeName ref="#via-sacra">Via sacra</placeName>, das <placeName ref="#temple-penates">Heiligtum der Penaten</placeName> im Bezirk der <placeName ref="#velia">Velia</placeName>, den <placeName ref="#temple-juventas">Tempel der Juventas</placeName> und den <placeName ref="#temple-magna-mater">Tempel der Magna Mater</placeName> auf dem <placeName ref="#palatium">Palatin</placeName>; all dieses habe <persName ref="#augustus">ich</persName> erbaut.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

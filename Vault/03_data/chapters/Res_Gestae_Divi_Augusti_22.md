@@ -1,0 +1,13 @@
+# Res Gestae Divi Augusti ? 22
+
+### Latein
+
+Ter munus gladiatorium dedi meo nomine et quinquiens filiorum meorum aut nepotum nomine, quibus muneribus depugnaverunt hominum circiter decem millia. Bis athletarum undique accitorum spectaculum populo praebui meo nomine et tertium nepotis mei nomine. Ludos feci meo nomine quater, aliorum autem magistratuum vicem ter et viciens. Pro conlegio XV virorum magister conlegii collega M. Agrippa ludos saeclares C. Furnio C. Silano cos. feci. Consul XIII ludos Martiales primus feci quos post id tempus deinceps insequentibus annis s.c. et lege fecerunt consules. Venationes bestiarum Africanarum meo nomine aut filiorum meorum et nepotum in circo aut in foro aut in amphitheatris populo dedi sexiens et viciens, quibus confecta sunt bestiarum circiter tria millia et quingentae.
+
+### Griechisch
+
+Τρὶς μονομαχίαν ἔδωκα τῶι ἐμῶι ὀνόματι καὶ πεντάκις τῶν υἱῶν μου ἢ υἱωνῶν· ἐν αἴς μονο μαχίαις ἐμαχέσαντο ἐγγὺς μύριοι. Δὶς ἀθλητῶν πανταχόθεν μεταπεμφθέντων γυμνικοῦ ἀγῶνος θέαν τῶι δήμωι παρέσχον τῶι ἐμῶι ὀνόματι και τρίτον τοῦ υἱωνοῦ μου. Θέας ἐπόησα δι’ ἐμοῦ τετράκις, διὰ δὲ τῶν ἄλλων ἀρχῶν ἐν μέρει τρὶς καὶ εἰκοσάκις. Ὑπὲρ τῶν δεκαπέντε ἀνδρῶν, ἔχων συνάρχοντα Μᾶρκον Ἀγρίππαν, τὰς θέας διὰ ἑκατὸν ἐτῶν γεινομένας ὀνομαζομένας σαικλάρεις ἐπόησα Γαϊωι Φουρνίωι καὶ Γαϊωι Σειλανῶι ὑπάτοις. Ὕπατος τρισκαιδέκατον θέας Ἄρεως πρῶτος ἐπόησα, ἃς μετ’ ἐκεῖνον χρόνον ἑξῆς τοῖς μετέπειτα ἐνιαυτοῖς δόγματι συνκλήτου σὺν ἐμοὶ ἐπόησαν οἱ ὑπα τοι . . . ν . . . ης θηρίων e [...]
+
+### Deutsch
+
+Dreimal habe ich in meinem Namen Gladiatorenspiele veranstaltet und fünfmal im Namen meiner Söhne oder Enkel. Bei diesen Spielen kämpften etwa 10 000 Mann. Zweimal bot ich dem Volk ein Kampfspiel mit Wettkämpfern, die man von überallher zusammengebracht hatte, in meinem Namen und das dritte Mal im Namen meines Enkels. Sonstige Spiele habe ich viermal in meinem eigenen Namen veranstaltet, stellvertretend für andere Beamte dreiundzwanzigmal. Für das Kollegium der Quindecemviri habe ich als Oberhaupt dieser Priesterschaft mit meinem Amtskollegen Marcus Agrippa unter dem Konsulat des Gaius Furnius und Gaius Silanus [17 v. Chr.] die Säkularfeiern abhalten lassen. Zum dreizehnten Mal Konsul [2 v. Chr.], habe ich erstmalig die Marsspiele veranstaltet, die darauf in den folgenden Jahren auf Senatsbeschluss und auf ein Gesetz hin von den Konsuln ausgerichtet wurden. Tierhetzen mit afrikanischen Tieren habe ich in meinem Namen oder in dem meiner Söhne und Enkel im Circus oder auf dem Forum oder im Amphitheater sechsundzwanzigmal für das Volk abgehalten, wobei etwa 3500 Tiere getötet wurden.

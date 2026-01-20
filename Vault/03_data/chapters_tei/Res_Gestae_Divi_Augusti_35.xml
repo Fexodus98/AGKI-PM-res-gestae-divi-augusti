@@ -1,0 +1,84 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 35</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Bereitgestellt für Forschungszwecke.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Res Gestae Divi Augusti, Kapitel 35.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="curia-julia">
+        <placeName>Curia Julia</placeName>
+        <note type="desc">Das Versammlungshaus des römischen Senats auf dem Forum Romanum.</note>
+      </place>
+      <place xml:id="forum-augustum">
+        <placeName>Augustusforum</placeName>
+        <note type="desc">Das zweite der römischen Kaiserforen, von Augustus errichtet.</note>
+      </place>
+      <place xml:id="palatium">
+        <placeName>Palatin</placeName>
+        <note type="desc">Einer der sieben Hügel Roms, Standort des Hauses von Augustus.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Köpfe des römischen Staates.</note>
+      </org>
+      <org xml:id="equites">
+        <orgName>Ritterstand</orgName>
+        <note type="desc">Der zweite Stand der römischen Gesellschaft (Equites).</note>
+      </org>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+      <link target="#senatus #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+      <link target="#equites #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+      <link target="#populus-romanus #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+      <link target="#curia-julia #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+      <link target="#forum-augustum #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+      <link target="#palatium #la-s35-p1 #grc-s35-p1 #de-s35-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="35">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s35-p1">
+            <date when="-0002">Tertium decimum consulatum</date> cum gerebam, <orgName ref="#senatus">senatus</orgName> et <orgName ref="#equites">equester ordo</orgName> <orgName ref="#populus-romanus">populusque Romanus</orgName> universus appellavit <persName ref="#augustus">me</persName> patrem patriae, idque in vestibulo aedium <persName ref="#augustus">mearum</persName> inscribendum et in <placeName ref="#curia-julia">curia Iulia</placeName> et in <placeName ref="#forum-augustum">foro Aug.</placeName> sub quadrigis quae <persName ref="#augustus">mihi</persName> ex <orgName ref="#senatus">s.c.</orgName> positae sunt censuit. Cum scripsi haec annum agebam <date evidence="internal" property="age">septuagensumum sextum</date>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s35-p1">
+            <date when="-0002">Τρισκαιδεκάτην ὑπατείαν</date> ἄγοντός <persName ref="#augustus">μου</persName> ἥ τε <orgName ref="#senatus">σύνκλητος</orgName> καὶ τὸ <orgName ref="#equites">ἀγωγικὸν τάγμα</orgName> ὅ τε σύνπας <orgName ref="#populus-romanus">δῆμος τῶν Ῥωμαίων</orgName> προσηγόρευσέ <persName ref="#augustus">με</persName> πατέρα πατρίδος καὶ τοῦτο ἐπὶ τοῦ προπύλου τῆς οἰκίας <persName ref="#augustus">μου</persName> καὶ ἐν τῶι <placeName ref="#curia-julia">βουλευτηρίωι</placeName> καὶ ἐν τῆι <placeName ref="#forum-augustum">ἀγορᾶι τῆι Σεβαστῆι</placeName> ὑπὸ τῶι ἅρματι, ὅ <persName ref="#augustus">μοι</persName> δόγματι <orgName ref="#senatus">συνκλήτου</orgName> ἀνετέθη, ἐπιγραφῆναι ἐψηφίσατο. Ὅτε ἔγραφον ταῦτα, ἣγον ἔτος <date evidence="internal" property="age">ἑβδομηκοστὸν ἕκτον</date>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s35-p1">
+            Als <persName ref="#augustus">ich</persName> <date when="-0002">mein dreizehntes Konsulat</date> verwaltete, gaben <persName ref="#augustus">mir</persName> der <orgName ref="#senatus">Senat</orgName>, der <orgName ref="#equites">Ritterstand</orgName> und das <orgName ref="#populus-romanus">römische Volk</orgName> einmütig den Titel „Vater des Vaterlandes“. Sie beschlossen, dies solle inschriftlich verzeichnet werden in der Vorhalle <persName ref="#augustus">meines</persName> <placeName ref="#palatium">Hauses</placeName> sowie in der <placeName ref="#curia-julia">Curia Julia</placeName> und auf dem <placeName ref="#forum-augustum">Ausgustusforum</placeName> auf der Basis des Viergespanns, das <persName ref="#augustus">mir</persName> dort auf <orgName ref="#senatus">Senatsbeschluss</orgName> hin errichtet worden war. Während <persName ref="#augustus">ich</persName> dies schrieb, bin <persName ref="#augustus">ich</persName> in <persName ref="#augustus">meinem</persName> <date evidence="internal" property="age">76. Lebensjahr</date>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 13</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition der Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften: Monumentum Ancyranum, Monumentum Apolloniense, Monumentum Antiochenum</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="janus-quirinus">
+        <placeName>Tempel des Janus Quirinus</placeName>
+        <note type="desc">Ein Heiligtum in Rom, dessen Türen symbolisch den Kriegszustand oder Frieden (bei geschlossenen Türen) anzeigten.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Das höchste Beratungsorgan des römischen Staates.</note>
+      </org>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger (Populus Romanus).</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="founding-rome">
+        <label>Gründung der Stadt Rom</label>
+        <note type="desc">Legendäre Gründung Roms (traditionell 753 v. Chr.).</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+      <link target="#senatus #la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+      <link target="#populus-romanus #la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+      <link target="#janus-quirinus #la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+      <link target="#rome #la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+      <link target="#founding-rome #la-s13-p1 #grc-s13-p1 #de-s13-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="13">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s13-p1">
+            <placeName ref="#janus-quirinus">Ianum Quinnum</placeName>, quem claussum esse maiores nostri voluerunt cum per totum imperium <orgName ref="#populus-romanus">populi Romani</orgName> terra marique esset parta victoriis pax, cum priusquam <persName ref="#augustus">nascerer</persName>, a <event ref="#founding-rome">condita urbe</event> bis omnino clausum fuisse prodatur memoriae, ter <persName ref="#augustus">me</persName> principe <orgName ref="#senatus">senatus</orgName> claudendum esse censuit.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s13-p1">
+            <placeName ref="#janus-quirinus">Πύλην Ἐνυάλιον</placeName>, ἣν κεκλῖσθαι οἱ πατέρες ἡμῶν ἠθέλησαν εἰρηνευομένης τῆς ὑπὸ <orgName ref="#populus-romanus">Ῥωμαίοις</orgName> πάσης γῆς τε καὶ θαλάσσης, πρὸ μὲν <persName ref="#augustus">ἐμοῦ</persName>, ἐξ οὗ ἡ <placeName ref="#rome">πόλις</placeName> <event ref="#founding-rome">ἐκτίσθη</event>, τῶι παντὶ αἰῶνι δὶς μόνον κεκλεῖσθαι ὁμολογεῖται, ἐπὶ δὲ <persName ref="#augustus">ἐμοῦ</persName> ἡγεμόνος τρὶς ἡ <orgName ref="#senatus">σύνκλητος</orgName> ἐψηφίσατο κλεισθῆναι.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s13-p1">
+            Der <placeName ref="#janus-quirinus">Tempel des Janus Quirinus</placeName>, der nach dem Wunsch unserer Vorväter geschlossen sein sollte, wenn im gesamten <orgName ref="#populus-romanus">römischen</orgName> Reichsgebiet zu Wasser und zu Lande durch Siege errungener Friede herrschte - dies soll, so wird überliefert, vor <persName ref="#augustus">meiner</persName> Geburt seit <event ref="#founding-rome">Gründung der Stadt</event> überhaupt erst zweimal geschehen sein -, dieser Tempel wurde, während <persName ref="#augustus">ich</persName> der erste Mann des Staates war, auf Anordnung des <orgName ref="#senatus">Senats</orgName> dreimal geschlossen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

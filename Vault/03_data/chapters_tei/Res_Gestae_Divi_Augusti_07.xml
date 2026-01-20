@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 7</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition der Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften: Monumentum Ancyranum, Monumentum Apolloniense, Monumentum Antiochenum</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Gaius Iulius Caesar Octavianus, der erste römische Kaiser.</note>
+      </person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Familien Roms, das zentrale politische Gremium.</note>
+      </org>
+      <org xml:id="res-publica">
+        <orgName>Staat</orgName>
+        <note type="desc">Die römische Republik bzw. das Gemeinwesen (Res Publica).</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s07-p01 #grc-s07-p01 #de-s07-p01"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s07-p01 #grc-s07-p01 #de-s07-p01"/>
+      <link target="#senatus #la-s07-p01 #grc-s07-p01 #de-s07-p01"/>
+      <link target="#res-publica #la-s07-p01 #grc-s07-p01 #de-s07-p01"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="07">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s07-p01">
+            Triumvirum <orgName ref="#res-publica">rei publicae</orgName> constituendae <persName ref="#augustus">fui</persName> per continuos <date dur="P10Y">annos decem</date>. Princeps <orgName ref="#senatus">senatus</orgName> <persName ref="#augustus">fui</persName> usque ad eum diem quo <persName ref="#augustus">scripseram</persName> haec per <date dur="P40Y">annos quadraginta</date>. Pontifex maximus, augur, XV virum sacris faciundis, VII virum epulonum, frater arvalis, sodalis Titius, fetialis <persName ref="#augustus">fui</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s07-p01">
+            Τριῶν ἀνδρῶν <persName ref="#augustus">ἐγενόμην</persName> <orgName ref="#res-publica">δημοσίων πραγμάτων</orgName> κατορθωτὴς συνεχέσιν <date dur="P10Y">ἔτεσιν δέκα</date>. Πρῶτον ἀξιώματος τόπον <persName ref="#augustus">ἔσχον</persName> τῆς <orgName ref="#senatus">συνκλήτου</orgName> ἄχρι ταύτης τῆς ἡμέρας, ἧς ταῦτα <persName ref="#augustus">ἔγραφον</persName>, ἐπὶ <date dur="P40Y">ἔτη τεσσαράκοντα</date>. Ἀρχιερεύς, αὔγουρ, τῶν δεκαπέντε ἀνδρῶν τῶν ἱεροποιῶν, τῶν ἑπτὰ ἀνδρῶν ἱεροποιῶν, ἀδελφὸς ἀρουᾶλις, ἑταῖρος Τίτιος, φητιᾶλις.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s07-p01">
+            Triumvir zur Neuordnung des <orgName ref="#res-publica">Staates</orgName> war <persName ref="#augustus">ich</persName> ohne Unterbrechung <date dur="P10Y">10 Jahre</date> lang. Erster Mann des <orgName ref="#senatus">Senats</orgName> war <persName ref="#augustus">ich</persName> bis zu dem Tag, an dem <persName ref="#augustus">ich</persName> dies <persName ref="#augustus">schreibe</persName>, <date dur="P40Y">40 Jahre</date> lang. Pontifex Maximus, Augur war <persName ref="#augustus">ich</persName>, gehörte den Priesterkollegien der Quindecemviri und der Septemviri an, war Mitglied der Arvalbruderschaft, der Titiusgenossenschaft und der Fetialen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

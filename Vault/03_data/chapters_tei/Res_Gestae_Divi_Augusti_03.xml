@@ -1,0 +1,72 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Res Gestae Divi Augusti - Caput 03</title>
+                <author ref="#augustus">Augustus</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished TEI edition</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digitized from markdown input</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person xml:id="augustus">
+                <persName>Imperator Caesar Divi Filius Augustus</persName>
+                <note type="desc">First Roman Emperor, author of the Res Gestae.</note>
+            </person>
+        </listPerson>
+        <listOrg>
+            <org xml:id="populus-romanus">
+                <orgName>Populus Romanus</orgName>
+                <note type="desc">The body of Roman citizens.</note>
+            </org>
+        </listOrg>
+        <listPlace>
+            <place xml:id="orbis-terrarum">
+                <placeName>Orbis Terrarum</placeName>
+                <note type="desc">The inhabited world (Oikoumene).</note>
+            </place>
+        </listPlace>
+        <listEvent>
+            <event xml:id="bella-civilia-externa">
+                <label>Bella Civilia et Externa</label>
+                <note type="desc">Civil and foreign wars waged by Augustus.</note>
+            </event>
+        </listEvent>
+        <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+            <link target="#la-s03-p01 #grc-s03-p01 #de-s03-p01"/>
+        </linkGrp>
+        <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+            <link target="#augustus #la-s03-p01 #grc-s03-p01 #de-s03-p01"/>
+            <link target="#populus-romanus #la-s03-p01 #grc-s03-p01 #de-s03-p01"/>
+            <link target="#orbis-terrarum #la-s03-p01 #grc-s03-p01 #de-s03-p01"/>
+            <link target="#bella-civilia-externa #la-s03-p01 #grc-s03-p01 #de-s03-p01"/>
+        </linkGrp>
+    </standOff>
+    <text>
+        <body>
+            <div type="chapter" n="03">
+                <div type="version" xml:lang="la">
+                    <p xml:id="la-s03-p01">
+                        <event ref="#bella-civilia-externa">Bella terra et mari civilia externaque</event> toto in <placeName ref="#orbis-terrarum">orbe terrarum</placeName> saepe <persName ref="#augustus">gessi</persName>, <persName ref="#augustus">victor</persName>que omnibus veniam petentibus civibus <persName ref="#augustus">peperci</persName>. Externas gentes, quibus tuto ignosci potuit, conservare quam excidere <persName ref="#augustus">malui</persName>. Millia <orgName ref="#populus-romanus">civium Romanorum</orgName> sub sacramento <persName ref="#augustus">meo</persName> fuerunt circiter quingenta. Ex quibus <persName ref="#augustus">deduxi</persName> in colonias aut <persName ref="#augustus">remisi</persName> in municipia sua stipendis emeritis millia aliquanto plura quam trecenta, et iis omnibus agros <persName ref="#augustus">adsignavi</persName> aut pecuniam pro praemiis militiae <persName ref="#augustus">dedi</persName>. Naves <persName ref="#augustus">cepi</persName> sescentas praeter eas, si quae minores quam triremes fuerunt.
+                    </p>
+                </div>
+                <div type="version" xml:lang="grc">
+                    <p xml:id="grc-s03-p01">
+                        <event ref="#bella-civilia-externa">Πολέμους καὶ κατὰ γῆν καὶ κατὰ θάλασσαν ἐμφυλίους καὶ ἐξωτικοὺς</event> ἐν ὅληι τῆι <placeName ref="#orbis-terrarum">οἰκουμένηι</placeName> πολλοὺς <persName ref="#augustus">ἀνεδεξάμην</persName>, <persName ref="#augustus">νεικήσας</persName> τε πάντων <persName ref="#augustus">ἐφεισάμην</persName> τῶν περιόντων πολειτῶν. Τὰ ἔθνη, οἷς ἀσφαλὲς ἦν συνγνώμην ἔχειν, <persName ref="#augustus">ἔσωσα</persName> μᾶλλον ἢ <persName ref="#augustus">ἐξέκοψα</persName>. Μυριάδες <orgName ref="#populus-romanus">Ῥωμαίων</orgName> στρατεύσασαι ὑπὸ τὸν ὅρκον τὸν <persName ref="#augustus">ἐμον</persName> ἐγένοντο ἐνγὺς πεντήκοντα· ἐξ ὧν <persName ref="#augustus">κατήγαγον</persName> εἰς τὰς ἀποικίας ἢ <persName ref="#augustus">ἀπέπεμψα</persName> εἰς τὰς ἰδίας πόλεις ἐκλυομένας μυριάδας πολλῶι πλείους ἢ τριάκοντα, καὶ πάσαις αὐταῖς ἢ ἀγροὺς <persName ref="#augustus">ἐμέρισα</persName> ἢ χρήματα τῆς στρατείας δωρεὰν <persName ref="#augustus">ἔδωκα</persName>. Ναῦς δὲ . . . <persName ref="#augustus">εἷλον</persName> ἑξακοσίας πλὴν τούτων, εἴ τινες ἥσσονες ἐγένοντο ἢ τριήρεις.
+                    </p>
+                </div>
+                <div type="version" xml:lang="de">
+                    <p xml:id="de-s03-p01">
+                        <event ref="#bella-civilia-externa">Kriege zu Wasser und zu Lande gegen innere und äußere Feinde</event> habe <persName ref="#augustus">ich</persName> auf dem ganzen <placeName ref="#orbis-terrarum">Erdkreis</placeName> oftmals geführt, und als <persName ref="#augustus">Sieger</persName> habe <persName ref="#augustus">ich</persName> allen Mitbürgern, die um Gnade baten, Schonung gewährt. Auswärtige Völker, denen man ohne Bedenken Verzeihung gewähren konnte, habe <persName ref="#augustus">ich</persName> lieber erhalten als ausrotten wollen. Etwa 500 000 <orgName ref="#populus-romanus">Bürger</orgName> haben den Fahneneid auf <persName ref="#augustus">mich</persName> geleistet. Von diesen habe <persName ref="#augustus">ich</persName> ein gut Teil mehr als 300 000 in Neugründungen angesiedelt oder nach Ableistung ihrer Militärdienstzeit in ihre Heimatorte entlassen. Und diesen allen habe <persName ref="#augustus">ich</persName> Ackerland zuweisen oder Geld als Lohn für ihren Kriegsdienst auszahlen lassen. Schiffe habe <persName ref="#augustus">ich</persName> 600 gekapert, abgesehen von denen, die etwa unter der Größe eines Dreiruderers waren.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

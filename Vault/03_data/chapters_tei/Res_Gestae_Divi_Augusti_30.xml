@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 30</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Bereitgestellt für Forschungszwecke.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Res Gestae Divi Augusti</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Gaius Iulius Caesar Octavianus, der erste römische Kaiser.</note>
+      </person>
+      <person xml:id="tiberius">
+        <persName>Tiberius</persName>
+        <note type="desc">Tiberius Caesar Augustus, Stiefsohn und Nachfolger des Augustus.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="illyricum">
+        <placeName>Illyricum</placeName>
+        <note type="desc">Eine römische Provinz an der östlichen Adriaküste.</note>
+      </place>
+      <place xml:id="danuvius">
+        <placeName>Donau</placeName>
+        <note type="desc">Grenzfluss des römischen Reiches im Norden.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Populus Romanus; die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="res-publica">
+        <orgName>Staat</orgName>
+        <note type="desc">Res Publica; das römische Gemeinwesen.</note>
+      </org>
+      <org xml:id="pannonii">
+        <orgName>Pannonier</orgName>
+        <note type="desc">Völkerstämme in der Region Pannonia zwischen Donau und Save.</note>
+      </org>
+      <org xml:id="daci">
+        <orgName>Daker</orgName>
+        <note type="desc">Ein thrakisches Volk im Gebiet des heutigen Rumänien.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+      <link target="#tiberius #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+      <link target="#populus #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+      <link target="#res-publica #de-s30-p1"/>
+      <link target="#pannonii #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+      <link target="#daci #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+      <link target="#illyricum #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+      <link target="#danuvius #la-s30-p1 #grc-s30-p1 #de-s30-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="30">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s30-p1">
+            <orgName ref="#pannonii">Pannoniorum</orgName> gentes, quas ante <persName ref="#augustus">me</persName> principem <orgName ref="#populus">populi Romani</orgName> exercitus nunquam adit, devictas per <persName ref="#tiberius">Ti. Neronem</persName>, qui tum erat privignus et legatus <persName ref="#augustus">meus</persName>, imperio <orgName ref="#populus">populi Romani</orgName> subieci, protulique fines <placeName ref="#illyricum">Illyrici</placeName> ad ripam fluminis <placeName ref="#danuvius">Danui</placeName>. Citra quod <orgName ref="#daci">Dacorum</orgName> transgressus exercitus <persName ref="#augustus">meis</persName> auspicis victus profligatusque est, et postea trans <placeName ref="#danuvius">Danuvium</placeName> ductus exercitus <persName ref="#augustus">meus</persName> <orgName ref="#daci">Dacorum</orgName> gentes imperia <orgName ref="#populus">populi Romani</orgName> perferre coegit.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s30-p1">
+            <orgName ref="#pannonii">Παννονίων</orgName> ἔθνη, οἴς πρὸ <persName ref="#augustus">ἐμοῦ</persName> ἡγεμόνος στράτευμα <orgName ref="#populus">Ῥωμαίων</orgName> οὐκ ἤνγισεν, ἡσσηθέντα ὑπὸ <persName ref="#tiberius">Τιβερίου Νέρωνος</persName> ὃς τότ’ <persName ref="#augustus">ἐμοῦ</persName> ἦν πρόγονος καὶ πρεσβευτής, ἡγεμονίαι <orgName ref="#populus">δήμου Ῥωμαίων</orgName> ὑπέταξα τά τε <placeName ref="#illyricum">Ἰλλυρικοῦ</placeName> ὅρια μέχρι <placeName ref="#danuvius">Ἴστρου</placeName> ποταμοῦ προήγαγον· οὗ ἐπείταδε <orgName ref="#daci">Δάκων</orgName> διαβᾶσα πολλὴ δύναμις <persName ref="#augustus">ἐμοῖς</persName> αἰσίοις οἰωνοῖς κατεκόπη. Καὶ ὑστερον μεταχθὲν τὸ <persName ref="#augustus">ἐμὸν</persName> στράτευμα πέραν <placeName ref="#danuvius">Ἴστρου</placeName> τὰ <orgName ref="#daci">Δάκων</orgName> ἔθνη προστάγματα <orgName ref="#populus">δήμου Ῥωμαίων</orgName> ὑπομένειν ἠνάγκασεν.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s30-p1">
+            Die Völker <orgName ref="#pannonii">Pannoniens</orgName>, mit denen kein Heer des <orgName ref="#populus">römischen Volkes</orgName> jemals zusammengetroffen war, bevor <persName ref="#augustus">ich</persName> der erste Mann des <orgName ref="#res-publica">Staates</orgName> wurde, habe <persName ref="#augustus">ich</persName> der Herrschaft des <orgName ref="#populus">römischen Volkes</orgName> unterworfen, nachdem sie von <persName ref="#tiberius">Tiberius Nero</persName>, der damals noch <persName ref="#augustus">mein</persName> Stiefsohn und <persName ref="#augustus">mein</persName> militärischer Stellvertreter war, besiegt worden waren. <persName ref="#augustus">Ich</persName> habe damit die Grenzen von <placeName ref="#illyricum">Illyricum</placeName> bis ans Ufer der <placeName ref="#danuvius">Donau</placeName> vorgeschoben. Als ein <orgName ref="#daci">dakisches</orgName> Heer über die <placeName ref="#danuvius">Donau</placeName> herüberkam, wurde es unter <persName ref="#augustus">mir</persName> als oberstem Kriegsherrn vernichtend geschlagen, und später zwang <persName ref="#augustus">mein</persName> über die <placeName ref="#danuvius">Donau</placeName> geführtes Heer die <orgName ref="#daci">dakischen</orgName> Volksstämme, den Befehlen des <orgName ref="#populus">römischen Volkes</orgName> Folge zu leisten.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 34</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition basierend auf dem bereitgestellten Text.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Res Gestae Divi Augusti</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, vormals Gaius Octavius.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="curia-julia">
+        <placeName>Curia Julia</placeName>
+        <note type="desc">Das Versammlungshaus des römischen Senats auf dem Forum Romanum.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Köpfe des römischen Staates.</note>
+      </org>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger (Populus Romanus).</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Volk</orgName>
+        <note type="desc">Die allgemeine Bevölkerung oder Bürgerschaft.</note>
+      </org>
+      <org xml:id="res-publica">
+        <orgName>Staat</orgName>
+        <note type="desc">Das römische Gemeinwesen (Res Publica).</note>
+      </org>
+      <org xml:id="magistratus">
+        <orgName>Beamte</orgName>
+        <note type="desc">Die Inhaber öffentlicher Ämter im römischen Staat.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="civil-wars">
+        <label>Bürgerkriege</label>
+        <note type="desc">Die internen militärischen Konflikte der späten römischen Republik.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s34-p1 #grc-s34-p1 #de-s34-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s34-p1 #grc-s34-p1 #de-s34-p1"/>
+      <link target="#senatus #la-s34-p1 #grc-s34-p1 #de-s34-p1"/>
+      <link target="#populus-romanus #la-s34-p1 #grc-s34-p1 #de-s34-p1"/>
+      <link target="#curia-julia #la-s34-p1 #grc-s34-p1 #de-s34-p1"/>
+      <link target="#res-publica #la-s34-p1 #de-s34-p1"/>
+      <link target="#civil-wars #la-s34-p1 #grc-s34-p1 #de-s34-p1"/>
+      <link target="#magistratus #la-s34-p1 #de-s34-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="34">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s34-p1">
+            In <date when="-0028">consulatu sexto</date> et <date when="-0027">septimo</date>, postquam <event ref="#civil-wars">bella civilia</event> <persName ref="#augustus">exstinxeram</persName>, per consensum universorum <persName ref="#augustus">potitus</persName> rerum omnium, <orgName ref="#res-publica">rem publicam</orgName> ex <persName ref="#augustus">mea</persName> potestate in <orgName ref="#senatus">senatus</orgName> <orgName ref="#populus-romanus">populique Romani</orgName> arbitrium transtuli. Quo pro merito <persName ref="#augustus">meo</persName> senatus consulto <persName ref="#augustus">Augustus</persName> appellatus sum et laureis postes aedium <persName ref="#augustus">mearum</persName> vestiti publice coronaque civica super ianuam <persName ref="#augustus">meam</persName> fixa est et clupeus aureus in <placeName ref="#curia-julia">curia Iulia</placeName> positus, quem <persName ref="#augustus">mihi</persName> <orgName ref="#senatus">senatum</orgName> <orgName ref="#populus-romanus">populumque Romanum</orgName> dare virtutis clementiaeque et iustitiae et pietatis caussa testatum est per eius clupei inscriptionem. Post id tempus auctoritate omnibus <persName ref="#augustus">praestiti</persName>, potestatis autem nihilo amplius <persName ref="#augustus">habui</persName> quam ceteri qui <persName ref="#augustus">mihi</persName> quoque in <orgName ref="#magistratus">magistratu</orgName> conlegae fuerunt.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s34-p1">
+            Ἐν <date when="-0028">ὑπατείαι ἕκτηι</date> καὶ <date when="-0027">ἑβδόμηι</date> μετὰ τὸ τοὺς <event ref="#civil-wars">ἐνφυλίους ζβέσαι <persName ref="#augustus">με</persName> πολέμους</event> κατὰ τὰς εὐχὰς τῶν <persName ref="#augustus">ἐμῶν</persName> πολειτῶν ἐνκρατὴς γενόμενος πάντων τῶν πραγμάτων, ἐκ τῆς <persName ref="#augustus">ἐμῆς</persName> ἐξουσίας εἰς τὴν τῆς <orgName ref="#senatus">συνκλήτου</orgName> καὶ τοῦ <orgName ref="#populus-romanus">δήμου τῶν Ῥωμαίων</orgName> μετήνεγκα κυριήαν. Ἐξ ἧς αἰτίας δόγματι <orgName ref="#senatus">συνκλήτου</orgName> <persName ref="#augustus">Σεβαστὸς</persName> προσηγορεύθην καὶ δάφναις δημοσίαι τὰ πρόπυλά <persName ref="#augustus">μου</persName> ἐστέφθη, ὅ τε δρύινος στέφανος ὁ διδόμενος ἐπὶ σωτηρίᾳ τῶν πολειτῶν ὑπεράνω τοῦ πυλῶνος τῆς <persName ref="#augustus">ἐμῆς</persName> οἰκίας ἀνετέθη, ὅπλον τε χρυσοῦν ἐν τῶι <placeName ref="#curia-julia">βουλευτηρίωι</placeName> ἀνατεθὲν ὑπό τε τῆς <orgName ref="#senatus">συνκλήτου</orgName> καὶ τοῦ <orgName ref="#populus-romanus">δήμου τῶν Ῥωμαίων</orgName> διὰ τῆς ἐπιγραφῆς ἀρετὴν καὶ ἐπείκειαν καὶ δικαιοσύνην καὶ εὐσέβειαν <persName ref="#augustus">ἐμοὶ</persName> μαρτυρεῖ. Ἀξιώμὰτι πάντων <persName ref="#augustus">διήνεγκα</persName>, ἐξουσίας δὲ οὐδέν τι πλεῖον <persName ref="#augustus">ἔσχον</persName> τῶν συναρξάντων <persName ref="#augustus">μοι</persName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s34-p1">
+            In <persName ref="#augustus">meinem</persName> <date when="-0028">sechsten</date> und <date when="-0027">siebten Konsulat</date> habe <persName ref="#augustus">ich</persName>, nachdem <persName ref="#augustus">ich</persName> die Flammen der <event ref="#civil-wars">Bürgerkriege</event> gelöscht hatte und mit der einmütigen Zustimmung der gesamten <orgName ref="#populus">Bevölkerung</orgName> in den Besitz der staatlichen Allgewalt gelangt war, das <orgName ref="#res-publica">Gemeinwesen</orgName> aus <persName ref="#augustus">meiner</persName> Machtbefugnis wieder der Ermessensfreiheit des <orgName ref="#senatus">Senats</orgName> und des <orgName ref="#populus-romanus">römischen Volkes</orgName> überantwortet. Für dieses <persName ref="#augustus">mein</persName> Verdienst wurde <persName ref="#augustus">mir</persName> auf Beschluss des <orgName ref="#senatus">Senats</orgName> der Name <persName ref="#augustus">Augustus</persName> gegeben. Die Türpfosten <persName ref="#augustus">meines</persName> Hauses wurden auf staatlichen Beschluss mit Lorbeer geschmückt, und ein Bürgerkranz wurde über <persName ref="#augustus">meinem</persName> Tor angebracht. Ein goldener Schild wurde in der <placeName ref="#curia-julia">Curia Julia</placeName> aufgestellt, den <persName ref="#augustus">mir</persName> der <orgName ref="#senatus">Senat</orgName> und das <orgName ref="#populus-romanus">römische Volk</orgName> geweiht haben wegen <persName ref="#augustus">meiner</persName> Tapferkeit und Milde, <persName ref="#augustus">meiner</persName> Gerechtigkeit und Hingabe, wie es die Aufschrift auf diesem Schild bezeugt. Seit dieser Zeit überragte <persName ref="#augustus">ich</persName> alle übrigen an Autorität, an <orgName ref="#magistratus">Amtsgewalt</orgName> aber besaß <persName ref="#augustus">ich</persName> nicht mehr als die anderen, die auch <persName ref="#augustus">ich</persName> im Amt zu Kollegen hatte.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

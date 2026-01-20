@@ -1,0 +1,100 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 11</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition der Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften: Monumentum Ancyranum, Monumentum Apolloniense, Monumentum Antiochenum</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="q-lucretius">
+        <persName>Quintus Lucretius Vespillo</persName>
+        <note type="desc">Römischer Konsul im Jahr 19 v. Chr.</note>
+      </person>
+      <person xml:id="m-vinicius">
+        <persName>Marcus Vinicius</persName>
+        <note type="desc">Römischer Konsul im Jahr 19 v. Chr.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="syria">
+        <placeName>Syrien</placeName>
+        <note type="desc">Römische Provinz im Nahen Osten.</note>
+      </place>
+      <place xml:id="porta-capena">
+        <placeName>Porta Capena</placeName>
+        <note type="desc">Ein Tor in der Servianischen Mauer in Rom, an dem die Via Appia begann.</note>
+      </place>
+      <place xml:id="temple-honos-virtus">
+        <placeName>Tempel von Honos und Virtus</placeName>
+        <note type="desc">Heiligtum der personifizierten ritterlichen Tugend und der Ehre.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Das höchste Verfassungsorgan des römischen Staates.</note>
+      </org>
+      <org xml:id="sacerdotes">
+        <orgName>Priesterkollegien</orgName>
+        <note type="desc">Die Pontifices und die Vestalinnen als religiöse Funktionsträger.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="augustalia">
+        <label>Augustalia</label>
+        <note type="desc">Spiele und Festlichkeiten zu Ehren der Rückkehr des Augustus im Jahr 19 v. Chr.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#senatus #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#rome #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#syria #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#q-lucretius #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#m-vinicius #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#sacerdotes #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+      <link target="#augustalia #la-s11-p1 #grc-s11-p1 #de-s11-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="11">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s11-p1">
+            Aram Fortunae Reducis ante <placeName ref="#temple-honos-virtus">aedes Honoris et Virtutis</placeName> ad <placeName ref="#porta-capena">portam Capenam</placeName> pro reditu <persName ref="#augustus">meo</persName> <orgName ref="#senatus">senatus</orgName> consacravit, in qua <orgName ref="#sacerdotes">pontifices et virgines Vestales</orgName> anniversarium sacrificium facere iussit eo die quo, consulibus <persName ref="#q-lucretius">Q. Lucretio</persName> et <persName ref="#m-vinicius">M. Vinicio</persName>, in <placeName ref="#rome">urbem</placeName> ex <placeName ref="#syria">Syria</placeName> <persName ref="#augustus">redieram</persName>, et diem <event ref="#augustalia">Augustalia</event> ex cognomine <persName ref="#augustus">nostro</persName> appellavit.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s11-p1">
+            Βωμὸν Τύχης Σωτηρίου ὑπὲρ τῆς <persName ref="#augustus">ἐμῆς</persName> ἐπανόδου πρὸς τῆι <placeName ref="#porta-capena">Καπῆνηι πύληι</placeName> ἡ <orgName ref="#senatus">σύνκλητος</orgName> ἀφιέρωσεν πρὸς ὧι τοὺς <orgName ref="#sacerdotes">ἱερεῖς καὶ τὰς ἱερείας</orgName> ἐνιαύσιον θυσίαν ποιεῖν ἐκέλευσεν ἐν ἐκείνηι τῆι ἡμέραι, ἐν ἧι ὑπάτοις <persName ref="#q-lucretius">Κοίντωι Λουκρητίωι</persName> καὶ <persName ref="#m-vinicius">Μάρκωι Οὐινουκίωι</persName> ἐκ <placeName ref="#syria">Συρίας</placeName> εἰς <placeName ref="#rome">Ῥώμην</placeName> <persName ref="#augustus">ἐπανεληλύθειν</persName>, τήν τε ἡμέραν ἐκ τῆς <persName ref="#augustus">ἡμετέρας</persName> ἐπωνυμίας προσηγόρευσεν <event ref="#augustalia">Αὐγουστάλια</event>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s11-p1">
+            Den Altar der die Heimkehr begünstigenden Fortuna vor dem <placeName ref="#temple-honos-virtus">Tempel von Honos und Virtus</placeName> bei der <placeName ref="#porta-capena">Porta Capena</placeName> hat der <orgName ref="#senatus">Senat</orgName> für <persName ref="#augustus">meine</persName> Rückkehr gestiftet. Dort sollten auf sein Geheiß die <orgName ref="#sacerdotes">Oberpriester und die Vestalinnen</orgName> jährlich an dem Tag ein Opfer darbringen, an dem <persName ref="#augustus">ich</persName> unter dem Konsulat des <persName ref="#q-lucretius">Quintus Lucretius</persName> und <persName ref="#m-vinicius">Marcus Vinicius</persName> [<date when="-0019">19 v. Chr.</date>] aus <placeName ref="#syria">Syrien</placeName> nach <placeName ref="#rome">Rom</placeName> zurückgekehrt war. Und die Festfeiern dieses Tages nannte man nach <persName ref="#augustus">meinem</persName> Beinamen <event ref="#augustalia">Augustalia</event>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

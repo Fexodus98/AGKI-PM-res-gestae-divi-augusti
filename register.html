@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register | Digitale Edition Res Gestae</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">AGKI - RES GESTAE</div>
+    <nav>
+      <a href="index.html">Übersicht</a>
+      <a href="projektplan.html">Projektplan</a>
+      <a href="datenaufbereitung.html">Datenaufbereitung</a>
+      <a href="edition.html">Edition</a>
+      <a class="active" href="register.html">Register</a>
+      <a href="textanalyse.html">Textanalyse</a>
+      <a href="gesamter-forschungsblog.html">Forschungsblog</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-title">
+      <p class="eyebrow">Register</p>
+      <h1>Personen, Orte &amp; Organisationen</h1>
+      <p class="lead">Alle Einträge stammen aus der StandOff-Sektion der TEI-Edition. Die Beschreibungen bleiben bewusst auf Deutsch, um den Kommentarcharakter des Registers zu bewahren.</p>
+      <div class="actions">
+        <a class="button" href="Vault/03_data/Res_Gestae_Divi_Augusti.xml" download>TEI herunterladen</a>
+        <a class="button ghost" href="edition.html">Zur Edition</a>
+      </div>
+    </section>
+
+    <section class="card registry-controls">
+      <div class="registry-meta">
+        <div>
+          <p class="label">Fokus</p>
+          <div class="filter-buttons">
+            <button class="pill-button active" data-filter="all">Alle</button>
+            <button class="pill-button" data-filter="person">Personen</button>
+            <button class="pill-button" data-filter="place">Orte</button>
+            <button class="pill-button" data-filter="org">Organisationen</button>
+          </div>
+        </div>
+        <div class="registry-counts" id="registry-counts">
+          <span class="pill pill-person">Personen: –</span>
+          <span class="pill pill-place">Orte: –</span>
+          <span class="pill pill-org">Organisationen: –</span>
+        </div>
+      </div>
+      <div class="registry-search">
+        <label for="registry-search" class="label">Volltextsuche</label>
+        <input id="registry-search" class="registry-input" type="search" placeholder="Name, Beschreibung oder ID durchsuchen…">
+      </div>
+      <p id="registry-status" class="muted">Lade Register…</p>
+    </section>
+
+    <section>
+      <div id="registry-list" class="registry-list">
+        <p class="muted">Das Register wird geladen…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Res Gestae Divi Augusti · AGKI WS2025/26</p>
+  </footer>
+
+  <script>
+    (() => {
+      const NS = "http://www.tei-c.org/ns/1.0";
+      const TYPE_CONFIG = {
+        person: { label: "Person", listTag: "listPerson", itemTag: "person", nameTag: "persName" },
+        place: { label: "Ort", listTag: "listPlace", itemTag: "place", nameTag: "placeName" },
+        org:    { label: "Organisation", listTag: "listOrg", itemTag: "org", nameTag: "orgName" }
+      };
+
+      const state = { data: [], activeType: "all" };
+      const listEl = document.getElementById("registry-list");
+      const statusEl = document.getElementById("registry-status");
+      const countsEl = document.getElementById("registry-counts");
+      const searchInput = document.getElementById("registry-search");
+      const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
+
+      const escapeHtml = (str = "") =>
+        str
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;");
+
+      const updateCounts = () => {
+        const totals = { person: 0, place: 0, org: 0 };
+        state.data.forEach((entry) => { totals[entry.type] += 1; });
+        countsEl.innerHTML = `
+          <span class="pill pill-person">Personen: ${totals.person}</span>
+          <span class="pill pill-place">Orte: ${totals.place}</span>
+          <span class="pill pill-org">Organisationen: ${totals.org}</span>
+        `;
+      };
+
+      const render = () => {
+        const term = searchInput.value.trim().toLowerCase();
+        const typeOrder = { person: 0, place: 1, org: 2 };
+
+        const filtered = state.data
+          .filter((entry) => state.activeType === "all" || entry.type === state.activeType)
+          .filter((entry) => !term || entry.search.includes(term))
+          .sort((a, b) => {
+            const typeDiff = typeOrder[a.type] - typeOrder[b.type];
+            return typeDiff !== 0 ? typeDiff : a.name.localeCompare(b.name, "de", { sensitivity: "base" });
+          });
+
+        if (!filtered.length) {
+          listEl.innerHTML = `<p class="muted">Keine Einträge für diese Auswahl gefunden.</p>`;
+          return;
+        }
+
+        const cards = filtered.map((entry) => `
+          <article class="registry-card">
+            <div class="registry-card__meta">
+              <span class="pill pill-${entry.type}">${TYPE_CONFIG[entry.type].label}</span>
+              <span class="registry-id">#${escapeHtml(entry.id || "–")}</span>
+            </div>
+            <h3>${escapeHtml(entry.name || "Ohne Namen")}</h3>
+            <p>${escapeHtml(entry.desc || "Keine deutsche Beschreibung hinterlegt.")}</p>
+          </article>
+        `).join("");
+
+        listEl.innerHTML = cards;
+      };
+
+      const parseEntries = (doc, typeKey) => {
+        const cfg = TYPE_CONFIG[typeKey];
+        const list = doc.getElementsByTagNameNS(NS, cfg.listTag)[0];
+        if (!list) return [];
+
+        return Array.from(list.getElementsByTagNameNS(NS, cfg.itemTag)).map((node) => {
+          const id = node.getAttribute("xml:id") || "";
+          const nameEl = node.getElementsByTagNameNS(NS, cfg.nameTag)[0];
+          const noteEls = Array.from(node.getElementsByTagNameNS(NS, "note"));
+          const note = noteEls.find((n) => (n.getAttribute("type") || "").toLowerCase() === "desc") || noteEls[0];
+          const name = (nameEl && nameEl.textContent ? nameEl.textContent : "").trim() || "Ohne Namen";
+          const desc = (note && note.textContent ? note.textContent : "").trim();
+          const search = (name + " " + desc + " " + id).toLowerCase();
+          return { type: typeKey, id, name, desc, search };
+        });
+      };
+
+      const setActiveFilter = (type) => {
+        state.activeType = type;
+        filterButtons.forEach((btn) => btn.classList.toggle("active", btn.dataset.filter === type));
+        render();
+      };
+
+      const loadRegistry = async () => {
+        statusEl.textContent = "Lade TEI-Register…";
+        try {
+          const res = await fetch("Vault/03_data/Res_Gestae_Divi_Augusti.xml");
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+          const xmlText = await res.text();
+          const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+
+          if (doc.getElementsByTagName("parsererror").length) {
+            throw new Error("Parserfehler in der TEI-Datei");
+          }
+
+          const combined = ["person", "place", "org"].flatMap((key) => parseEntries(doc, key));
+          state.data = combined;
+          updateCounts();
+          statusEl.textContent = `Geladen: ${combined.length} Einträge`;
+          render();
+        } catch (err) {
+          console.error(err);
+          statusEl.textContent = "Fehler beim Laden des Registers. Bitte TEI prüfen.";
+          listEl.innerHTML = '<p class="muted">Konnte TEI nicht laden.</p>';
+        }
+      };
+
+      searchInput.addEventListener("input", render);
+      filterButtons.forEach((btn) => {
+        btn.addEventListener("click", () => setActiveFilter(btn.dataset.filter));
+      });
+
+      loadRegistry();
+    })();
+  </script>
+</body>
+</html>

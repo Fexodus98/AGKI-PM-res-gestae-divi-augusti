@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Res Gestae Divi Augusti - Kapitel 6</title>
+                <author>Augustus</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>TEI-Ausgabe generiert für User-Anfrage.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Basierend auf bereitgestelltem Markdown-Text.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person xml:id="augustus">
+                <persName>Imperator Caesar Divi Filius Augustus</persName>
+                <note type="desc">Erster römischer Kaiser.</note>
+            </person>
+            <person xml:id="marcus-vinicius">
+                <persName>Marcus Vinicius</persName>
+                <note type="desc">Römischer Konsul 19 v. Chr.</note>
+            </person>
+            <person xml:id="quintus-lucretius">
+                <persName>Quintus Lucretius</persName>
+                <note type="desc">Römischer Konsul 19 v. Chr.</note>
+            </person>
+            <person xml:id="publius-lentulus">
+                <persName>Publius Lentulus</persName>
+                <note type="desc">Römischer Konsul 18 v. Chr.</note>
+            </person>
+            <person xml:id="gnaeus-lentulus">
+                <persName>Gnaeus Lentulus</persName>
+                <note type="desc">Römischer Konsul 18 v. Chr.</note>
+            </person>
+            <person xml:id="paullus-fabius-maximus">
+                <persName>Paullus Fabius Maximus</persName>
+                <note type="desc">Römischer Konsul 11 v. Chr.</note>
+            </person>
+            <person xml:id="quintus-tubero">
+                <persName>Quintus Tubero</persName>
+                <note type="desc">Römischer Konsul 11 v. Chr.</note>
+            </person>
+        </listPerson>
+        <listOrg>
+            <org xml:id="senatus">
+                <orgName>Senatus Romanus</orgName>
+                <note type="desc">Der Römische Senat.</note>
+            </org>
+            <org xml:id="populus-romanus">
+                <orgName>Populus Romanus</orgName>
+                <note type="desc">Das Römische Volk.</note>
+            </org>
+        </listOrg>
+        <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+            <link target="#la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+        </linkGrp>
+        <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+            <link target="#augustus #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#marcus-vinicius #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#quintus-lucretius #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#publius-lentulus #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#gnaeus-lentulus #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#paullus-fabius-maximus #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#quintus-tubero #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#senatus #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+            <link target="#populus-romanus #la-s06-p01 #grc-s06-p01 #de-s06-p01"/>
+        </linkGrp>
+    </standOff>
+    <text>
+        <body>
+            <div type="chapter" n="06">
+                <div type="version" xml:lang="la">
+                    <p xml:id="la-s06-p01">
+                        <date when="-0019">Consulibus <persName ref="#marcus-vinicius">M. Vinicio</persName> et <persName ref="#quintus-lucretius">Q. Lucretio</persName></date> et <date when="-0018">postea <persName ref="#publius-lentulus">P. Lentulo</persName> et <persName ref="#gnaeus-lentulus">Cn. Lentulo</persName></date> et <date when="-0011">tertium <persName ref="#paullus-fabius-maximus">Paullo Fabio Maximo</persName> et <persName ref="#quintus-tubero">Q. Tuberone</persName></date> <orgName ref="#senatus">senatu</orgName> <orgName ref="#populus-romanus">populoque Romano</orgName> consentientibus ut curator legum et morum summa potestate solus <persName ref="#augustus">crearer</persName>, nullum magistratum contra morem maiorum delatum <persName ref="#augustus">recepi</persName> Quae tum per <persName ref="#augustus">me</persName> geri <orgName ref="#senatus">senatus</orgName> voluit, per tribuniciam potestatem <persName ref="#augustus">perfeci</persName>, cuius potestatis conlegam et <persName ref="#augustus">ipse</persName> ultro quinquiens a <orgName ref="#senatus">senatu</orgName> <persName ref="#augustus">depoposci</persName> et <persName ref="#augustus">accepi</persName>
+                    </p>
+                </div>
+                <div type="version" xml:lang="grc">
+                    <p xml:id="grc-s06-p01">
+                        <date when="-0019">Ὑπάτοις <persName ref="#marcus-vinicius">Μάρκωι Οὐινουκίωι</persName> καὶ <persName ref="#quintus-lucretius">Κοίντωι Λουκρητίωι</persName></date> καὶ <date when="-0018">μετὰ ταῦτα <persName ref="#publius-lentulus">Ποπλίωι</persName> καὶ <persName ref="#gnaeus-lentulus">Ναίωι Λέντλοις</persName></date> καὶ <date when="-0011">τρίτον <persName ref="#paullus-fabius-maximus">Παύλλωι Φαβίωι Μαξίμωι</persName> καὶ <persName ref="#quintus-tubero">Κοίντωι Τουβέρωνι</persName></date> <orgName ref="#senatus">τῆς τε συνκλήτου</orgName> καὶ <orgName ref="#populus-romanus">τοῦ δήμου τοῦ Ῥωμαίων</orgName> ὁμολογούντων, ἵνα ἐπιμελητὴς τῶν τε νόμων καὶ τῶν τρόπων ἐπὶ τῆι μεγίστηι ἐξουσίαι μόνος <persName ref="#augustus">χειροτονηθῶι</persName>, ἀρχὴν οὐδεμίαν παρὰ τὰ πάτρια ἔθη διδομένην <persName ref="#augustus">ἀνεδεξάμην</persName>· ἃ δὲ τότε δι’ <persName ref="#augustus">ἐμοῦ</persName> <orgName ref="#senatus">ἡ σύνκλητος</orgName> οἰκονομεῖσθαι ἐβούλετο, τῆς δημαρχικῆς ἐξουσίας ὢν <persName ref="#augustus">ἐτέλεσα</persName>. Καὶ ταύτης αὐτῆς τῆς ἀρχῆς συνάρχοντα <persName ref="#augustus">αὐτὸς</persName> ἀπὸ <orgName ref="#senatus">τῆς συνκλήτου</orgName> πεντάκις <persName ref="#augustus">αἰτήσας</persName> <persName ref="#augustus">ἔλαβον</persName>.
+                    </p>
+                </div>
+                <div type="version" xml:lang="de">
+                    <p xml:id="de-s06-p01">
+                        Als unter den Konsuln <persName ref="#marcus-vinicius">Marcus Vinicius</persName> und <persName ref="#quintus-lucretius">Quintus Lucretius</persName> <date when="-0019">[19 v. Chr.]</date> und später unter <persName ref="#publius-lentulus">Publius Lentulus</persName> und <persName ref="#gnaeus-lentulus">Gnaeus Lentulus</persName> <date when="-0018">[18 v. Chr.]</date> und zum dritten Mal unter <persName ref="#paullus-fabius-maximus">Paullus Fabius Maximus</persName> und <persName ref="#quintus-tubero">Quintus Tubero</persName> <date when="-0011">[11 v. Chr.]</date> der <orgName ref="#senatus">Senat</orgName> und das <orgName ref="#populus-romanus">römische Volk</orgName> einmütig beantragten, dass <persName ref="#augustus">ich</persName> als Einzelner mit höchster Machtbefugnis zum Wahrer von Gesetz und Sitte ernannt würde, habe <persName ref="#augustus">ich</persName> dies ebenso wenig angenommen wie irgendein anderes <persName ref="#augustus">mir</persName> angetragenes Amt, das gegen Sitte und Herkommen der Vorfahren verstieß. Was damals der <orgName ref="#senatus">Senat</orgName> von <persName ref="#augustus">mir</persName> ausgeführt wissen wollte, habe <persName ref="#augustus">ich</persName> kraft <persName ref="#augustus">meiner</persName> tribunizischen Amtsgewalt vollbracht. Für diese habe <persName ref="#augustus">ich</persName> <persName ref="#augustus">mir</persName> aus eigenem Antrieb fünfmal einen Kollegen im Amt vom <orgName ref="#senatus">Senat</orgName> ausgebeten und ihn auch erhalten.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

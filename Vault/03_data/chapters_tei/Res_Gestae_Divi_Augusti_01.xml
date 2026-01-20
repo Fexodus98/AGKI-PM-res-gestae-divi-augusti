@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Caput 01</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>TEI generated for digital edition.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Based on supplied Markdown.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Verfasser der Res Gestae.</note>
+      </person>
+      <person xml:id="pansa">
+        <persName>C. Vibius Pansa Caetronianus</persName>
+        <note type="desc">Römischer Konsul 43 v. Chr.</note>
+      </person>
+      <person xml:id="hirtius">
+        <persName>Aulus Hirtius</persName>
+        <note type="desc">Römischer Konsul 43 v. Chr.</note>
+      </person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senatus Romanus</orgName>
+        <note type="desc">Der römische Senat.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Populus Romanus</orgName>
+        <note type="desc">Das römische Volk.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s01-p01 #grc-s01-p01 #de-s01-p01"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s01-p01-aug-01 #grc-s01-p01-aug-01 #de-s01-p01-aug-01"/>
+      <link target="#augustus #la-s01-p01-aug-02 #grc-s01-p01-aug-02 #de-s01-p01-aug-02"/>
+      <link target="#senatus #la-s01-p01-sen #grc-s01-p01-sen #de-s01-p01-sen"/>
+      <link target="#augustus #la-s01-p01-aug-03 #grc-s01-p01-aug-03 #de-s01-p01-aug-03"/>
+      <link target="#pansa #la-s01-p01-pansa #grc-s01-p01-pansa #de-s01-p01-pansa"/>
+      <link target="#hirtius #la-s01-p01-hirtius #grc-s01-p01-hirtius #de-s01-p01-hirtius"/>
+      <link target="#augustus #la-s01-p01-aug-04 #grc-s01-p01-aug-04 #de-s01-p01-aug-04"/>
+      <link target="#augustus #la-s01-p01-aug-05 #grc-s01-p01-aug-05 #de-s01-p01-aug-05"/>
+      <link target="#populus #la-s01-p01-pop #grc-s01-p01-pop #de-s01-p01-pop"/>
+      <link target="#augustus #la-s01-p01-aug-06 #grc-s01-p01-aug-06 #de-s01-p01-aug-06"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="01">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s01-p01">
+            Annos undeviginti natus exercitum privato consilio et privata impensa comparavi, per quem rem publicam a dominatione factionis oppressam in libertatem vindicavi. Eo nomine <orgName xml:id="la-s01-p01-sen" ref="#senatus">senatus</orgName> decretis honorificis in ordinem suum <persName xml:id="la-s01-p01-aug-03" ref="#augustus">me</persName> adlegit, <persName xml:id="la-s01-p01-pansa" ref="#pansa">C. Pansa</persName> et <persName xml:id="la-s01-p01-hirtius" ref="#hirtius">A. Hirtio</persName> consulibus, consularem locum sententiae dicendae tribuens, et imperium <persName xml:id="la-s01-p01-aug-04" ref="#augustus">mihi</persName> dedit. Res publica ne quid detrimenti caperet, <persName xml:id="la-s01-p01-aug-05" ref="#augustus">me</persName> propraetore simul cum consulibus providere iussit. <orgName xml:id="la-s01-p01-pop" ref="#populus">Populus</orgName> autem eodem anno <persName xml:id="la-s01-p01-aug-06" ref="#augustus">me</persName> consulem, cum cos. uterque bello cecidisset, et triumvirum rei publicae constituendae creavit.
+            <!-- Placeholder IDs for alignment where text implies subject but is not explicit pronoun in Latin compared to GR/DE counterparts -->
+            <anchor xml:id="la-s01-p01-aug-01"/>
+            <anchor xml:id="la-s01-p01-aug-02"/>
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s01-p01">
+            Ἐτῶν δεκαεννέα ὢν τὸ στράτευμα <persName xml:id="grc-s01-p01-aug-01" ref="#augustus">ἐμῆι</persName> γνώμηι καὶ <persName xml:id="grc-s01-p01-aug-02" ref="#augustus">ἐμοῖς</persName> ἀναλώμασιν ἡτοίμασα, δι’ οὗ τὰ κοινὰ πράγματα ἐκ τῆς τῶν συνομοσαμένων δουλήας ἠλευθέρωσα. Ἐφ’ οἷς <orgName xml:id="grc-s01-p01-sen" ref="#senatus">ἡ σύνκλητος</orgName> ἐπαινέσασά <persName xml:id="grc-s01-p01-aug-03" ref="#augustus">με</persName> ψηφίσμασι προκατέλεξε τῆι βουλῆι <persName xml:id="grc-s01-p01-pansa" ref="#pansa">Γαϊωι Πάνσᾳ</persName> <persName xml:id="grc-s01-p01-hirtius" ref="#hirtius">Αὔλωι Ἱρτίωι</persName> ὑπάτοις, ἐν τῆι τάξει τῶν ὑπατικῶν ἅμα τὸ συμβουλεύειν δοῦσα, ῥάβδους τ’ <persName xml:id="grc-s01-p01-aug-04" ref="#augustus">ἐμοὶ</persName> ἔδωκεν. Περὶ τὰ δημόσια πράγματα μή τι βλαβῆι, <persName xml:id="grc-s01-p01-aug-05" ref="#augustus">ἐμοὶ</persName> <persName ref="#augustus">με</persName> τὰ τῶν ὑπάτων προνοεῖν ἐπέτρεψεν ἀντὶ στρατηγοῦ ὄντι. <orgName xml:id="grc-s01-p01-pop" ref="#populus">Ὀδὲ δῆμος</orgName> τῶι αὐτῶι ἐνιαυτῶι, ἀμφοτέρων τῶν ὑπάτων πολέωι πεπτωκότων, <persName xml:id="grc-s01-p01-aug-06" ref="#augustus">ἐμὲ</persName> ὕπα τον ἀπέδειξεν καὶ τὴν τῶν τριῶν ἀνδρῶν ἔχον τα ἀρχὴν ἐπὶ τῆι καταστάσει τῶν δημοσίων πρα γμάτων εἵλατο.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s01-p01">
+            Mit neunzehn Jahren habe <persName xml:id="de-s01-p01-aug-01" ref="#augustus">ich</persName> aus privater Initiative und aus eigenen Mitteln ein Heer aufgestellt, mit dem <persName xml:id="de-s01-p01-aug-02" ref="#augustus">ich</persName> dem Staatswesen, das durch die Gewaltherrschaft einer politischen Machtgruppe unterdrückt wurde, die Freiheit wiedergab. Um dessentwillen hat <persName xml:id="de-s01-p01-aug-03" ref="#augustus">mich</persName> der <orgName xml:id="de-s01-p01-sen" ref="#senatus">Senat</orgName> im Konsulatsjahr des <persName xml:id="de-s01-p01-pansa" ref="#pansa">Gaius Pansa</persName> und <persName xml:id="de-s01-p01-hirtius" ref="#hirtius">Aulus Hirtius</persName> <date when="-0043">[43 v. Chr.]</date> mit ehrenden Beschlüssen in seine Körperschaft aufgeommen, <persName xml:id="de-s01-p01-aug-04" ref="#augustus">mir</persName> den Rang eines Konsuls bei den Abstimmungen zuerkannt sowie die militärische Befehlsgewalt übertragen. Dafür, dass der Staat keinen Schaden erleide, hieß er <persName xml:id="de-s01-p01-aug-05" ref="#augustus">mich</persName> im Range eines Propraetors zugleich mit den Konsuln Sorge tragen. Das <orgName xml:id="de-s01-p01-pop" ref="#populus">Volk</orgName> aber wählte <persName xml:id="de-s01-p01-aug-06" ref="#augustus">mich</persName> im gleichen Jahr zum Konsul, als beide Konsuln im Krieg gefallen waren, und zum Triumvirn zur Neuordnung des Staatswesens.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

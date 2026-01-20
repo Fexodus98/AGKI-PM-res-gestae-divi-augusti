@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 9</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition von Res Gestae Divi Augusti, Kapitel 9.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem bereitgestellten Markdown-Text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="pulvinaria">
+        <placeName>Heiligtümer</placeName>
+        <note type="desc">Wörtlich Götterpolster; Orte, an denen Götterbilder bei Festen aufgestellt wurden.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Männer des römischen Staates.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger (cives/πολεῖται).</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die beiden höchsten jährlichen Beamten der römischen Republik.</note>
+      </org>
+      <org xml:id="sacerdotes">
+        <orgName>Priesterkollegien</orgName>
+        <note type="desc">Die vier wichtigsten religiösen Gremien (pontifices, augures, quindecimviri sacris faciundis, septemviri epulonum).</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="ludi">
+        <label>Spiele</label>
+        <note type="desc">Öffentliche Spiele (ludi/θέαι), die zu Ehren der Gesundheit des Kaisers veranstaltet wurden.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+      <link target="#senatus #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+      <link target="#consules #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+      <link target="#sacerdotes #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+      <link target="#populus #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+      <link target="#pulvinaria #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+      <link target="#ludi #la-s09-p01 #grc-s09-p01 #de-s09-p01"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="09">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s09-p01">
+            Vota pro valetudine <persName ref="#augustus">mea</persName> suscipi per <orgName ref="#consules">consules</orgName> et <orgName ref="#sacerdotes">sacerdotes</orgName> <date>quinto quoque anno</date> <orgName ref="#senatus">senatus</orgName> decrevit. Ex iis votis saepe fecerunt vivo <persName ref="#augustus">me</persName> <event ref="#ludi">ludos</event> aliquotiens <orgName ref="#sacerdotes">sacerdotum quattuor amplissima collegia</orgName>, aliquotiens <orgName ref="#consules">consules</orgName>. Privatim etiam et municipatim universi <orgName ref="#populus">cives</orgName> unanimiter continenter apud omnia <placeName ref="#pulvinaria">pulvinaria</placeName> pro valetudine <persName ref="#augustus">mea</persName> supplicaverunt.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s09-p01">
+            Εὐχὰς ὑπὲρ τῆς <persName ref="#augustus">ἐμῆς</persName> σωτηρίας ἀναλαμβάνειν διὰ τῶν <orgName ref="#consules">ὑπάτων</orgName> καὶ <orgName ref="#sacerdotes">ἱερέων</orgName> καθ’ ἑκάστην <date>πεντετηρίδα</date> ἐψηφίσατο ἡ <orgName ref="#senatus">σύνκλητος</orgName>. Ἐκ τούτων τῶν εὐχῶν πλειστάκις ἐγένοντο <event ref="#ludi">θέαι</event>, τοτὲ μὲν ἐκ τῆς συναρχίας τῶν <orgName ref="#sacerdotes">τεσσάρων ἱερέων</orgName>, τοτὲ δὲ ὑπὸ τῶν <orgName ref="#consules">ὑπάτων</orgName>. Καὶ κατ’ ἰδίαν δὲ καὶ κατὰ πόλεις σύνπαντες οἱ <orgName ref="#populus">πολεῖται</orgName> ὁμοθυμαδὸν συνεχῶς ἔθυσαν ὑπὲρ τῆς <persName ref="#augustus">ἐμῆς</persName> σωτηρίας.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s09-p01">
+            Gelübde für <persName ref="#augustus">meine</persName> Gesundheit beschloss der <orgName ref="#senatus">Senat</orgName> durch die <orgName ref="#consules">Konsuln</orgName> und die <orgName ref="#sacerdotes">Priester</orgName> alle <date>fünf Jahre</date> darbringen zu lassen. Aufgrund dieser Gelübde haben öfters bereits zu <persName ref="#augustus">meinen</persName> Lebzeiten das eine Mal die <orgName ref="#sacerdotes">vier obersten Priesterkollegien</orgName>, das andere Mal die <orgName ref="#consules">Konsuln</orgName> <event ref="#ludi">Spiele</event> veranstaltet. Auch privat und in Stadtgemeinden hat die gesamte <orgName ref="#populus">Bürgerschaft</orgName> einmütig und unablässig bei allen <placeName ref="#pulvinaria">Heiligtümern</placeName> für <persName ref="#augustus">meine</persName> Gesundheit Bittfeiern abgehalten.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

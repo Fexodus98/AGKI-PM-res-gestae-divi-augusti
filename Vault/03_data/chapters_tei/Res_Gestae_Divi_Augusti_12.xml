@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Res Gestae Divi Augusti - Kapitel 12</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digitale Edition der Res Gestae Divi Augusti</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Inschriften und literarische Überlieferung.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person xml:id="augustus">
+                <persName>Augustus</persName>
+                <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+            </person>
+            <person xml:id="q-lucretius">
+                <persName>Quintus Lucretius Vespillo</persName>
+                <note type="desc">Römischer Konsul des Jahres 19 v. Chr.</note>
+            </person>
+            <person xml:id="tiberius">
+                <persName>Tiberius Caesar</persName>
+                <note type="desc">Stiefsohn des Augustus und späterer Kaiser, Konsul 13 v. Chr.</note>
+            </person>
+            <person xml:id="p-quintilius">
+                <persName>Publius Quintilius Varus</persName>
+                <note type="desc">Römischer Konsul des Jahres 13 v. Chr., bekannt durch die Varusschlacht.</note>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="rome">
+                <placeName>Rom</placeName>
+                <note type="desc">Hauptstadt des Römischen Reiches.</note>
+            </place>
+            <place xml:id="campania">
+                <placeName>Kampanien</placeName>
+                <note type="desc">Region in Italien südlich von Latium.</note>
+            </place>
+            <place xml:id="hispania">
+                <placeName>Spanien</placeName>
+                <note type="desc">Die iberische Halbinsel, römische Provinz.</note>
+            </place>
+            <place xml:id="gallia">
+                <placeName>Gallien</placeName>
+                <note type="desc">Gebiet des heutigen Frankreichs und angrenzender Regionen.</note>
+            </place>
+            <place xml:id="campus-martius">
+                <placeName>Marsfeld</placeName>
+                <note type="desc">Öffentlicher Platz im alten Rom, dem Gott Mars geweiht.</note>
+            </place>
+            <place xml:id="ara-pacis">
+                <placeName>Ara Pacis Augustae</placeName>
+                <note type="desc">Der Altar des Augustusfriedens in Rom.</note>
+            </place>
+        </listPlace>
+        <listOrg>
+            <org xml:id="senatus">
+                <orgName>Senat</orgName>
+                <note type="desc">Das höchste beratende Staatsorgan des römischen Reiches.</note>
+            </org>
+            <org xml:id="praetores">
+                <orgName>Prätoren</orgName>
+                <note type="desc">Römische Beamte, vorrangig für die Rechtsprechung zuständig.</note>
+            </org>
+            <org xml:id="tribuni">
+                <orgName>Volkstribunen</orgName>
+                <note type="desc">Beamte, die die Interessen der Plebejer vertraten.</note>
+            </org>
+            <org xml:id="sacerdotes">
+                <orgName>Priesterkollegien</orgName>
+                <note type="desc">Verschiedene religiöse Gremien des römischen Staates.</note>
+            </org>
+            <org xml:id="vestales">
+                <orgName>Vestalinnen</orgName>
+                <note type="desc">Priesterinnen der Göttin Vesta, zuständig für das heilige Feuer.</note>
+            </org>
+            <org xml:id="magistratus">
+                <orgName>Beamte</orgName>
+                <note type="desc">Inhaber öffentlicher Ämter im römischen Staat.</note>
+            </org>
+        </listOrg>
+        <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+            <link target="#la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+        </linkGrp>
+        <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+            <link target="#senatus #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#augustus #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#q-lucretius #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#campania #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#hispania #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#gallia #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#rome #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#tiberius #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#p-quintilius #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#ara-pacis #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#campus-martius #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#sacerdotes #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+            <link target="#vestales #la-s12-p1 #grc-s12-p1 #de-s12-p1"/>
+        </linkGrp>
+    </standOff>
+    <text>
+        <body>
+            <div type="chapter" n="12">
+                <div type="version" xml:lang="la">
+                    <p xml:id="la-s12-p1">
+                        Ex <orgName ref="#senatus">senatus</orgName> auctoritate pars <orgName ref="#praetores">praetorum</orgName> et <orgName ref="#tribuni">tribunorum plebi</orgName> cum consule <persName ref="#q-lucretius">Q. Lucretio</persName> et principibus viris obviam <persName ref="#augustus">mihi</persName> missa est in <placeName ref="#campania">Campaniam</placeName>, qui honos ad hoc tempus nemini praeter <persName ref="#augustus">me</persName> est decretus. Cum ex <placeName ref="#hispania">Hispania</placeName> <placeName ref="#gallia">Galliaque</placeName>, rebus in iis provincis prospere gestis, <placeName ref="#rome">Romam</placeName> redi, <date when="-0013"><persName ref="#tiberius">Ti. Nerone</persName> <persName ref="#p-quintilius">P. Qintilio</persName> consulibus</date>, aram <placeName ref="#ara-pacis">Pacis Augustae</placeName> <orgName ref="#senatus">senatus</orgName> pro reditu <persName ref="#augustus">meo</persName> consacrandam censuit ad <placeName ref="#campus-martius">campum Martium</placeName>, in qua <orgName ref="#magistratus">magistratus</orgName> et <orgName ref="#sacerdotes">sacerdotes</orgName> <orgName ref="#vestales">virginesque Vestales</orgName> anniversarium sacrificium facere iussit.
+                    </p>
+                </div>
+                <div type="version" xml:lang="grc">
+                    <p xml:id="grc-s12-p1">
+                        Δόγματι <orgName ref="#senatus">συνκλήτου</orgName> οἱ τὰς μεγίστας ἀρχὰς ἄρχαντες σὺν μέρει στρατηγῶν καὶ δημάρχων μετὰ ὑπάτου <persName ref="#q-lucretius">Κοίντου Λουκρητίου</persName> ἐπέμφθησάν <persName ref="#augustus">μοι</persName> ὑπαντήσοντες μέχρι <placeName ref="#campania">Καμπανίας</placeName>, ἥτις τειμὴ μέχρι τούτου οὐδὲ ἑνὶ εἰ μὴ <persName ref="#augustus">ἐμοὶ</persName> ἐψηφίσθη. Ὅτε ἐξ <placeName ref="#hispania">Ἱσπανίας</placeName> καὶ <placeName ref="#gallia">Γαλατίας</placeName>, τῶν ἐν ταύταις ταῖς ἐπαρχείαις πραγμάτων κατὰ τὰς εὐχὰς τελεσθέντων, εἰς <placeName ref="#rome">Ῥώμην</placeName> ἐπανῆλθον <date when="-0013"><persName ref="#tiberius">Τιβερίωι Νέρωνι</persName> καὶ <persName ref="#p-quintilius">Ποπλίωι Κοιντιλίωι</persName> ὑπάτοις</date>, βωμὸν <placeName ref="#ara-pacis">Εἰρήνης Σεβαστῆς</placeName> ὑπὲρ τῆς <persName ref="#augustus">ἐμῆς</persName> ἐπανόδου ἀφιερωθῆναι ἐψηφίσατο ἡ <orgName ref="#senatus">σύνκλητος</orgName> ἐν <placeName ref="#campus-martius">πεδίωι Ἄρεως</placeName>, πρὸς ὧι τούς τε ἐν ταῖς ἀρχαῖς καὶ τοὺς <orgName ref="#sacerdotes">ἱερεῖς</orgName> τάς τε <orgName ref="#vestales">ἱερείας</orgName> ἐνιαυσίους θυσίας ἐκέλευσε ποιεῖν.
+                    </p>
+                </div>
+                <div type="version" xml:lang="de">
+                    <p xml:id="de-s12-p1">
+                        Auf Beschluss des <orgName ref="#senatus">Senats</orgName> wurde <persName ref="#augustus">mir</persName> eine Anzahl von <orgName ref="#praetores">Praetoren</orgName> und <orgName ref="#tribuni">Volkstribunen</orgName> zusammen mit dem Konsul <persName ref="#q-lucretius">Quintus Lucretius</persName> und den führenden Männern nach <placeName ref="#campania">Kampanien</placeName> entgegengesandt, eine Ehrung, wie sie bis heute für niemanden außer für <persName ref="#augustus">mich</persName> beschlossen worden ist. Als <persName ref="#augustus">ich</persName> aus <placeName ref="#hispania">Spanien</placeName> und <placeName ref="#gallia">Gallien</placeName>, nachdem <persName ref="#augustus">ich</persName> in diesen Provinzen siegreiche Taten vollbracht hatte, im Konsulatsjahr des <persName ref="#tiberius">Tiberius Nero</persName> und <persName ref="#p-quintilius">Publius Quintilius [Varus]</persName> nach <placeName ref="#rome">Rom</placeName> zurückkehrte [<date when="-0013">13 v. Chr.</date>], beschloss der <orgName ref="#senatus">Senat</orgName> zum Dank für <persName ref="#augustus">meine</persName> Rückkehr einen <placeName ref="#ara-pacis">Altar des Augustusfriedens</placeName> zu weihen, und zwar beim <placeName ref="#campus-martius">Marsfeld</placeName>, wo die <orgName ref="#magistratus">Beamten</orgName>, die <orgName ref="#sacerdotes">Priester</orgName> und die <orgName ref="#vestales">Vestalinnen</orgName> jedes Jahr auf Geheiß des <orgName ref="#senatus">Senats</orgName> ein Opfer darbringen sollten.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

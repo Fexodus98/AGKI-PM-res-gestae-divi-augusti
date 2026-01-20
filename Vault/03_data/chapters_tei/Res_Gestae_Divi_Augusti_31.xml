@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 31</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI-Projekt</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriftliche Überlieferung (Monumentum Ancyranum)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="india">
+        <placeName>Indien</placeName>
+        <note type="desc">Subkontinent in Südasien, bekannt für Handelsbeziehungen mit Rom.</note>
+      </place>
+      <place xml:id="tanais">
+        <placeName>Tanais</placeName>
+        <note type="desc">Der Fluss Don, galt in der Antike oft als Grenze zwischen Europa und Asien.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="bastarnae">
+        <orgName>Bastarner</orgName>
+        <note type="desc">Ein antiker Volksstamm im Gebiet zwischen Karpaten und Dnjepr.</note>
+      </org>
+      <org xml:id="scythae">
+        <orgName>Skythen</orgName>
+        <note type="desc">Reiternomadische Völker in der eurasischen Steppe.</note>
+      </org>
+      <org xml:id="sarmatae">
+        <orgName>Sarmaten</orgName>
+        <note type="desc">Ein iranisches Reitervolk, das östlich der Skythen siedelte.</note>
+      </org>
+      <org xml:id="albani">
+        <orgName>Albaner</orgName>
+        <note type="desc">Bewohner des kaukasischen Albaniens (nicht das moderne Albanien).</note>
+      </org>
+      <org xml:id="hiberi">
+        <orgName>Hiberer</orgName>
+        <note type="desc">Bewohner des kaukasischen Iberiens (im heutigen Georgien).</note>
+      </org>
+      <org xml:id="medi">
+        <orgName>Meder</orgName>
+        <note type="desc">Ein iranisches Volk im Nordwesten des heutigen Iran.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#india #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#populus-romanus #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#bastarnae #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#scythae #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#sarmatae #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#tanais #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#albani #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#hiberi #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+      <link target="#medi #la-s31-p1 #grc-s31-p1 #de-s31-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="31">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s31-p1">
+            Ad <persName ref="#augustus">me</persName> ex <placeName ref="#india">India</placeName> regum legationes saepe missae sunt non visae ante id tempus apud quemquam <orgName ref="#populus-romanus">Romanorum</orgName> ducem. <persName ref="#augustus">Nostram</persName> amicitiam appetiverunt per legatos <orgName ref="#bastarnae">Bastarnae</orgName> <orgName ref="#scythae">Scythae</orgName>que et <orgName ref="#sarmatae">Sarmatarum</orgName> qui sunt citra flumen <placeName ref="#tanais">Tanaim</placeName> et ultra reges, <orgName ref="#albani">Albanorum</orgName>que rex et <orgName ref="#hiberi">Hiberorum</orgName> et <orgName ref="#medi">Medorum</orgName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s31-p1">
+            Πρὸς <persName ref="#augustus">ἐμὲ</persName> ἐξ <placeName ref="#india">Ἰνδίας</placeName> βασιλέων πρεσβεῖαι πολλάκις ἀπεστάλησαν, οὐδέποτε πρὸ τούτου χρόνου ὀφθεῖσαι παρὰ <orgName ref="#populus-romanus">Ῥωμαίων</orgName> ηγεμόνι. Τὴν <persName ref="#augustus">ἡμετέραν</persName> φιλίαν ἠξίωσαν διὰ πρέσβεων <orgName ref="#bastarnae">Βαστάρναι</orgName> καὶ <orgName ref="#scythae">Σκύθαι</orgName> καὶ <orgName ref="#sarmatae">Σαρματῶν</orgName> οἱ ἐπιτάδε ὄντες τοῦ <placeName ref="#tanais">Τανάιδος</placeName> ποταμοῦ καὶ οἱ πέραν δὲ βασιλεῖς, καὶ <orgName ref="#albani">Ἀλβανῶν</orgName> δὲ καὶ <orgName ref="#hiberi">Ἰβήρων</orgName> καὶ <orgName ref="#medi">Μήδων</orgName> βασιλεῖς.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s31-p1">
+            Zu <persName ref="#augustus">mir</persName> wurden oftmals Gesandtschaften der Könige <placeName ref="#india">Indiens</placeName> geschickt, die man noch niemals zuvor bei einem anderen <orgName ref="#populus-romanus">römischen</orgName> Feldherrn erblickt hatte. <persName ref="#augustus">Unsere</persName> Freundschaft suchten durch Gesandtschaften die <orgName ref="#bastarnae">Bastarner</orgName> und <orgName ref="#scythae">Skythen</orgName> sowie die Könige der <orgName ref="#sarmatae">Sarmaten</orgName>, die an beiden Ufern des Flusses <placeName ref="#tanais">Tanaïs</placeName> leben, zu erhalten, desgleichen die Könige der <orgName ref="#albani">Albaner</orgName>, der <orgName ref="#hiberi">Hiberer</orgName> und <orgName ref="#medi">Meder</orgName>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

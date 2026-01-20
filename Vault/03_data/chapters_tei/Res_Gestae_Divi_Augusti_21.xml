@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 21</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition der Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften und literarische Überlieferung.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="marcellus">
+        <persName>Marcus Marcellus</persName>
+        <note type="desc">Marcus Claudius Marcellus, Neffe und Schwiegersohn des Augustus.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="temple-mars-ultor">
+        <placeName>Tempel des Mars Ultor</placeName>
+        <note type="desc">Tempel des rächenden Mars auf dem Augustusforum.</note>
+      </place>
+      <place xml:id="forum-augustum">
+        <placeName>Augustusforum</placeName>
+        <note type="desc">Das zweite der Kaiserforen in Rom.</note>
+      </place>
+      <place xml:id="temple-apollo">
+        <placeName>Apollotempel auf dem Palatin</placeName>
+        <note type="desc">Von Augustus geweihter Tempel für Apollo.</note>
+      </place>
+      <place xml:id="marcellus-theater">
+        <placeName>Marcellustheater</placeName>
+        <note type="desc">Theater in Rom, benannt nach Marcus Marcellus.</note>
+      </place>
+      <place xml:id="capitolium">
+        <placeName>Kapitol</placeName>
+        <note type="desc">Einer der sieben Hügel Roms mit dem Jupitertempel.</note>
+      </place>
+      <place xml:id="temple-caesar">
+        <placeName>Tempel des Divus Iulius</placeName>
+        <note type="desc">Tempel für den vergöttlichten Gaius Iulius Caesar auf dem Forum Romanum.</note>
+      </place>
+      <place xml:id="temple-vesta">
+        <placeName>Tempel der Vesta</placeName>
+        <note type="desc">Heiligtum der Vesta auf dem Forum Romanum.</note>
+      </place>
+      <place xml:id="italy">
+        <placeName>Italien</placeName>
+        <note type="desc">Das Kernland des Römischen Reiches.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="municipia">
+        <orgName>Städte (Municipia)</orgName>
+        <note type="desc">Italische Landstädte mit römischem Bürgerrecht.</note>
+      </org>
+      <org xml:id="coloniae">
+        <orgName>Kolonien</orgName>
+        <note type="desc">Siedlungen römischer Bürger, oft Veteranenkolonien.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation">
+      <link target="#la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention">
+      <link target="#augustus #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#marcellus #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#temple-mars-ultor #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#forum-augustum #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#temple-apollo #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#capitolium #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#temple-caesar #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#temple-vesta #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+      <link target="#italy #la-s21-p1 #grc-s21-p1 #de-s21-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="21">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s21-p1">
+            In privato solo <placeName ref="#temple-mars-ultor">Martis Ultoris templum</placeName> <placeName ref="#forum-augustum">forumque Augustum</placeName> ex manibiis <persName ref="#augustus">feci</persName>. <placeName ref="#marcellus-theater">Theatrum</placeName> ad <placeName ref="#temple-apollo">aedem Apollinis</placeName> in solo magna ex parte a privatis empto <persName ref="#augustus">feci</persName>, quod sub nomine <persName ref="#marcellus">M. Marcelli</persName> generi <persName ref="#augustus">mei</persName> esset. Dona ex manibiis in <placeName ref="#capitolium">Capitolio</placeName> et in <placeName ref="#temple-caesar">aede divi Iuli</placeName> et in <placeName ref="#temple-apollo">aede Apollinis</placeName> et in <placeName ref="#temple-vesta">aede Vestae</placeName> et in <placeName ref="#temple-mars-ultor">templo Martis Ultoris</placeName> consacravi, quae <persName ref="#augustus">mihi</persName> constiterunt HS circiter milliens. Auri coronari pondo triginta et quinque millia <orgName ref="#municipia">municipiis</orgName> et <orgName ref="#coloniae">colonis</orgName> <placeName ref="#italy">Italiae</placeName> conferentibus ad triumphos <persName ref="#augustus">meos</persName> quintum <persName ref="#augustus">consul</persName> remisi, et postea, quotienscumque <persName ref="#augustus">imperator</persName> appellatus <persName ref="#augustus">sum</persName>, aurum coronarium non <persName ref="#augustus">accepi</persName> decernentibus <orgName ref="#municipia">municipiis</orgName> et <orgName ref="#coloniae">colonis</orgName> aeque benigne adque antea decreverant.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s21-p1">
+            Ἐν ἰδιωτικῶι ἐδάφει <placeName ref="#temple-mars-ultor">Ἄρεως Ἀμύντορος</placeName> <placeName ref="#forum-augustum">ἀγοράν τε Σεβαστὴν</placeName> ἐκ λαφύρων <persName ref="#augustus">ἐπόησα</persName>. <placeName ref="#marcellus-theater">Θέατρον</placeName> πρὸς τῶι <placeName ref="#temple-apollo">Ἀπόλλωνος ναῶι</placeName> ἐπὶ ἐδάφους ἐκ πλείστου μέρους ἀγορασθέντος <persName ref="#augustus">ἀνήγειρα</persName> ἐπὶ ὀνόματος <persName ref="#marcellus">Μαρκέλλου</persName> τοῦ γαμβροῦ <persName ref="#augustus">μου</persName>. Ἀναθέματα ἐκ λαφύρων ἐν <placeName ref="#capitolium">Καπιτωλίωι</placeName> καὶ <placeName ref="#temple-caesar">ναῶι Ἰουλίωι</placeName> καὶ <placeName ref="#temple-apollo">ναῶι Ἀπόλλωνος</placeName> καὶ <placeName ref="#temple-vesta">Ἑστίας</placeName> καὶ <placeName ref="#temple-mars-ultor">Ἄρεως</placeName> ἀφιέρωσα, ἃ <persName ref="#augustus">ἐμοὶ</persName> κατέστη ἐνγὺς μυριάδων δισχειλίων πεντακοσίων. Εἰς χρυσοὺν στέφανον λειτρῶν τρισμυρίων πεντακισχειλίων καταφερούσαις ταῖς ἐν <placeName ref="#italy">Ἰταλίαι</placeName> <orgName ref="#municipia">πολειτείαις</orgName> καὶ <orgName ref="#coloniae">ἀποικίαις</orgName> συνεχώρησα τὸ πέμπτον <persName ref="#augustus">ὑπατεύων</persName>, καὶ ὑστερον ὁσάκις <persName ref="#augustus">αὐτοκράτωρ</persName> <persName ref="#augustus">προσηγορεύθην</persName>, τὰς εἰς τὸν στέφανον ἐπαγγελίας οὐκ <persName ref="#augustus">ἔλαβον</persName> ψηφιζομένων τῶν <orgName ref="#municipia">πολειτειῶν</orgName> καὶ <orgName ref="#coloniae">ἀποικιῶν</orgName> μετὰ τῆς αὐτῆς προθυμίας, καθάπερ καὶ ἐψήφιστο πρότερον.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s21-p1">
+            Auf Privatgrund und aus der Kriegsbeute erbaute <persName ref="#augustus">ich</persName> den <placeName ref="#temple-mars-ultor">Tempel des Mars Ultor</placeName> und das <placeName ref="#forum-augustum">Augustusforum</placeName>. Das <placeName ref="#marcellus-theater">Theater</placeName> am <placeName ref="#temple-apollo">Apollotempel</placeName> ließ <persName ref="#augustus">ich</persName> auf einem Grund erbauen, der großenteils aus Privathand aufgekauft war. Es sollte den Namen <persName ref="#augustus">meines</persName> Schwiegersohnes <persName ref="#marcellus">Marcus Marcellus</persName> tragen. Weihgeschenke aus der Kriegsbeute ließ <persName ref="#augustus">ich</persName> auf dem <placeName ref="#capitolium">Kapitol</placeName>, im <placeName ref="#temple-caesar">Tempel des vergöttlichten Julius</placeName>, im <placeName ref="#temple-apollo">Apollotempel</placeName>, im <placeName ref="#temple-vesta">Heiligtum der Vesta</placeName> sowie im <placeName ref="#temple-mars-ultor">Tempel des Mars Ultor</placeName> darbringen, die <persName ref="#augustus">mich</persName> etwa auf 100 Millionen Sesterzen zu stehen kamen. An Kranzgold habe <persName ref="#augustus">ich</persName> in <persName ref="#augustus">meinem</persName> <date when="-0029">fünften Konsulat [29 v. Chr.]</date> 35 000 Pfund Gold, das von den <orgName ref="#municipia">Städten</orgName> und <orgName ref="#coloniae">Neuansiedlungen</orgName> <placeName ref="#italy">Italiens</placeName> zu <persName ref="#augustus">meinen</persName> Triumphen zusammengebracht worden war, zurückgewiesen. Auch später nahm <persName ref="#augustus">ich</persName>, sooft <persName ref="#augustus">ich</persName> zum <persName ref="#augustus">Imperator</persName> ausgerufen wurde, kein Kranzgold an, das <persName ref="#augustus">mir</persName> von den <orgName ref="#municipia">Stadt-</orgName> und <orgName ref="#coloniae">Landgemeinden</orgName> ebenso freigebig wie früher zugestanden wurde.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

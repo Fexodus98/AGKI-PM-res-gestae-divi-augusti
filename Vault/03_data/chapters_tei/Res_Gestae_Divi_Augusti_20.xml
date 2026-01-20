@@ -1,0 +1,160 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 20</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Digital Edition Project</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inscriptional evidence and literary tradition.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="julius-caesar">
+        <persName>Gaius Iulius Caesar</persName>
+        <note type="desc">Römischer Staatsmann und Feldherr, Adoptivvater von Augustus.</note>
+      </person>
+      <person xml:id="pompeius">
+        <persName>Sextus Pompeius</persName>
+        <note type="desc">Römischer Feldherr und Staatsmann, Erbauer des ersten steinernen Theaters in Rom.</note>
+      </person>
+      <person xml:id="gaius">
+        <persName>Gaius Caesar</persName>
+        <note type="desc">Enkel und Adoptivsohn des Augustus.</note>
+      </person>
+      <person xml:id="lucius">
+        <persName>Lucius Caesar</persName>
+        <note type="desc">Enkel und Adoptivsohn des Augustus.</note>
+      </person>
+      <person xml:id="castor">
+        <persName>Castor</persName>
+        <note type="desc">Einer der Dioskuren (Götterzwillinge).</note>
+      </person>
+      <person xml:id="saturn">
+        <persName>Saturn</persName>
+        <note type="desc">Römische Gottheit des Ackerbaus.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="capitolium">
+        <placeName>Kapitol</placeName>
+        <note type="desc">Einer der sieben Hügel Roms, Standort des Juppiter-Tempels.</note>
+      </place>
+      <place xml:id="pompeius-theater">
+        <placeName>Pompeiustheater</placeName>
+        <note type="desc">Das erste dauerhafte Theatergebäude aus Stein in Rom.</note>
+      </place>
+      <place xml:id="aqua-marcia">
+        <placeName>Aqua Marcia</placeName>
+        <note type="desc">Eine der wichtigsten Wasserleitungen (Aquädukte) Roms.</note>
+      </place>
+      <place xml:id="forum-julium">
+        <placeName>Forum Iulium</placeName>
+        <note type="desc">Das von Caesar begonnene und von Augustus vollendete Forum.</note>
+      </place>
+      <place xml:id="basilica-julia">
+        <placeName>Basilica Iulia</placeName>
+        <note type="desc">Großes öffentliches Gebäude am Forum Romanum für Gerichtsverhandlungen und Geschäfte.</note>
+      </place>
+      <place xml:id="temple-castor">
+        <placeName>Castortempel</placeName>
+        <note type="desc">Tempel der Dioskuren auf dem Forum Romanum.</note>
+      </place>
+      <place xml:id="temple-saturn">
+        <placeName>Saturntempel</placeName>
+        <note type="desc">Tempel am Forum Romanum, der auch als Staatskasse diente.</note>
+      </place>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="via-flaminia">
+        <placeName>Via Flaminia</placeName>
+        <note type="desc">Wichtige Römerstraße, die von Rom nach Ariminum führte.</note>
+      </place>
+      <place xml:id="ariminum">
+        <placeName>Ariminum</placeName>
+        <note type="desc">Heutiges Rimini, Endpunkt der Via Flaminia.</note>
+      </place>
+      <place xml:id="pons-mulvius">
+        <placeName>Mulvische Brücke</placeName>
+        <note type="desc">Brücke über den Tiber im Norden Roms.</note>
+      </place>
+      <place xml:id="pons-minucius">
+        <placeName>Minucische Brücke</placeName>
+        <note type="desc">Eine Brücke an der Via Flaminia.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Das oberste Beratungsorgan des römischen Staates.</note>
+      </org>
+      <org xml:id="dii">
+        <orgName>Götter</orgName>
+        <note type="desc">Die Gesamtheit der unsterblichen Götter.</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die höchsten Beamten der römischen Republik.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="date-28" when="-0028">
+        <label>28 v. Chr.</label>
+        <note type="desc">Sechstes Konsulat des Augustus.</note>
+      </event>
+      <event xml:id="date-27" when="-0027">
+        <label>27 v. Chr.</label>
+        <note type="desc">Siebtes Konsulat des Augustus.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#capitolium #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#pompeius-theater #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#augustus #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#aqua-marcia #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#forum-julium #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#basilica-julia #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#temple-castor #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#temple-saturn #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#julius-caesar #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#senatus #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#rome #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#via-flaminia #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+      <link target="#ariminum #la-s20-p1 #grc-s20-p1 #de-s20-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="20">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s20-p1">
+            <placeName ref="#capitolium">Capitolium</placeName> et <placeName ref="#pompeius-theater"><persName ref="#pompeius">Pompeium</persName> theatrum</placeName> utrumque opus impensa grandi refeci sine ulla inscriptione nominis <persName ref="#augustus">mei</persName>. Rivos aquarum compluribus locis vetustate labentes refeci, et aquam quae <placeName ref="#aqua-marcia">Marcia</placeName> appellatur duplicavi fonte novo in rivum eius inmisso. <placeName ref="#forum-julium">Forum Iulium</placeName> et <placeName ref="#basilica-julia">basilicam</placeName> quae fuit inter <placeName ref="#temple-castor">aedem <persName ref="#castor">Castoris</persName></placeName> et <placeName ref="#temple-saturn">aedem <persName ref="#saturn">Saturni</persName></placeName>, coepta profligataque opera a <persName ref="#julius-caesar">patre</persName> <persName ref="#augustus">meo</persName>, perfeci et eandem <placeName ref="#basilica-julia">basilicam</placeName> consumptam incendio, ampliato eius solo, sub titulo nominis <persName ref="#gaius">filiorum</persName> <persName ref="#augustus">meorum</persName> incohavi, et, si <persName ref="#augustus">vivus</persName> non perfecissem, perfici ab heredibus <persName ref="#augustus">meis</persName> iussi. Duo et octoginta templa <orgName ref="#dii">deum</orgName> in <placeName ref="#rome">urbe</placeName> <orgName ref="#consules">consul</orgName> <event ref="#date-28">sextum</event> ex auctoritate <orgName ref="#senatus">senatus</orgName> refeci nullo praetermisso quod eo tempore refici debebat. <orgName ref="#consules">Consul</orgName> <event ref="#date-27">septimum</event> <placeName ref="#via-flaminia">viam Flaminiam</placeName> ab <placeName ref="#rome">urbe</placeName> <placeName ref="#ariminum">Ariminum</placeName> refeci pontesque omnes praeter <placeName ref="#pons-mulvius">Mulvium</placeName> et <placeName ref="#pons-minucius">Minucium</placeName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s20-p1">
+            <placeName ref="#capitolium">Καπιτώλιον</placeName> καὶ τὸ <placeName ref="#pompeius-theater"><persName ref="#pompeius">Πομπηίου</persName> θέατρον</placeName> ἑκάτερον τὸ ἔργον ἀναλώμασιν μεγίστοις ἐπεσκεύασα ἄνευ ἐπιγραφῆς τοῦ <persName ref="#augustus">ἐμοῦ</persName> ὀνόματος. Ἀγωγοὺς ὑδάτων ἐν πλείστοις τόποις τῆι παλαιότητι ὀλισθάνοντας ἐπεσκεύασα καὶ ὑδωρ τὸ καλούμενον <placeName ref="#aqua-marcia">Μάρκιον</placeName> ἐδίπλωσα πηγὴν νέαν εἰς τὸ ῥεῖθρον αὐτοῦ ἐποχετεύσας. <placeName ref="#forum-julium">Ἀγορὰν Ἰουλίαν</placeName> καὶ <placeName ref="#basilica-julia">βασιλικὴν</placeName> τὴν μεταξὺ τοῦ τε <placeName ref="#temple-castor">ναοῦ τῶν <persName ref="#castor">Διοσκόρων</persName></placeName> καὶ τοῦ <placeName ref="#temple-saturn"><persName ref="#saturn">Κρόνου</persName></placeName> καταβεβλημένα ἔργα ὑπὸ τοῦ <persName ref="#julius-caesar">πατρός</persName> <persName ref="#augustus">μου</persName> ἐτελείωσα καὶ τὴν αὐτὴν <placeName ref="#basilica-julia">βασιλικὴν</placeName> καυθεῖσαν ἐπὶ αὐξηθέντι ἐδάφει αὐτῆς ἐξ ἐπιγραφῆς ὀνόματος τῶν <persName ref="#augustus">ἐμῶν</persName> <persName ref="#gaius">υἱῶν</persName> ὑπηρξάμην καὶ εἰ μὴ <persName ref="#augustus">αὺτὸς</persName> τετελειώκοιμι, τελειωθῆναι ὑπὸ τῶν <persName ref="#augustus">ἐμῶν</persName> κληρονόμων ἐπέταξα. Δύo καὶ ὸγδοήκοντα ναοὺς ἐν τῆι <placeName ref="#rome">πόλει</placeName> <event ref="#date-28">ἕκτον ὑπατος</event> δόγματι <orgName ref="#senatus">συνκλήτου</orgName> ἐπεσκεύασὰ οὐδένα περιλιπών, ὃς ἐκείνωι τῶι χρόνωι ἐπισκευῆς ἐδεῖτο. <orgName ref="#consules">Ὕπατος</orgName> <event ref="#date-27">ἕβδομον</event> <placeName ref="#via-flaminia">ὁδὸν Φλαμινίαν</placeName> ἀπὸ <placeName ref="#rome">Ῥώμης</placeName> <placeName ref="#ariminum">Ἀρίμινον</placeName> γεφύρας τε τὰς ἐν αὐτῆι πάσας ἔξω δυεῖν τῶν μὴ ἐπιδεομένων ἐπισκευῆς ἐπόησα.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s20-p1">
+            Den Tempel auf dem <placeName ref="#capitolium">Kapitol</placeName> und das <placeName ref="#pompeius-theater">Pompeiustheater</placeName>, diese beiden Bauten ließ <persName ref="#augustus">ich</persName> mit gewaltigem Aufwand wiederherstellen, ohne irgendeine Inschrift mit <persName ref="#augustus">meinem</persName> Namen. Die Wasserleitungen, die an zahlreichen Stellen bereits wegen ihres Alters schadhaft geworden waren, ließ <persName ref="#augustus">ich</persName> wiederherstellen, und die Leitung, die die <placeName ref="#aqua-marcia">Marcia</placeName> genannt wird, habe <persName ref="#augustus">ich</persName> auf das doppelte Fassungsvermögen gebracht, indem <persName ref="#augustus">ich</persName> eine neue Quelle zuleiten ließ. Das <placeName ref="#forum-julium">Forum Julium</placeName> und die <placeName ref="#basilica-julia">Basilica</placeName>, die sich zwischen dem <placeName ref="#temple-castor"><persName ref="#castor">Castor</persName>-</placeName> und dem <placeName ref="#temple-saturn"><persName ref="#saturn">Saturntempel</persName></placeName> befindet, Bauten, die von <persName ref="#augustus">meinem</persName> <persName ref="#julius-caesar">Vater</persName> begonnen und fast zu Ende geführt worden waren, habe <persName ref="#augustus">ich</persName> vollendet, und als diese <placeName ref="#basilica-julia">Basilica</placeName> durch einen Brand zerstört worden war, habe <persName ref="#augustus">ich</persName> ihren Grundriss erweitert und unter dem Namen <persName ref="#augustus">meiner</persName> <persName ref="#gaius">Söhne</persName> erneut mit ihrem Bau begonnen. Falls <persName ref="#augustus">ich</persName> sie zu <persName ref="#augustus">meinen</persName> Lebzeiten nicht vollenden kann, habe <persName ref="#augustus">ich</persName> angeordnet, dass sie von <persName ref="#augustus">meinen</persName> Erben fertiggestellt wird. Göttertempel habe <persName ref="#augustus">ich</persName> in <placeName ref="#rome">Rom</placeName> auf <orgName ref="#senatus">Senatsbeschluss</orgName> wiederherstellen lassen, als <persName ref="#augustus">ich</persName> zum <event ref="#date-28">sechsten Mal Konsul</event> war, und keinen dabei ausgelassen, der zu diesem Zeitpunkt erneuerungsbedürftig war. In <persName ref="#augustus">meinem</persName> <event ref="#date-27">siebten Konsulat</event> ließ <persName ref="#augustus">ich</persName> die <placeName ref="#via-flaminia">Via Flaminia</placeName> von <placeName ref="#rome">Rom</placeName> bis <placeName ref="#ariminum">Ariminum</placeName> ausbessern sowie alle Brücken, ausgenommen die <placeName ref="#pons-mulvius">Mulvische</placeName> und die <placeName ref="#pons-minucius">Minucische</placeName>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

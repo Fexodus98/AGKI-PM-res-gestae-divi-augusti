@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 17</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Projektausgabe</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem bereitgestellten Markdown-Text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Der erste römische Kaiser, Geburtsname Gaius Octavius.</note>
+      </person>
+      <person xml:id="lepidus">
+        <persName>Marcus Aemilius Lepidus</persName>
+        <note type="desc">Römischer Konsul im Jahr 6 n. Chr.</note>
+      </person>
+      <person xml:id="arruntius">
+        <persName>Lucius Arruntius</persName>
+        <note type="desc">Römischer Konsul im Jahr 6 n. Chr.</note>
+      </person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="aerarium">
+        <orgName>Staatskasse</orgName>
+        <note type="desc">Das Aerarium Saturni, die staatliche Hauptkasse im Tempel des Saturn.</note>
+      </org>
+      <org xml:id="aerarium-militare">
+        <orgName>Militärkasse</orgName>
+        <note type="desc">Das Aerarium Militare, eine von Augustus geschaffene Kasse zur Versorgung von Veteranen.</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die höchsten Beamten der römischen Republik und Kaiserzeit.</note>
+      </org>
+      <org xml:id="milites">
+        <orgName>Soldaten</orgName>
+        <note type="desc">Die Angehörigen des römischen Heeres.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+      <link target="#lepidus #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+      <link target="#arruntius #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+      <link target="#aerarium #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+      <link target="#aerarium-militare #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+      <link target="#consules #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+      <link target="#milites #la-s17-p1 #grc-s17-p1 #de-s17-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="17">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s17-p1">
+            Quater pecunia <persName ref="#augustus">mea</persName> iuvi <orgName ref="#aerarium">aerarium</orgName>, ita ut sestertium milliens et quingentiens ad eos qui praerant <orgName ref="#aerarium">aerario</orgName> detulerim. Et <persName ref="#lepidus">M. Lepido</persName> et <persName ref="#arruntius">L. Arruntio</persName> <orgName ref="#consules">cos.</orgName> in <orgName ref="#aerarium-militare">aerarium militare</orgName>, quod ex consilio <persName ref="#augustus">meo</persName> constitutum est ex quo praemia darentur <orgName ref="#milites">militibus</orgName> qui vicena aut plura stipendia emeruissent, HS milliens et septingentiens ex patrimonio <persName ref="#augustus">meo</persName> detuli.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s17-p1">
+            Τετράκις χρήμὰσιν <persName ref="#augustus">ἐμοῖς</persName> ἀνέλαβον τὸ <orgName ref="#aerarium">αἰράριον</orgName>, εἰς ὃ κατήνενκα χειλίας ἑπτακοσίας πεντήκοντα μυριάδας. Καὶ <persName ref="#lepidus">Μάρκωι Λεπίδωι</persName> καὶ <persName ref="#arruntius">Λευκίωι Ἀρρουντίωι</persName> <orgName ref="#consules">ὑπάτοις</orgName> εἰς τὸ <orgName ref="#aerarium-militare">στρατιωτικὸν αἰράριον</orgName>, ὃ τῆι <persName ref="#augustus">ἐμῆι</persName> γνώμηι κατέστη, ἵνα ἐξ αὐτοῦ αἱ δωρεαὶ εἰς έπειτα τοῖς <persName ref="#augustus">ἐμοῖς</persName> <orgName ref="#milites">στρατιώταις</orgName> δίδωνται, οἳ εἴκοσιν ἐνιαυτοὺς ἢ πλείονας ἐστρατεύσαντο, μυριάδας τετράκις χειλίας διακοσίας πεντήκοντα ἐκ τῆς <persName ref="#augustus">ἐμῆς</persName> ὑπάρχεως κατήνενκα.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s17-p1">
+            Viermal habe <persName ref="#augustus">ich</persName> mit <persName ref="#augustus">meinem</persName> eigenen Vermögen die <orgName ref="#aerarium">Staatskasse</orgName> saniert, indem <persName ref="#augustus">ich</persName> 150 Millionen Sesterzen den Kassenverwaltern übergab. Und unter den <orgName ref="#consules">Konsuln</orgName> <persName ref="#lepidus">Marcus Lepidus</persName> und <persName ref="#arruntius">Lucius Arruntius</persName> [<date when="0006">6 n. Chr.</date>] habe <persName ref="#augustus">ich</persName> zur <orgName ref="#aerarium-militare">Militärkasse</orgName>, die auf <persName ref="#augustus">meinen</persName> Vorschlag hin eingerichtet wurde, um aus ihr den <orgName ref="#milites">Soldaten</orgName> eine Abfindung zu zahlen, die zwanzig oder mehr Dienstjahre abgeleistet hatten, aus <persName ref="#augustus">meiner</persName> Privatschatulle 170 Millionen Sesterzen beigesteuert.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

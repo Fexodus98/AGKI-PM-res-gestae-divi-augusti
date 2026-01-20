@@ -1,0 +1,75 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 15</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition im TEI-Format</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem bereitgestellten Markdown-Text.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustor</persName>
+        <note type="desc">Imperator Caesar Divi Filius Augustus, der erste römische Kaiser.</note>
+      </person>
+      <person xml:id="julius-caesar">
+        <persName>Gaius Iulius Caesar</persName>
+        <note type="desc">Adoptivvater von Augustus, im Text als sein Vater bezeichnet.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Die Hauptstadt des Römischen Reiches.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus-romanus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger (Populus Romanus).</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Volk</orgName>
+        <note type="desc">Die städtische Plebs bzw. die Empfänger öffentlicher Getreidespenden.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s15-p1 #grc-s15-p1 #de-s15-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s15-p1 #grc-s15-p1 #de-s15-p1"/>
+      <link target="#julius-caesar #la-s15-p1 #grc-s15-p1 #de-s15-p1"/>
+      <link target="#populus-romanus #la-s15-p1 #grc-s15-p1 #de-s15-p1"/>
+      <link target="#populus #la-s15-p1 #grc-s15-p1 #de-s15-p1"/>
+      <link target="#rome #de-s15-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="15">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s15-p1">
+            <orgName ref="#populus-romanus">Plebei Romanae</orgName> viritim HS trecenos numeravi ex testamento <persName ref="#julius-caesar">patris</persName> <persName ref="#augustus">mei</persName> et nomine <persName ref="#augustus">meo</persName> HS quadringenos ex bellorum manibiis <date when="-0029">consul quintum</date> dedi, iterum autem in <date when="-0024">consulatu decimo</date> ex patrimonio <persName ref="#augustus">meo</persName> HS quadringenos congiari viritim pernumeravi, et <date when="-0023">consul undecimum</date> duodecim frumentationes frumento privatim coempto emensus sum, et <date when="-0012">tribunicia potestate duodecimum</date> quadringenos nummos tertium viritim dedi. Quae <persName ref="#augustus">mea</persName> congiaria pervenerunt ad hominum millia numquam minus quinquaginta et ducenta. <date when="-0005">Tribuniciae potestatis duodevicensimum, consul XII</date>, trecentis et viginti millibus <orgName ref="#populus">plebis urbanae</orgName> sexagenos denarios viritim dedi. Et colonis militum <persName ref="#augustus">meorum</persName> <date when="-0029">consul quintum</date> ex manibiis viritim millia nummum singula dedi; acceperunt id triumphale congiarium in colonis hominum circiter centum et viginti millia. <date when="-0002">Consul tertium decimum</date> sexagenos denarios <orgName ref="#populus">plebei</orgName> quae tum frumentum publicum accipiebat dedi; ea millia hominum paullo plura quam ducenta fuerunt.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s15-p1">
+            <orgName ref="#populus-romanus">Δήμωι Ῥωμαίων</orgName> κατ’ ἄνδρα ἑβδομήκοντα πέντε δηνάρια ἑκάστωι ἠρίθμησα κατὰ διαθήκην τοῦ <persName ref="#julius-caesar">πατρός</persName> <persName ref="#augustus">μου</persName>, καὶ τῶι <persName ref="#augustus">ἐμῶι</persName> ὀνόματι ἐκ λαφύρων πολέμου ἀνὰ ἑκατὸν δηνάρια <date when="-0029">πέμπτον ὑπατος</date> ἔδωκα, πάλιν τε <date when="-0024">δέκατον ὑπατεύων</date> ἐκ τῆς <persName ref="#augustus">ἐμῆς</persName> ὑπάρξεως ἀνὰ δηνάρια ἑκατὸν ἠρίθμησα, καὶ <date when="-0023">ἑνδέκατον ὑπατος</date> δώδεκα σειτομετρήσεις ἐκ τοῦ <persName ref="#augustus">ἐμοῦ</persName> βίου ἀπεμέτρησα, καὶ <date when="-0012">δημαρχικῆς ἐξουσίας τὸ δωδέ6κατον</date> ἑκατὸν δηνάρια κατ’ ἄνδρα ἔδωκα· αἵτι νες <persName ref="#augustus">ἐμαὶ</persName> ἐπιδόσεις οὐδέποτε ἧσσον ἣλθον εἰς ἄνδρας μυριάδων εἴκοσι πέντε. <date when="-0005">Δημαρχικῆς ἐχουσίας ὀκτωκαιδέκατον, ὑπατος δωδέκατον</date> τριάκοντα τρισὶ μυριάσιν ὄχλου πολειτικοῦ ἑξήκοντα δηνάρια κατ’ ἄνδρα ἔδωκα, καὶ ἀποίκοις στρατιωτῶν <persName ref="#augustus">ἐμῶν</persName> <date when="-0029">πέμπτον ὑπατος</date> ἐκ λαφύρων κατὰ ἄνδρα ἀνὰ διακόσια πεντήκοντα δηνάρια ἔδωκα ἔλαβον ταύτην τὴν δωρεὰν ἐν ταῖς ἀποικίαις ἀνθρώπων μυριάδες πλεῖον δώδεκα. <date when="-0002">Ὕπατος τρισ16καιδέκατον</date> ἀνὰ ἑξηκοντα δηνάρια τῶι σειτομετρου μένωι <orgName ref="#populus">δήμωι</orgName> ἔδωκα οὗτος ἀριθμὸς πλείων εἴκοσι μυριάδων ὑπῆρχεν.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s15-p1">
+            Dem <orgName ref="#populus-romanus">Volk</orgName> in <placeName ref="#rome">Rom</placeName> habe <persName ref="#augustus">ich</persName> pro Kopf 300 Sesterzen auszahlen lassen gemäß dem Testament <persName ref="#augustus">meines</persName> <persName ref="#julius-caesar">Vaters</persName>. In <persName ref="#augustus">meinem</persName> eigenen Namen habe <persName ref="#augustus">ich</persName> während <date when="-0029">meines fünften Konsulats [29 v. Chr.]</date> jedem einzelnen 400 Sesterzen aus der Kriegsbeute zugewiesen, ein weiteres Mal habe <persName ref="#augustus">ich</persName> in <date when="-0024">meinem zehnten Konsulat [24 v. Chr.]</date> aus <persName ref="#augustus">meinem</persName> ererbten Vermögen pro Kopf 400 Sesterzen als Spende auszahlen lassen. In <date when="-0023">meinem elften Konsulat [23 v. Chr.]</date> habe <persName ref="#augustus">ich</persName> zwölf Getreidespenden austeilen lassen, zu denen das Getreide aus <persName ref="#augustus">meinem</persName> Privatvermögen aufgekauft worden war. Im <date when="-0012">12. Jahr <persName ref="#augustus">meiner</persName> tribunizischen Amtsgewalt [12 v. Chr.]</date> habe <persName ref="#augustus">ich</persName> zum dritten Mal 400 Sesterzen pro Kopf verteilt. Diese <persName ref="#augustus">meine</persName> Spenden gingen niemals an weniger als 250 000 Menschen. Als <persName ref="#augustus">ich</persName> die <date when="-0005">tribunizische Gewalt zum achtzehnten Mal und das Konsulat zum zwölften Mal [5 v. Chr.]</date> innehatte, habe <persName ref="#augustus">ich</persName> an 320 000 Menschen aus der <orgName ref="#populus">städtischen Bevölkerung</orgName> pro Kopf 60 Denare auszahlen lassen. Den Ansiedlern unter <persName ref="#augustus">meinen</persName> Soldaten habe <persName ref="#augustus">ich</persName> in <date when="-0029">meinem fünften Konsulat [29 v. Chr.]</date> pro Mann 1000 Sesterzen aus der Kriegsbeute gegeben. Diese zur Feier des Triumphs ausgezahlte Spende haben in den Neuansiedlungen ungefähr 120 000 Menschen in Empfang genommen. Als <persName ref="#augustus">ich</persName> zum <date when="-0002">dreizehnten Mal Konsul [2 v. Chr.]</date> war, habe <persName ref="#augustus">ich</persName> je 60 Denare an diejenigen aus dem <orgName ref="#populus">Volk</orgName> gezahlt, die damals von Staats wegen Getreidespenden erhielten; dies waren etwas mehr als 200 000 Menschen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Res Gestae Divi Augusti - Caput 04</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital Edition</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Generated from Markdown input</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="augustus">
+            <persName>
+               <roleName type="title">Imperator</roleName>
+               <name>Caesar Divi Filius Augustus</name>
+            </persName>
+            <note type="desc">Der erste römische Kaiser.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="capitolium">
+            <placeName>Capitolium</placeName>
+            <placeName xml:lang="de">Kapitol</placeName>
+            <note type="desc">Mons Capitolinus in Rom.</note>
+         </place>
+      </listPlace>
+      <listOrg>
+         <org xml:id="senatus">
+            <orgName>Senatus Romanus</orgName>
+            <note type="desc">Der römische Senat.</note>
+         </org>
+         <org xml:id="dii">
+            <orgName>Dii Immortales</orgName>
+            <orgName xml:lang="de">Die unsterblichen Götter</orgName>
+            <note type="desc">Die Götter des römischen Pantheon.</note>
+         </org>
+      </listOrg>
+      <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+         <link target="#la-s04-p01 #grc-s04-p01 #de-s04-p01"/>
+      </linkGrp>
+      <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+         <link target="#augustus #la-s04-p01 #grc-s04-p01 #de-s04-p01"/>
+         <link target="#senatus #la-s04-p01 #grc-s04-p01 #de-s04-p01"/>
+         <link target="#capitolium #la-s04-p01 #grc-s04-p01 #de-s04-p01"/>
+         <link target="#dii #la-s04-p01 #grc-s04-p01 #de-s04-p01"/>
+      </linkGrp>
+   </standOff>
+   <text>
+      <body>
+         <div type="chapter" n="04">
+            <div type="version" xml:lang="la">
+               <p xml:id="la-s04-p01">
+                  Bis ovans triumphavi, tris egi curulis triumphos et appellatus sum viciens et semel imperator. Cum autem pluris triumphos <persName ref="#augustus">mihi</persName> <orgName ref="#senatus">senatus</orgName> decrevisset, iis supersedi. Laurum de fascibus deposui in <placeName ref="#capitolium">Capitolio</placeName>, votis quae quoque bello nuncupaveram solutis. Ob res a <persName ref="#augustus">me</persName> aut per legatos <persName ref="#augustus">meos</persName> auspicis <persName ref="#augustus">meis</persName> terra marique prospere gestas quinquagiens et quinquiens decrevit <orgName ref="#senatus">senatus</orgName> supplicandum esse <orgName ref="#dii">dis immortalibus</orgName>. Dies autem, per quos ex <orgName ref="#senatus">senatus</orgName> consulto supplicatum est, fuere DCCCLXXXX. In triumphis <persName ref="#augustus">meis</persName> ducti sunt ante currum <persName ref="#augustus">meum</persName> reges aut regum liberi novem. Consul fueram terdeciens, cum scribebam haec, et agebam <date>septimum et tricensimum</date> tribuniciae potestatis.
+               </p>
+            </div>
+            <div type="version" xml:lang="grc">
+               <p xml:id="grc-s04-p01">
+                  Δὶς ἐπὶ κέλητος ἐθριάμβευσα, τρὶς ἐφ’ ἅρματος. Εἰκοσάκις καὶ ἅπαξ προσηγορεύθην αὐτοκράτωρ. Τῆς δὲ <orgName ref="#senatus">συνκλήτου</orgName> <persName ref="#augustus">ἐμοὶ</persName> πλείους θριάμβους ψηφισσαμένης, αὐτῶν ἀπηλλάγην (?) καὶ ἀπὸ τῶν ῥάβδων τὴν δάφνην κατεθέμην ἐν τῶι <placeName ref="#capitolium">Καπιτωλίωι</placeName>, τὰς εὐχάς, ἅς ἐν ἑκάστωι τῶι πολέμωι ἐποιησάμην, ἀποδούς. Διὰ τὰ πράγματα, ἃ ἢ <persName ref="#augustus">αὺτὸς</persName> ἢ διὰ τῶν πρεσβευτῶν τῶν <persName ref="#augustus">ἐμῶν</persName> αἰσίοις οἰωνοῖς καὶ κατὰ γῆν καὶ κατὰ θάλατταν κατώρθωσα, πεντηκοντάκις καὶ πεντάκις ἐψηφίσατο ἡ <orgName ref="#senatus">σύνκλητος</orgName> <orgName ref="#dii">θεοῖς</orgName> δεῖν θύεσθαι. Ἡμέραι οὖν αὗται ἐκ <orgName ref="#senatus">συνκλήτου</orgName> δόγματος ἐγένοντο ὀκτακόσιαι ἐνενήκοντα. Ἐν τοῖς <persName ref="#augustus">ἐμοῖς</persName> θριάμβοις πρὸ τοῦ <persName ref="#augustus">ἐμοῦ</persName> ἅρματος βασιλεῖς ἢ βασιλέων παῖδες παρήχθησαν ἐννέα. Ὑπάτευον τρὶς καὶ δέκατον, ὅτε ταῦτα ἔγραφον, καὶ ἤμην <date>τριακοστὸν καὶ ἕβδομον</date> δημαρχικῆς ἐξουσίας.
+               </p>
+            </div>
+            <div type="version" xml:lang="de">
+               <p xml:id="de-s04-p01">
+                  Zweimal habe <persName ref="#augustus">ich</persName> den Triumph gefeiert in Form der Ovation und dreimal in Form des kurulischen Triumphs; einundzwanzigmal wurde <persName ref="#augustus">ich</persName> zum Imperator ausgerufen. Der <orgName ref="#senatus">Senat</orgName> hatte noch mehr Triumphe für <persName ref="#augustus">mich</persName> beschlossen, die <persName ref="#augustus">ich</persName> jedoch alle zurückwies. Den Lorbeer von den Rutenbündeln legte <persName ref="#augustus">ich</persName> auf dem <placeName ref="#capitolium">Kapitol</placeName> nieder nach Erfüllung der Gelübde, die <persName ref="#augustus">ich</persName> vor jedem Krieg feierlich abgelegt hatte. Wegen der von <persName ref="#augustus">mir</persName> oder von <persName ref="#augustus">meinen</persName> Feldherren unter <persName ref="#augustus">meinem</persName> Oberbefehl zu Wasser und zu Lande erfolgreich geführten Feldzüge beschloss der <orgName ref="#senatus">Senat</orgName> fünfundfünfzigmal ein Dankfest für die <orgName ref="#dii">unsterblichen Götter</orgName>. Die Tage aber, an denen auf Beschluss des <orgName ref="#senatus">Senats</orgName> Dankfeste gefeiert wurden, waren 890 an der Zahl. Bei <persName ref="#augustus">meinen</persName> Triumphzügen wurden vor <persName ref="#augustus">meinem</persName> Wagen neun Könige oder Kinder von Königen mitgeführt. Konsul war <persName ref="#augustus">ich</persName> dreizehnmal bis zu dem Zeitpunkt, an dem <persName ref="#augustus">ich</persName> dies schreibe, und <persName ref="#augustus">ich</persName> habe im <date>37. Jahr</date> die tribunizische Gewalt inne.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

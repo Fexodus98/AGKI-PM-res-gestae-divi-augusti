@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 28</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitalisierte Ausgabe der Res Gestae Divi Augusti</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem Monumentum Ancyranum</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Imperator Caesar Divi Filius Augustus, der erste römische Kaiser.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="africa">
+        <placeName>Afrika</placeName>
+        <note type="desc">Die römische Provinz Africa Proconsularis im heutigen Tunesien und Libyen.</note>
+      </place>
+      <place xml:id="sicily">
+        <placeName>Sizilien</placeName>
+        <note type="desc">Die Inselprovinz Sicilia.</note>
+      </place>
+      <place xml:id="macedonia">
+        <placeName>Makedonien</placeName>
+        <note type="desc">Die römische Provinz Macedonia auf dem Balkan.</note>
+      </place>
+      <place xml:id="hispania">
+        <placeName>Spanien</placeName>
+        <note type="desc">Die Iberische Halbinsel, zur Zeit des Augustus in die Provinzen Hispania Citerior und Hispania Ulterior (später Baetica, Lusitania, Tarraconensis) unterteilt.</note>
+      </place>
+      <place xml:id="achaia">
+        <placeName>Achaia</placeName>
+        <note type="desc">Die römische Provinz Achaia, die den Großteil des griechischen Festlands umfasst.</note>
+      </place>
+      <place xml:id="asia">
+        <placeName>Asien</placeName>
+        <note type="desc">Die römische Provinz Asia im westlichen Kleinasien.</note>
+      </place>
+      <place xml:id="syria">
+        <placeName>Syrien</placeName>
+        <note type="desc">Die römische Provinz Syria im Nahen Osten.</note>
+      </place>
+      <place xml:id="gallia-narbonensis">
+        <placeName>Gallia Narbonensis</placeName>
+        <note type="desc">Die römische Provinz im südlichen Gallien (heutiges Südfrankreich).</note>
+      </place>
+      <place xml:id="pisidia">
+        <placeName>Pisidien</placeName>
+        <note type="desc">Eine gebirgige Region im südlichen Kleinasien.</note>
+      </place>
+      <place xml:id="italy">
+        <placeName>Italien</placeName>
+        <note type="desc">Das Kernland des Römischen Reiches (Italia).</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="milites">
+        <orgName>Soldaten</orgName>
+        <note type="desc">Hier: Die Veteranen der römischen Legionen, die in Kolonien angesiedelt wurden.</note>
+      </org>
+    </listOrg>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#africa #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#sicily #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#macedonia #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#hispania #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#achaia #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#asia #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#syria #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#gallia-narbonensis #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#pisidia #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#italy #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+      <link target="#milites #la-s28-p1 #grc-s28-p1 #de-s28-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="28">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s28-p1">
+            Colonias in <placeName ref="#africa">Africa</placeName>, <placeName ref="#sicily">Sicilia</placeName>, <placeName ref="#macedonia">Macedonia</placeName>, utraque <placeName ref="#hispania">Hispania</placeName>, <placeName ref="#achaia">Achaia</placeName>, <placeName ref="#asia">Asia</placeName>, <placeName ref="#syria">Syria</placeName>, <placeName ref="#gallia-narbonensis">Gallia Narbonensi</placeName>, <placeName ref="#pisidia">Pisidia</placeName> <orgName ref="#milites">militum</orgName> <persName ref="#augustus">deduxi</persName> <placeName ref="#italy">Italia</placeName> autem XXVIII colonias quae vivo <persName ref="#augustus">me</persName> celeberrimae et frequentissimae fuerunt <persName ref="#augustus">mea</persName> auctoritate deductas habet.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s28-p1">
+            Ἀποικίας ἐν <placeName ref="#africa">Λιβύηι</placeName> <placeName ref="#sicily">Σικελίαι</placeName> <placeName ref="#macedonia">Μακεδονίαι</placeName> ἐν ἑκατέρα τε <placeName ref="#hispania">Ἱσπανίαι</placeName> <placeName ref="#achaia">Ἀχαίαι</placeName> <placeName ref="#asia">Ἀσίαι</placeName> <placeName ref="#syria">Συρία</placeName> <placeName ref="#gallia-narbonensis">Γαλατίαι τῆι περὶ Νάρβωνα</placeName> <placeName ref="#pisidia">Πισιδίαι</placeName> <orgName ref="#milites">στρατιωτῶν</orgName> <persName ref="#augustus">κατήγαγον</persName>. <placeName ref="#italy">Ἰταλία</placeName> δὲ εἴκοσι ὀκτὼ ἀποικίας ἔχει ὑπ’ <persName ref="#augustus">ἐμοῦ</persName> καταχθείσας, αἳ <persName ref="#augustus">ἐμοῦ</persName> περιόντος πληθύουσαι ἐτυγχανον.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s28-p1">
+            Veteranenkolonien habe <persName ref="#augustus">ich</persName> in <placeName ref="#africa">Afrika</placeName>, <placeName ref="#sicily">Sizilien</placeName>, <placeName ref="#macedonia">Makedonien</placeName>, den beiden Provinzen <placeName ref="#hispania">Spaniens</placeName>, <placeName ref="#achaia">Griechenland</placeName>, <placeName ref="#asia">Kleinasien</placeName>, <placeName ref="#syria">Syrien</placeName>, der <placeName ref="#gallia-narbonensis">Gallia Narbonensis</placeName> und in <placeName ref="#pisidia">Pisidien</placeName> gegründet. <placeName ref="#italy">Italien</placeName> besitzt 28, auf <persName ref="#augustus">meine</persName> Veranlassung hin gegründete Kolonien, die zu <persName ref="#augustus">meinen</persName> Lebzeiten bereits sehr dicht besiedelt waren und großen Zuzug hatten.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

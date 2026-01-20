@@ -1,0 +1,151 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti, Kapitel 27</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Bereitgestellt für Forschungszwecke.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basierend auf dem Text der Res Gestae Divi Augusti.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser (Imperator Caesar Divi Filius Augustus).</note>
+      </person>
+      <person xml:id="tiberius">
+        <persName>Tiberius</persName>
+        <note type="desc">Tiberius Caesar, Stiefsohn und späterer Nachfolger des Augustus.</note>
+      </person>
+      <person xml:id="gaius">
+        <persName>Gaius Caesar</persName>
+        <note type="desc">Enkel und Adoptivsohn des Augustus.</note>
+      </person>
+      <person xml:id="artaxes">
+        <persName>Artaxes II.</persName>
+        <note type="desc">König von Armenien, der getötet wurde.</note>
+      </person>
+      <person xml:id="tigranes-iii">
+        <persName>Tigranes III.</persName>
+        <note type="desc">Von Augustus durch Tiberius eingesetzter König von Armenien.</note>
+      </person>
+      <person xml:id="artavasdes-ii">
+        <persName>Artavasdes II.</persName>
+        <note type="desc">König von Armenien, Vater von Tigranes III.</note>
+      </person>
+      <person xml:id="tigranes-ii">
+        <persName>Tigranes II. (der Große)</persName>
+        <note type="desc">Großvater von Tigranes III.</note>
+      </person>
+      <person xml:id="ariobarzanes">
+        <persName>Ariobarzanes II.</persName>
+        <note type="desc">König von Atropatene, von Augustus als König von Armenien eingesetzt.</note>
+      </person>
+      <person xml:id="artabazos">
+        <persName>Artavasdes I. (Artabazos)</persName>
+        <note type="desc">König von Atropatene, Vater des Ariobarzanes.</note>
+      </person>
+      <person xml:id="artavasdes-iv">
+        <persName>Artavasdes IV.</persName>
+        <note type="desc">Sohn des Ariobarzanes, König von Armenien.</note>
+      </person>
+      <person xml:id="tigranes-v">
+        <persName>Tigranes V.</persName>
+        <note type="desc">Späterer armenischer König aus königlichem Geschlecht.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="aegyptus">
+        <placeName>Ägypten</placeName>
+        <note type="desc">Ehemaliges ptolemäisches Reich, von Augustus dem römischen Reich einverleibt.</note>
+      </place>
+      <place xml:id="armenia-maior">
+        <placeName>Großarmenien</placeName>
+        <note type="desc">Königreich im Osten, Pufferstaat zwischen Rom und den Parthern.</note>
+      </place>
+      <place xml:id="adria">
+        <placeName>Adria / Ionisches Meer</placeName>
+        <note type="desc">Das Adriatische Meer (Hadrianum mare) bzw. der Ionische Golf.</note>
+      </place>
+      <place xml:id="cyrene">
+        <placeName>Kyrene</placeName>
+        <note type="desc">Region in Nordafrika (Kyrenaika).</note>
+      </place>
+      <place xml:id="sicilia">
+        <placeName>Sizilien</placeName>
+        <note type="desc">Römische Provinz, Schauplatz des Krieges gegen Sextus Pompeius.</note>
+      </place>
+      <place xml:id="sardinia">
+        <placeName>Sardinien</placeName>
+        <note type="desc">Römische Inselprovinz.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="populus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Populus Romanus; die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="medi">
+        <orgName>Meder</orgName>
+        <note type="desc">Volk im Osten, hier im Zusammenhang mit dem Königreich Atropatene.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="bellum-servile">
+        <label>Sklavenkrieg</label>
+        <note type="desc">Bezieht sich auf den Krieg gegen Sextus Pompeius (36 v. Chr.), der oft als Kampf gegen Piraten und entlaufene Sklaven dargestellt wurde.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#aegyptus #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#populus #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#armenia-maior #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#artaxes #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#tigranes-iii #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#artavasdes-ii #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#tigranes-ii #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#tiberius #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#augustus #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#gaius #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#ariobarzanes #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#medi #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#artabazos #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#artavasdes-iv #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#tigranes-v #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#adria #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#cyrene #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#sicilia #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#sardinia #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+      <link target="#bellum-servile #la-s27-p1 #grc-s27-p1 #de-s27-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="27">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s27-p1">
+            <placeName ref="#aegyptus">Aegyptum</placeName> imperio <orgName ref="#populus">populi Romani</orgName> adieci. <placeName ref="#armenia-maior">Armeniam maiorem</placeName> interfecto rege eius <persName ref="#artaxes">Artaxe</persName> cum possem facere provinciam malui maiorum nostrorum exemplo regnum id <persName ref="#tigranes-iii">Tigrani</persName> regis <persName ref="#artavasdes-ii">Artavasdis</persName> filio, nepoti autem <persName ref="#tigranes-ii">Tigranis</persName> regis, per <persName ref="#tiberius">Ti. Neronem</persName> tradere, qui tum <persName ref="#augustus" type="reflexive">mihi</persName> privignus erat. Et eandem gentem postea desciscentem et rebellantem domitam per <persName ref="#gaius">Gaium</persName> filium <persName ref="#augustus" type="reflexive">meum</persName> regi <persName ref="#ariobarzanes">Ariobarzani</persName> regis <orgName ref="#medi">Medorum</orgName> <persName ref="#artabazos">Artabazi</persName> filio regendam tradidi, et post eius mortem filio eius <persName ref="#artavasdes-iv">Artavasdi</persName>; quo interfecto <persName ref="#tigranes-v">Tigranem</persName> qui erat ex regio genere <placeName ref="#armenia-maior">Armeniorum</placeName> oriundus in id regnum misi. Provincias omnis quae trans <placeName ref="#adria">Hadrianum mare</placeName> vergunt ad orientem <placeName ref="#cyrene">Cyrenasque</placeName>, iam ex parte magna regibus ea possidentibus, et antea <placeName ref="#sicilia">Siciliam</placeName> et <placeName ref="#sardinia">Sardiniam</placeName> occupatas <event ref="#bellum-servile">bello servili</event> reciperavi.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s27-p1">
+            <placeName ref="#aegyptus">Αἴγυπτον</placeName> <orgName ref="#populus">δήμου Ῥωμαίων</orgName> ἡγεμονίαι προσέθηκα. <placeName ref="#armenia-maior">Ἀρμενίαν τὴν μείζονα</placeName> ἀναιρεθέντος τοῦ βασιλέως δυνάμενος ἐπαρχείαν ποῆσαι μᾶλλον ἐβουλήθην κατὰ τὰ πάτρια ἡμῶν ἔθη βασιλείαν <persName ref="#tigranes-iii">Τιγράνηι</persName> <persName ref="#artavasdes-ii">Ἀρταουάσδου</persName> υἱῶι, υἱωνῶι δὲ <persName ref="#tigranes-ii">Τιγράνου</persName> βασιλέως δοῦνὰι διὰ <persName ref="#tiberius">Τιβερίου Νέρωνος</persName>, ὃς τότ’ <persName ref="#augustus" type="reflexive">ἐμοῦ</persName> πρόγονος ἦν· καὶ τὸ αὐτὸ ἔθνος ἀφιστάμενον καὶ ἀναπολεμοῦν δαμασθὲν ὑπὸ <persName ref="#gaius">Γαϊου</persName> τοῦ υἱοῦ <persName ref="#augustus" type="reflexive">μου</persName> βασιλεῖ <persName ref="#ariobarzanes">Ἀριοβαρζάνει</persName>, βασιλέως <orgName ref="#medi">Μήδων</orgName> <persName ref="#artabazos">Ἀρταβάζου</persName> υἱῶι, παρέδωκα καὶ μετὰ τὸν ἐκείνου θάνατον τῶι υἱῶι αὐτοῦ <persName ref="#artavasdes-iv">Ἀρταουάσδῃ</persName>· οὗ ἀναιρεθέντος <persName ref="#tigranes-v">Τιγράνην</persName>, ὃς ἦν ἐκ γένους <placeName ref="#armenia-maior">Ἀρμενίου</placeName> βασιλικοῦ, εἰς τὴν βασιλείαν ἔπεμυα. Ἐπαρχείας ἁπάσας, ὅσαι πέραν τοῦ <placeName ref="#adria">Εἰονίου κόλπου</placeName> διατείνουσι πρὸς ἀνατολάς, καὶ <placeName ref="#cyrene">Κυρήνην</placeName> ἐκ μείζονος μέρους ὑπὸ βασιλέων κατεσχημένας καὶ ἔμπροσθεν <placeName ref="#sicilia">Σικελίαν</placeName> καὶ <placeName ref="#sardinia">Σαρδὼι</placeName> προκατειλημένας <event ref="#bellum-servile">πολέμωι δουλικῶι</event> ἀνέλαβον.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s27-p1">
+            <placeName ref="#aegyptus">Ägypten</placeName> habe <persName ref="#augustus">ich</persName> dem Herrschaftsgebiet des <orgName ref="#populus">römischen Volkes</orgName> hinzugefügt. <placeName ref="#armenia-maior">Großarmenien</placeName> hätte <persName ref="#augustus">ich</persName> nach dem Tode seines Königs <persName ref="#artaxes">Artaxes</persName> zur Provinz machen können, aber <persName ref="#augustus">ich</persName> wollte es lieber dem Beispiel unserer Vorfahren gemäß als Königreich dem <persName ref="#tigranes-iii">Tigranes</persName>, dem Sohn des Königs <persName ref="#artavasdes-ii">Artavasdes</persName> und Enkel des Königs <persName ref="#tigranes-ii">Tigranes</persName>, übergeben, und zwar durch <persName ref="#tiberius">Tiberius Nero</persName>, der damals noch <persName ref="#augustus" type="reflexive">mein</persName> Stiefsohn war. Und ebendieses Volk, das später abfiel, einen Aufstand unternahm und von <persName ref="#augustus" type="reflexive">meinem</persName> Sohn <persName ref="#gaius">Gaius</persName> niedergezwungen wurde, übergab <persName ref="#augustus">ich</persName> dem König <persName ref="#ariobarzanes">Ariobarzanes</persName>, dem Sohne des <orgName ref="#medi">Mederkönigs</orgName> <persName ref="#artabazos">Artabazos</persName>, zur Herrschaft und nach dessen Tod seinem Sohn <persName ref="#artavasdes-iv">Artavasdes</persName>. Als dieser ermordet wurde, sandte <persName ref="#augustus">ich</persName> <persName ref="#tigranes-v">Tigranes</persName>, der dem armenischen Königsgeschlecht entstammte, in dieses Königreich. Alle Provinzen, die sich von der <placeName ref="#adria">Adria</placeName> aus nach Osten erstrecken, und <placeName ref="#cyrene">Kyrene</placeName>, das schon zum großen Teil von Königen in Besitz genommen worden war, und vorher schon <placeName ref="#sicilia">Sizilien</placeName> und <placeName ref="#sardinia">Sardinien</placeName>, welche beide im <event ref="#bellum-servile">Sklavenkrieg</event> besetzt worden waren, habe <persName ref="#augustus">ich</persName> wiedergewonnen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

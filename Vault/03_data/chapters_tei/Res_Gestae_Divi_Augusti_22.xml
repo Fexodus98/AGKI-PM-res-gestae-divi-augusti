@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 22</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Projektausgabe</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften und literarische Überlieferung.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustus</persName>
+        <note type="desc">Erster römischer Kaiser (Imperator Caesar Divi Filius Augustus).</note>
+      </person>
+      <person xml:id="agrippa">
+        <persName>Marcus Agrippa</persName>
+        <note type="desc">Enger Vertrauter und Feldherr des Augustus.</note>
+      </person>
+      <person xml:id="gaius">
+        <persName>Gaius Caesar</persName>
+        <note type="desc">Enkel und Adoptivsohn des Augustus.</note>
+      </person>
+      <person xml:id="lucius">
+        <persName>Lucius Caesar</persName>
+        <note type="desc">Enkel und Adoptivsohn des Augustus.</note>
+      </person>
+      <person xml:id="c-furnius">
+        <persName>Gaius Furnius</persName>
+        <note type="desc">Römischer Konsul im Jahr 17 v. Chr.</note>
+      </person>
+      <person xml:id="c-silanus">
+        <persName>Gaius Iunius Silanus</persName>
+        <note type="desc">Römischer Konsul im Jahr 17 v. Chr.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="africa">
+        <placeName>Afrika</placeName>
+        <note type="desc">Die römische Provinz Africa.</note>
+      </place>
+      <place xml:id="circus-maximus">
+        <placeName>Circus Maximus</placeName>
+        <note type="desc">Großer Circus in Rom für Wagenrennen und Spiele.</note>
+      </place>
+      <place xml:id="forum-romanum">
+        <placeName>Forum Romanum</placeName>
+        <note type="desc">Zentraler Marktplatz und Versammlungsort in Rom.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Das höchste Verfassungsorgan des römischen Staates.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die höchsten Beamten der römischen Republik.</note>
+      </org>
+      <org xml:id="quindecemviri">
+        <orgName>Quindecemviri Sacris Faciundis</orgName>
+        <note type="desc">Priesterkollegium von 15 Männern, zuständig für die Sibyllinischen Bücher.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="ludi-saeculares">
+        <label>Säkularspiele</label>
+        <note type="desc">Jahrhundertfeier (17 v. Chr.), durchgeführt von Augustus und Agrippa.</note>
+      </event>
+      <event xml:id="ludi-martiales">
+        <label>Marsspiele</label>
+        <note type="desc">Spiele zu Ehren des Mars Ultor.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s22-p1 #grc-s22-p1 #de-s22-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s22-p1 #grc-s22-p1 #de-s22-p1"/>
+      <link target="#agrippa #la-s22-p1 #grc-s22-p1 #de-s22-p1"/>
+      <link target="#senatus #la-s22-p1 #grc-s22-p1 #de-s22-p1"/>
+      <link target="#populus #la-s22-p1 #grc-s22-p1 #de-s22-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="22">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s22-p1">
+            Ter munus gladiatorium dedi <persName ref="#augustus">meo</persName> nomine et quinquiens <persName ref="#gaius">filiorum</persName> <persName ref="#augustus">meorum</persName> aut <persName ref="#lucius">nepotum</persName> nomine, quibus muneribus depugnaverunt hominum circiter decem millia. Bis athletarum undique accitorum spectaculum <orgName ref="#populus">populo</orgName> praebui <persName ref="#augustus">meo</persName> nomine et tertium <persName ref="#gaius">nepotis</persName> <persName ref="#augustus">mei</persName> nomine. Ludos feci <persName ref="#augustus">meo</persName> nomine quater, aliorum autem magistratuum vicem ter et viciens. Pro conlegio <orgName ref="#quindecemviri">XV virorum</orgName> magister conlegii collega <persName ref="#agrippa">M. Agrippa</persName> <event ref="#ludi-saeculares">ludos saeclares</event> <persName ref="#c-furnius">C. Furnio</persName> <persName ref="#c-silanus">C. Silano</persName> <orgName ref="#consules">cos.</orgName> feci. <orgName ref="#consules">Consul</orgName> XIII <event ref="#ludi-martiales">ludos Martiales</event> primus feci quos post id tempus deinceps insequentibus annis <orgName ref="#senatus">s.c.</orgName> et lege fecerunt <orgName ref="#consules">consules</orgName>. Venationes bestiarum <placeName ref="#africa">Africanarum</placeName> <persName ref="#augustus">meo</persName> nomine aut <persName ref="#gaius">filiorum</persName> <persName ref="#augustus">meorum</persName> et <persName ref="#lucius">nepotum</persName> in <placeName ref="#circus-maximus">circo</placeName> aut in <placeName ref="#forum-romanum">foro</placeName> aut in amphitheatris <orgName ref="#populus">populo</orgName> dedi sexiens et viciens, quibus confecta sunt bestiarum circiter tria millia et quingentae.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s22-p1">
+            Τρὶς μονομαχίαν ἔδωκα τῶι <persName ref="#augustus">ἐμῶι</persName> ὀνόματι καὶ πεντάκις τῶν <persName ref="#gaius">υἱῶν</persName> <persName ref="#augustus">μου</persName> ἢ <persName ref="#lucius">υἱωνῶν</persName>· ἐν αἴς μονο μαχίαις ἐμαχέσαντο ἐγγὺς μύριοι. Δὶς ἀθλητῶν πανταχόθεν μεταπεμφθέντων γυμνικοῦ ἀγῶνος θέαν τῶι <orgName ref="#populus">δήμωι</orgName> παρέσχον τῶι <persName ref="#augustus">ἐμῶι</persName> ὀνόματι και τρίτον τοῦ <persName ref="#gaius">υἱωνοῦ</persName> <persName ref="#augustus">μου</persName>. Θέας ἐπόησα δι’ <persName ref="#augustus">ἐμοῦ</persName> τετράκις, διὰ δὲ τῶν ἄλλων ἀρχῶν ἐν μέρει τρὶς καὶ εἰκοσάκις. Ὑπὲρ τῶν <orgName ref="#quindecemviri">δεκαπέντε ἀνδρῶν</orgName>, ἔχων συνάρχοντα <persName ref="#agrippa">Μᾶρκον Ἀγρίππαν</persName>, τὰς <event ref="#ludi-saeculares">θέας διὰ ἑκατὸν ἐτῶν γεινομένας ὀνομαζομένας σαικλάρεις</event> ἐπόησα <persName ref="#c-furnius">Γαϊωι Φουρνίωι</persName> καὶ <persName ref="#c-silanus">Γαϊωι Σειλανῶι</persName> <orgName ref="#consules">ὑπάτοις</orgName>. <orgName ref="#consules">Ὕπατος</orgName> τρισκαιδέκατον <event ref="#ludi-martiales">θέας Ἄρεως</event> πρῶτος ἐπόησα, ἃς μετ’ ἐκεῖνον χρόνον ἑξῆς τοῖς μετέπειτα ἐνιαυτοῖς δόγματι <orgName ref="#senatus">συνκλήτου</orgName> σὺν <persName ref="#augustus">ἐμοὶ</persName> ἐπόησαν οἱ <orgName ref="#consules">ὑπατοι</orgName> . . . ν . . . ης θηρίων <placeName ref="#africa">e</placeName> [...]
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s22-p1">
+            Dreimal habe <persName ref="#augustus">ich</persName> in <persName ref="#augustus">meinem</persName> Namen Gladiatorenspiele veranstaltet und fünfmal im Namen <persName ref="#augustus">meiner</persName> <persName ref="#gaius">Söhne</persName> oder <persName ref="#lucius">Enkel</persName>. Bei diesen Spielen kämpften etwa 10 000 Mann. Zweimal bot <persName ref="#augustus">ich</persName> dem <orgName ref="#populus">Volk</orgName> ein Kampfspiel mit Wettkämpfern, die man von überallher zusammengebracht hatte, in <persName ref="#augustus">meinem</persName> Namen und das dritte Mal im Namen <persName ref="#augustus">meines</persName> <persName ref="#gaius">Enkels</persName>. Sonstige Spiele habe <persName ref="#augustus">ich</persName> viermal in <persName ref="#augustus">meinem</persName> eigenen Namen veranstaltet, stellvertretend für andere Beamte dreiundzwanzigmal. Für das Kollegium der <orgName ref="#quindecemviri">Quindecemviri</orgName> habe <persName ref="#augustus">ich</persName> als Oberhaupt dieser Priesterschaft mit <persName ref="#augustus">meinem</persName> Amtskollegen <persName ref="#agrippa">Marcus Agrippa</persName> unter dem <orgName ref="#consules">Konsulat</orgName> des <persName ref="#c-furnius">Gaius Furnius</persName> und <persName ref="#c-silanus">Gaius Silanus</persName> [<date when="-0017">17 v. Chr.</date>] die <event ref="#ludi-saeculares">Säkularfeiern</event> abhalten lassen. Zum dreizehnten Mal <orgName ref="#consules">Konsul</orgName> [<date when="-0002">2 v. Chr.</date>], habe <persName ref="#augustus">ich</persName> erstmalig die <event ref="#ludi-martiales">Marsspiele</event> veranstaltet, die darauf in den folgenden Jahren auf <orgName ref="#senatus">Senatsbeschluss</orgName> und auf ein Gesetz hin von den <orgName ref="#consules">Konsuln</orgName> ausgerichtet wurden. Tierhetzen mit <placeName ref="#africa">afrikanischen</placeName> Tieren habe <persName ref="#augustus">ich</persName> in <persName ref="#augustus">meinem</persName> Namen oder in dem <persName ref="#augustus">meiner</persName> <persName ref="#gaius">Söhne</persName> und <persName ref="#lucius">Enkel</persName> im <placeName ref="#circus-maximus">Circus</placeName> oder auf dem <placeName ref="#forum-romanum">Forum</placeName> oder im Amphitheater sechsundzwanzigmal für das <orgName ref="#populus">Volk</orgName> abgehalten, wobei etwa 3500 Tiere getötet wurden.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Res Gestae Divi Augusti - Caput 02</title>
+            <author ref="#augustus">Caesar Augustus</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>TEI output generated for Digital Classics analysis.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digital conversion of Res Gestae text.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="augustus">
+            <persName>Imperator Caesar Divi Filius Augustus</persName>
+            <note type="desc">Erster römischer Kaiser, Verfasser der Res Gestae.</note>
+         </person>
+         <person xml:id="julius-caesar">
+            <persName>Gaius Iulius Caesar</persName>
+            <note type="desc">Adoptivvater des Augustus, Diktator.</note>
+         </person>
+      </listPerson>
+      <listOrg>
+         <org xml:id="res-publica">
+            <orgName>Res Publica</orgName>
+            <note type="desc">Der römische Staat.</note>
+         </org>
+      </listOrg>
+      <listEvent>
+         <event xml:id="ev-bellum-civilis">
+            <label>Bürgerkrieg gegen die Caesarmörder</label>
+            <note type="desc">Krieg gegen Brutus und Cassius.</note>
+         </event>
+         <event xml:id="ev-proelium-philippense">
+            <label>Schlacht bei Philippi</label>
+            <note type="desc">Doppelschlacht im Jahr 42 v. Chr.</note>
+         </event>
+      </listEvent>
+      <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+         <link target="#la-s02-p01 #grc-s02-p01 #de-s02-p01"/>
+      </linkGrp>
+      <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+         <link target="#augustus #la-s02-w01 #grc-s02-w01 #de-s02-w01 #de-s02-w02 #de-s02-w03"/>
+         <link target="#julius-caesar #la-s02-w02 #grc-s02-w02 #de-s02-w04"/>
+         <link target="#res-publica #la-s02-w03 #grc-s02-w03 #de-s02-w05"/>
+         <link target="#ev-bellum-civilis #la-s02-w04 #grc-s02-w04 #de-s02-w06"/>
+         <link target="#ev-proelium-philippense #la-s02-w05 #grc-s02-w05 #de-s02-w07"/>
+      </linkGrp>
+   </standOff>
+   <text>
+      <body>
+         <div type="chapter" n="02">
+            <div type="version" xml:lang="la">
+               <p xml:id="la-s02-p01">
+                  Qui <persName xml:id="la-s02-w02" ref="#julius-caesar">parentem</persName> <persName xml:id="la-s02-w01" ref="#augustus">meum</persName> trucidaverunt, eos in exilium expuli iudiciis legitimis ultus eorum facinus, et postea <event xml:id="la-s02-w04" ref="#ev-bellum-civilis">bellum</event> inferentis <orgName xml:id="la-s02-w03" ref="#res-publica">rei publicae</orgName> vici bis <event xml:id="la-s02-w05" ref="#ev-proelium-philippense">acie</event>.
+               </p>
+            </div>
+            <div type="version" xml:lang="grc">
+               <p xml:id="grc-s02-p01">
+                  Τοὺς τὸν <persName xml:id="grc-s02-w02" ref="#julius-caesar">πατέρα</persName> τὸν <persName xml:id="grc-s02-w01" ref="#augustus">ἐμὸν</persName> φονεύσαντας ἐξώρισα κρίσεσιν ἐνδίκοις τειμωρησάμενος αὐτῶν τὸ ἀσέβημα καὶ μετὰ ταῦτα αὐτοὺς <event xml:id="grc-s02-w04" ref="#ev-bellum-civilis">πόλεμον</event> ἐπιφέροντας τῆι <orgName xml:id="grc-s02-w03" ref="#res-publica">πατρίδι</orgName> δὶς ἐνείκησα <event xml:id="grc-s02-w05" ref="#ev-proelium-philippense">παρατάξει</event>.
+               </p>
+            </div>
+            <div type="version" xml:lang="de">
+               <p xml:id="de-s02-p01">
+                  Diejenigen, die <persName xml:id="de-s02-w01" ref="#augustus">meinen</persName> <persName xml:id="de-s02-w04" ref="#julius-caesar">Vater</persName> ermordet haben, trieb <persName xml:id="de-s02-w02" ref="#augustus">ich</persName> in die Verbannung und rächte durch gesetzmäßige gerichtliche Verfolgung so ihr Verbrechen. Und als sie darauf <event xml:id="de-s02-w06" ref="#ev-bellum-civilis">Krieg</event> gegen den <orgName xml:id="de-s02-w05" ref="#res-publica">Staat</orgName> anfingen, besiegte <persName xml:id="de-s02-w03" ref="#augustus">ich</persName> sie in <event xml:id="de-s02-w07" ref="#ev-proelium-philippense">doppelter Feldschlacht</event>.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

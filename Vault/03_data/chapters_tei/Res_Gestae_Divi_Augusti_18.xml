@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Res Gestae Divi Augusti - Kapitel 18</title>
+                <author>Augustus</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital Edition</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Res Gestae Divi Augusti, Text based on Markdown input.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person xml:id="augustus">
+                <persName>Augustus</persName>
+                <note type="desc">Erster römischer Kaiser</note>
+            </person>
+            <person xml:id="cn-lentulus">
+                <persName>Gnaeus Lentulus</persName>
+                <note type="desc">Römischer Konsul im Jahr 18 v. Chr.</note>
+            </person>
+            <person xml:id="p-lentulus">
+                <persName>Publius Lentulus</persName>
+                <note type="desc">Römischer Konsul im Jahr 18 v. Chr.</note>
+            </person>
+        </listPerson>
+        <listOrg>
+            <org xml:id="consules">
+                <orgName>Konsuln</orgName>
+                <note type="desc">Die höchsten Beamten der römischen Republik</note>
+            </org>
+        </listOrg>
+        <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+            <link target="#la-s18-p01 #grc-s18-p01 #de-s18-p01"/>
+        </linkGrp>
+        <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+            <link target="#augustus #la-s18-p01 #grc-s18-p01 #de-s18-p01"/>
+            <link target="#cn-lentulus #la-s18-p01 #grc-s18-p01 #de-s18-p01"/>
+            <link target="#p-lentulus #la-s18-p01 #grc-s18-p01 #de-s18-p01"/>
+            <link target="#consules #la-s18-p01 #grc-s18-p01 #de-s18-p01"/>
+        </linkGrp>
+    </standOff>
+    <text>
+        <body>
+            <div type="chapter" n="18">
+                <div type="version" xml:lang="la">
+                    <p xml:id="la-s18-p01">
+                        <date when="-0018">Ab eo anno quo <persName ref="#cn-lentulus">Cn.</persName> et <persName ref="#p-lentulus">P. Lentuli</persName> <orgName ref="#consules">consules</orgName> fuerunt</date>, cum deficerent vectigalia, tum centum milibus hominum tum pluribus multo frumentarios et nummarios tributus ex horreo et patrimonio <persName ref="#augustus">meo</persName> edidi.
+                    </p>
+                </div>
+                <div type="version" xml:lang="grc">
+                    <p xml:id="grc-s18-p01">
+                        <date when="-0018">Ἀπ’ ἐκείνου τοῦ ἐνιαυτοῦ, ἐφ’ οὗ <persName ref="#cn-lentulus">Ναῖος</persName> καὶ <persName ref="#p-lentulus">Πόπλιος Λέντλοι</persName> <orgName ref="#consules">ὑπατοι</orgName> ἐγένοντο</date>, ὅτε ὑπέλειπον αἱ δη μόσιαι πρόσοδοι, ἄλλοτε μὲν δέκα μυριάσιν, ἄλ λοτε δὲ πλείοσιν σειτικὰς καὶ ἀργυρικὰς συντάξεις ἐκ τῆς <persName ref="#augustus">ἐμῆς</persName> ὑπάρχεως ἔδωκα.
+                    </p>
+                </div>
+                <div type="version" xml:lang="de">
+                    <p xml:id="de-s18-p01">
+                        <date when="-0018">Von dem Jahr an, in dem <persName ref="#cn-lentulus">Gnaeus</persName> und <persName ref="#p-lentulus">Publius Lentulus</persName> [<date when="-0018">18 v. Chr.</date>] das <orgName ref="#consules">Konsulat</orgName> innehatten</date>, habe <persName ref="#augustus">ich</persName>, als das Steueraufkommen nicht ausreichte, bald 100 000, bald noch weit mehr Menschen Getreide- und Geldspenden aus <persName ref="#augustus">meinem</persName> eigenen Vorratslager und aus <persName ref="#augustus">meinem</persName> eigenen Vermögen zukommen lassen.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

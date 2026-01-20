@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Res Gestae Divi Augusti - Kapitel 10</title>
+        <author ref="#augustus">Augustus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Ausgabe von Kapitel 10 der Res Gestae.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Inschriften: Monumentum Ancyranum, Monumentum Apolloniense, Monumentum Antiochenum.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="augustus">
+        <persName>Augustor</persName>
+        <note type="desc">Gaius Iulius Caesar Octavianus, der erste römische Kaiser.</note>
+      </person>
+      <person xml:id="julius-caesar">
+        <persName>Gaius Iulius Caesar</persName>
+        <note type="desc">Adoptivvater von Augustus, Staatsmann und Feldherr.</note>
+      </person>
+      <person xml:id="lepidus">
+        <persName>Marcus Aemilius Lepidus</persName>
+        <note type="desc">Triumvir und Pontifex Maximus bis zu seinem Tod 13/12 v. Chr.</note>
+      </person>
+      <person xml:id="p-sulpicius">
+        <persName>Publius Sulpicius Quirinius</persName>
+        <note type="desc">Römischer Konsul im Jahr 12 v. Chr.</note>
+      </person>
+      <person xml:id="c-valgius">
+        <persName>Gaius Valgius Rufus</persName>
+        <note type="desc">Römischer Konsul im Jahr 12 v. Chr.</note>
+      </person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="rome">
+        <placeName>Rom</placeName>
+        <note type="desc">Hauptstadt des Römischen Reiches.</note>
+      </place>
+      <place xml:id="italy">
+        <placeName>Italien</placeName>
+        <note type="desc">Das Kernland des Römischen Reiches.</note>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="senatus">
+        <orgName>Senat</orgName>
+        <note type="desc">Die Versammlung der führenden Familien Roms.</note>
+      </org>
+      <org xml:id="populus">
+        <orgName>Römisches Volk</orgName>
+        <note type="desc">Die Gesamtheit der römischen Bürger.</note>
+      </org>
+      <org xml:id="salii">
+        <orgName>Salier</orgName>
+        <note type="desc">Ein altes Priesterkollegium des Mars.</note>
+      </org>
+      <org xml:id="consules">
+        <orgName>Konsuln</orgName>
+        <note type="desc">Die höchsten jährlichen Beamten der römischen Republik.</note>
+      </org>
+    </listOrg>
+    <listEvent>
+      <event xml:id="civil-wars">
+        <label>Bürgerkriege</label>
+        <note type="desc">Die Unruhen und Kriege nach der Ermordung Caesars.</note>
+      </event>
+    </listEvent>
+    <linkGrp xml:id="lg-translation" type="translation" targFunc="latin greek german">
+      <link target="#la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+    </linkGrp>
+    <linkGrp xml:id="lg-entity-mentions" type="entity-mention" targFunc="entity text text text">
+      <link target="#augustus #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+      <link target="#senatus #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+      <link target="#populus #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+      <link target="#italy #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+      <link target="#rome #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+      <link target="#salii #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+      <link target="#consules #la-s10-p1 #grc-s10-p1 #de-s10-p1"/>
+    </linkGrp>
+  </standOff>
+  <text>
+    <body>
+      <div type="chapter" n="10">
+        <div type="version" xml:lang="la">
+          <p xml:id="la-s10-p1">
+            Nomen <persName ref="#augustus">meum</persName> <orgName ref="#senatus">senatus</orgName> consulto inclusum est in <orgName ref="#salii">saliare</orgName> carmen, et sacrosanctus in perpetum ut <persName ref="#augustus">essem</persName> et, quoad <persName ref="#augustus">viverem</persName>, tribunicia potestas <persName ref="#augustus">mihi</persName> esset, per legem sanctum est. Pontifex maximus ne <persName ref="#augustus">fierem</persName> in vivi conlegae <persName ref="#lepidus">mei</persName> locum, <orgName ref="#populus">populo</orgName> id sacerdotium deferente <persName ref="#augustus">mihi</persName> quod pater <persName ref="#julius-caesar">meus</persName> habuerat, recusavi. Quod sacerdotium aliquod post annos, eo mortuo qui <event ref="#civil-wars">civilis motus</event> occasione occupaverat, cuncta ex <placeName ref="#italy">Italia</placeName> ad comitia <persName ref="#augustus">mea</persName> confluente multitudine, quanta <placeName ref="#rome">Romae</placeName> nunquam fertur ante id tempus fuisse, <persName ref="#augustus">recepi</persName>, <persName ref="#p-sulpicius">P. Sulpicio</persName> <persName ref="#c-valgius">C. Valgio</persName> <orgName ref="#consules">consulibus</orgName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="grc">
+          <p xml:id="grc-s10-p1">
+            Τὸ ὄνομά <persName ref="#augustus">μου</persName> <orgName ref="#senatus">συνκλήτου</orgName> δόγματι ἐνπεριελήφθη εἰς τοὺς <orgName ref="#salii">σαλίων</orgName> ὑμνους. Καὶ ἴνα ἱερὸς <persName ref="#augustus">ὣι</persName> διὰ βίου τε τὴν δημαρχικὴν <persName ref="#augustus">ἔχωι</persName> ἐξουσίαν, νόμωι ἐκυρώθη. Ἀρχιερωσύνην, ἣν ὁ πατήρ <persName ref="#julius-caesar">μου</persName> ἐσχήκει, τοῦ <orgName ref="#populus">δήμου</orgName> <persName ref="#augustus">μοι</persName> καταφέροντος εἰς τὸν τοῦ ζῶντος τόπον, οὐ προσεδεξάμην. Ἣν ἀρχιερατείαν μετά τινας ἐνιαυτοὺς ἀποθανόντος τοῦ προκατειληφότος αὐτὴν ἐν <event ref="#civil-wars">πολειτικαῖς ταραχαῖς</event>, <persName ref="#augustus">ἀνείληφα</persName>, εἰς τὰ <persName ref="#augustus">ἐμὰ</persName> ἀρχαιρέσια ἐξ ὅλης τῆς <placeName ref="#italy">Ἰταλίας</placeName> τοσούτου πλήθους συνεληλυθότος, ὅσον οὐδεις ἔνπροσθεν ἱστόρησεν ἐπὶ <placeName ref="#rome">Ῥώμης</placeName> γεγονέναι <persName ref="#p-sulpicius">Ποπλίωι Σουλπικίωι</persName> καὶ <persName ref="#c-valgius">Γαϊωι Οὐαλγίωι</persName> <orgName ref="#consules">ὑπάτοις</orgName>.
+          </p>
+        </div>
+        <div type="version" xml:lang="de">
+          <p xml:id="de-s10-p1">
+            <persName ref="#augustus">Mein</persName> Name wurde auf <orgName ref="#senatus">Senatsbeschluss</orgName> dem Kultlied der <orgName ref="#salii">Salier</orgName> beigefügt, und dass <persName ref="#augustus">ich</persName> auf ewig unverletzlich sein und die tribunizische Amtsgewalt auf Lebenszeit innehaben sollte, wurde durch ein Gesetz bekräftigt. Pontifex Maximus zu werden anstelle <persName ref="#augustus">meines</persName> noch lebenden Kollegen <persName ref="#lepidus">habe</persName> <persName ref="#augustus">ich</persName> abgelehnt, obwohl <persName ref="#augustus">mir</persName> das <orgName ref="#populus">Volk</orgName> diese Priesterwürde antrug, die schon <persName ref="#augustus">mein</persName> <persName ref="#julius-caesar">Vater</persName> innegehabt hatte. Dieses Priesteramt habe <persName ref="#augustus">ich</persName> aber einige Jahre später unter dem <orgName ref="#consules">Konsulat</orgName> des <persName ref="#p-sulpicius">Publius Sulpicius</persName> und des <persName ref="#c-valgius">Gaius Valgius</persName> [<date when="-0012">12 v. Chr.</date>] übernommen, nach dem Tode desjenigen, der sich diese Würde während der <event ref="#civil-wars">Bürgerkriegsunruhen</event> angeeignet hatte. Zu <persName ref="#augustus">meiner</persName> Wahl strömte aus ganz <placeName ref="#italy">Italien</placeName> eine riesige Menschenmenge zusammen, wie sie den Berichten nach noch niemals zuvor in <placeName ref="#rome">Rom</placeName> gewesen ist.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
