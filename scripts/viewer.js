@@ -338,7 +338,7 @@ function setupSearch() {
         if (lastResultsHtml) {
             modalBody.innerHTML = lastResultsHtml;
             modal.style.display = 'flex';
-            bindResultClicks(modalBody);
+            bindResultClicks(modalBody, modal);
         }
     };
 
@@ -451,11 +451,11 @@ function performSearch(query, sidebarInfo, modal, modalBody, modalOpen, modalFab
             modalFab.textContent = `${count} Treffer`;
         }
 
-        bindResultClicks(modalBody);
+        bindResultClicks(modalBody, modal);
     }
 }
 
-function bindResultClicks(container) {
+function bindResultClicks(container, modal) {
     container.querySelectorAll('.search-hit').forEach(item => {
         item.addEventListener('click', () => {
             const anchor = item.getAttribute('data-anchor');
@@ -469,6 +469,7 @@ function bindResultClicks(container) {
                     target.style.backgroundColor = '';
                 }, 1800);
             }
+            if (modal) modal.style.display = 'none';
         });
     });
 }
