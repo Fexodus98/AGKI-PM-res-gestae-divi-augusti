@@ -216,7 +216,7 @@ function renderColumn(chapterNode, lang, label, chapterNum = '') {
                 p.className = 'text-segment';
                 p.dataset.lang = lang;
                 p.dataset.chapter = chapterNum;
-                p.appendChild(transformTeiToHtml(node));
+                p.appendChild(transformTeiToHtml(node, lang));
                 col.appendChild(p);
             }
         });
@@ -224,7 +224,7 @@ function renderColumn(chapterNode, lang, label, chapterNum = '') {
     return col;
 }
 
-function transformTeiToHtml(teiNode) {
+function transformTeiToHtml(teiNode, lang = '') {
     const fragment = document.createDocumentFragment();
     
     Array.from(teiNode.childNodes).forEach(child => {
@@ -249,17 +249,17 @@ function transformTeiToHtml(teiNode) {
                 // Interaction via delegation
                 
                 fragment.appendChild(span);
-            } 
+            }
             else if (tag === 'ptr') {
-                const sup = document.createElement('sup');
-                const target = child.getAttribute('target')?.replace('#', '');
-                sup.className = 'ptr-marker';
-                sup.textContent = '[Note]';
-                sup.dataset.target = target;
-                
-                // Interaction via delegation
-                
-                fragment.appendChild(sup);
+                // Render Note-Marker nur in deutscher Spalte
+                if (lang === 'de') {
+                    const sup = document.createElement('sup');
+                    const target = child.getAttribute('target')?.replace('#', '');
+                    sup.className = 'ptr-marker';
+                    sup.textContent = '[Note]';
+                    sup.dataset.target = target;
+                    fragment.appendChild(sup);
+                }
             }
             else if (tag === 'num') {
                  const span = document.createElement('span');
@@ -268,7 +268,7 @@ function transformTeiToHtml(teiNode) {
                  fragment.appendChild(span);
             }
             else {
-                fragment.appendChild(transformTeiToHtml(child));
+                fragment.appendChild(transformTeiToHtml(child, lang));
             }
         }
     });
