@@ -26,7 +26,7 @@
     <aside class="controls-sidebar">
       <h3>Suche</h3>
       <div class="list" style="margin-bottom: 2rem;">
-        <input type="text" id="edition-search" placeholder="Text durchsuchen..." class="search-input" style="width: 100%; padding: 0.5rem; border-radius: 6px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: var(--text);">
+        <input type="text" id="edition-search" placeholder="Text durchsuchen..." class="search-input" style="width: 100%; padding: 0.65rem 0.75rem; border-radius: 10px; border: 1px solid var(--border); background: var(--panel); color: var(--text); font-size: 0.95rem;">
         <div id="search-results" class="small text-muted" style="margin-top: 0.5rem;"></div>
         <button id="search-modal-open" class="button ghost small" style="display:none; width:100%;">Treffer anzeigen</button>
       </div>
@@ -48,10 +48,55 @@
         <label><input type="checkbox" id="toggle-place" checked> Orte</label>
         <label><input type="checkbox" id="toggle-org" checked> Organisationen</label>
       </div>
-      
+
+      <h3 style="margin-top: 1.5rem;">Kapitel-Filter</h3>
+      <div class="list">
+        <label for="chapter-filter">Kapitel anzeigen</label>
+        <select id="chapter-filter" class="select-control">
+          <option value="all">Alle Kapitel</option>
+          <option value="proomium">Proömium</option>
+          <option value="01">Kapitel 1</option>
+          <option value="02">Kapitel 2</option>
+          <option value="03">Kapitel 3</option>
+          <option value="04">Kapitel 4</option>
+          <option value="05">Kapitel 5</option>
+          <option value="06">Kapitel 6</option>
+          <option value="07">Kapitel 7</option>
+          <option value="08">Kapitel 8</option>
+          <option value="09">Kapitel 9</option>
+          <option value="10">Kapitel 10</option>
+          <option value="11">Kapitel 11</option>
+          <option value="12">Kapitel 12</option>
+          <option value="13">Kapitel 13</option>
+          <option value="14">Kapitel 14</option>
+          <option value="15">Kapitel 15</option>
+          <option value="16">Kapitel 16</option>
+          <option value="17">Kapitel 17</option>
+          <option value="18">Kapitel 18</option>
+          <option value="19">Kapitel 19</option>
+          <option value="20">Kapitel 20</option>
+          <option value="21">Kapitel 21</option>
+          <option value="22">Kapitel 22</option>
+          <option value="23">Kapitel 23</option>
+          <option value="24">Kapitel 24</option>
+          <option value="25">Kapitel 25</option>
+          <option value="26">Kapitel 26</option>
+          <option value="27">Kapitel 27</option>
+          <option value="28">Kapitel 28</option>
+          <option value="29">Kapitel 29</option>
+          <option value="30">Kapitel 30</option>
+          <option value="31">Kapitel 31</option>
+          <option value="32">Kapitel 32</option>
+          <option value="33">Kapitel 33</option>
+          <option value="34">Kapitel 34</option>
+          <option value="35">Kapitel 35</option>
+        </select>
+      </div>
+
       <h3 style="margin-top: 2rem;">Download</h3>
       <div class="list">
         <a href="Vault/03_data/Res_Gestae_Divi_Augusti.xml" download class="button ghost" style="font-size: 0.8rem; width: 100%;">TEI XML</a>
+        <a href="Vault/03_data/Res_Gestae_Divi_Augusti_full.txt" download class="button ghost" style="font-size: 0.8rem; width: 100%;">Gesamttext TXT</a>
       </div>
 
       <h3 style="margin-top: 1.5rem;">Kapitel-Downloads</h3>

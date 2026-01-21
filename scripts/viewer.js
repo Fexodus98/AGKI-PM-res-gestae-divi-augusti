@@ -323,6 +323,21 @@ function setupControls() {
     toggle('toggle-person', '.entity.person');
     toggle('toggle-place', '.entity.place');
     toggle('toggle-org', '.entity.org');
+
+    const chapterFilter = document.getElementById('chapter-filter');
+    if (chapterFilter) {
+        chapterFilter.addEventListener('change', (e) => {
+            filterChapters(e.target.value);
+        });
+    }
+}
+
+function filterChapters(value) {
+    const chapters = document.querySelectorAll('.chapter-container');
+    chapters.forEach(section => {
+        const id = section.id.replace('chapter-', '');
+        section.style.display = (value === 'all' || value === id) ? '' : 'none';
+    });
 }
 function setupSearch() {
     const input = document.getElementById('edition-search');
