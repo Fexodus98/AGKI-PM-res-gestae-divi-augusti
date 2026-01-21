@@ -207,6 +207,7 @@ function renderColumn(chapterNode, lang, label, chapterNum = '') {
     
     const divs = chapterNode.getElementsByTagName('div');
     const div = Array.from(divs).find(d => d.getAttribute('xml:lang') === lang);
+    let paraIndex = 0;
 
     if (div) {
         // Transform TEI XML content to HTML, handling child nodes recursively
@@ -216,8 +217,12 @@ function renderColumn(chapterNode, lang, label, chapterNum = '') {
                 p.className = 'text-segment';
                 p.dataset.lang = lang;
                 p.dataset.chapter = chapterNum;
+                p.dataset.seq = String(paraIndex);
                 p.appendChild(transformTeiToHtml(node, lang));
+                p.addEventListener('mouseenter', () => highlightSegment(chapterNum, paraIndex, true));
+                p.addEventListener('mouseleave', () => highlightSegment(chapterNum, paraIndex, false));
                 col.appendChild(p);
+                paraIndex += 1;
             }
         });
     }
@@ -274,6 +279,17 @@ function transformTeiToHtml(teiNode, lang = '') {
     });
     
     return fragment;
+}
+
+function highlightSegment(chapterNum, seq, active) {
+    const targets = document.querySelectorAll(`.text-segment[data-chapter="${chapterNum}"][data-seq="${seq}"]`);
+    targets.forEach(el => {
+        if (active) {
+            el.classList.add('segment-highlight');
+        } else {
+            el.classList.remove('segment-highlight');
+        }
+    });
 }
 
 function showEntityInfo(event, id, type) {
