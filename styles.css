@@ -512,7 +512,7 @@ nav a.active { color: var(--accent); border-color: var(--accent); }
   top: 0;
   background: var(--panel);
   z-index: 5;
-  padding: 0.6rem 0;
+  padding: 0.6rem 0 0.6rem 1rem;
   border-bottom: 1px solid var(--border);
   display: flex;
   justify-content: space-between;
@@ -533,7 +533,7 @@ nav a.active { color: var(--accent); border-color: var(--accent); }
   color: #000000;
   font-weight: 700;
   border-bottom: 1px solid var(--border);
-  padding: 0.35rem 0 0.6rem 0;
+  padding: 0.35rem 0 0.6rem 1rem;
   margin-bottom: 1rem;
   position: sticky;
   top: 0;
