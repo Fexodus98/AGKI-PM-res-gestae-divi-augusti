@@ -590,7 +590,10 @@ mark {
 }
 
 .ptr-marker {
-  color: var(--accent-2);
+  color: #d9480f;
+  background: rgba(217, 72, 15, 0.12);
+  padding: 0 4px;
+  border-radius: 4px;
   font-size: 0.82em;
   vertical-align: super;
   cursor: pointer;
