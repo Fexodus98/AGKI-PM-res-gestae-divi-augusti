@@ -600,11 +600,6 @@ mark {
   margin-left: 2px;
 }
 
-.segment-highlight {
-  background: rgba(0, 0, 0, 0.06);
-  transition: background 0.15s ease;
-}
-
 /* Mobile Tab Controls (Hidden by default) */
 .mobile-tabs {
   display: none; /* Only show on mobile */
